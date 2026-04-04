@@ -1,0 +1,36 @@
+{
+  "notion_parent_page_id": "338cac843da6818ca85ff7a7c7824348",
+  "project_map": {
+    "CredSuvidha": "338cac843da6818dadd8c30447a86aba",
+    "PrepShrep": "338cac843da6813bb33fcbf05c02ad5a",
+    "Blogging": "338cac843da68115ad57e72f37325398",
+    "AI Projects": "338cac843da681d186efc7887ac1bbd5",
+    "VP Ops": "338cac843da681409ca3c39089cebb19",
+    "Family": "338cac843da681c3a57ce641212932fc",
+    "TalentNova": "338cac843da6815f8975c05688df9a0b",
+    "Office Task": "338cac843da6818cb243fe10eb4a06fc",
+    "Grocery": "338cac843da68157859fd6ddf418e4aa",
+    "Pet grooming": "338cac84-3da6-81e7-8b39-cebf4d2a188d",
+    "Stock watch App": "338cac84-3da6-8136-b800-dd25f807728a"
+  },
+  "todoist_project_map": {
+    "6g67XXC7mxGQVVm2": "CredSuvidha",
+    "6g6VW49MJ372cQJg": "PrepShrep",
+    "6g2mG6JR86gf4GgC": "Blogging",
+    "6fvw27PMPHXJJ3Rj": "AI Projects",
+    "6fw594wVcVj47Qjm": "Family",
+    "6g67XjH42F3Vv2fR": "TalentNova",
+    "6fvvxx4gR9rwxRW4": "Office Task",
+    "6fvw23F9h4vpRC97": "Grocery",
+    "6g9pJ2Rmq3FfPJVM": "Pet grooming",
+    "6gC3jw3w2WRCR34M": "Stock watch App"
+  },
+  "sync_settings": {
+    "auto_create_notion_db_for_new_projects": true,
+    "skip_projects": [
+      "Inbox",
+      "Getting Started \ud83d\udc4b",
+      "Getting Started"
+    ]
+  }
+}
