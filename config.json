@@ -12,7 +12,8 @@
     "Grocery": "338cac843da68157859fd6ddf418e4aa",
     "Pet grooming": "338cac84-3da6-81e7-8b39-cebf4d2a188d",
     "Stock watch App": "338cac84-3da6-8136-b800-dd25f807728a",
-    "Strings & Wings": "338cac84-3da6-8123-afeb-cbc2dbf46304"
+    "CredSuvidha LeadFlow": "338cac84-3da6-816a-b16f-c26f6a80e6eb",
+    "VP Ops": "338cac843da681409ca3c39089cebb19"
   },
   "todoist_project_map": {
     "6g67XXC7mxGQVVm2": "CredSuvidha",
@@ -25,7 +26,8 @@
     "6fvw23F9h4vpRC97": "Grocery",
     "6g9pJ2Rmq3FfPJVM": "Pet grooming",
     "6gC3jw3w2WRCR34M": "Stock watch App",
-    "6gJ2WJVC7hVG68CV": "Strings & Wings"
+    "6g8Cj3j2Vr2C77XG": "CredSuvidha LeadFlow",
+    "6gJ3HhrXhcxj5wWh": "VP Ops"
   },
   "sync_settings": {
     "auto_create_notion_db_for_new_projects": true,
