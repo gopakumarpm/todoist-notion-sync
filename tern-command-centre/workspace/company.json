@@ -15,7 +15,7 @@
       "head": "max",
       "title": "Group MD",
       "color": "#E3C878",
-      "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, e-Source Consultancy, Strings & Wings) until they graduate."
+      "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, Strings & Wings) until they graduate; e-Source graduated as eSource on 12 Sep 2026."
     },
     {
       "key": "Tern Intelligence",
@@ -58,6 +58,15 @@
         "MedTech": "#3FA394",
         "Shared": "#8FA3BC"
       }
+    },
+    {
+      "key": "eSource",
+      "name": "eSource",
+      "short": "eSource",
+      "head": "shalini-venkataraman",
+      "title": "CEO",
+      "color": "#D9843B",
+      "blurb": "Talent and workforce: staffing for contact-centre and insurance operations, and a skilling & certification academy. Graduated from Tern Ventures (TalentNova / e-Source) on 12 Sep 2026. Talent & Skilling Practice."
     }
   ]
 }

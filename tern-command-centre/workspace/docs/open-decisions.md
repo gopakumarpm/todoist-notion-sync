@@ -21,3 +21,4 @@ Say the number and "yes", "no" or your change; Max updates the records the same 
 | Date | Decision | Outcome |
 |---|---|---|
 | 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |
+| 12 Sep | Fifth field for the group: Max recommended talent & workforce (TalentNova seed), over financial services and senior care | Gopakumar: yes. TalentNova becomes **eSource**, an operating company (not a Ventures incubation as Max proposed). Eight founding hires under CEO Shalini Venkataraman; Talent & Skilling Practice added. Group 112, balance 56 / 56. |

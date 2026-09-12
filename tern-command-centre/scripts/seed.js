@@ -42,12 +42,20 @@ const SKILLS = {
   'tobias-lindgren': ['mobile-app-builder', 'app-builder', 'api-builder', 'database-designer', 'test-builder'],
   'hana-kobayashi': ['frontend-design', 'website-builder', 'marketing'],
   'pranav-bhatt': ['test-builder', 'devops-builder', 'dashboard-builder', 'data-analyst'],
+  'shalini-venkataraman': ['ceo-advisor', 'chro-advisor', 'bd-consultant', 'presentation-maker'],
+  'marco-ferreira': ['resume', 'sales', 'automation-designer', 'email-writer'],
+  'deepa-balakrishnan': ['teacher', 'doc-generator', 'presentation-maker', 'data-analyst'],
+  'nitin-waghmare': ['chief-customer-officer-advisor', 'data-analyst', 'email-writer', 'pm-skills'],
+  'aisha-bello': ['resume', 'email-writer', 'linkedin-creator'],
+  'sanjay-kulshreshtha': ['legal-advisor', 'finance', 'doc-generator'],
+  'lena-hoffmann': ['dashboard-builder', 'data-analyst', 'automation-designer'],
+  'julian-moreau': ['teacher', 'meeting-analyzer', 'brainstorming'],
   'carlos-rivera': ['nutrition', 'fitness'], 'vikas-thakur': ['fitness'],
   'sophie-laurent': ['doc-generator', 'pdf'], 'felix-andersson': ['data-analyst', 'dashboard-builder'],
   'sameer-rathi': ['app-builder', 'api-builder'], 'ines-fischer': ['test-builder'], 'vivek-anand': ['cpo-advisor', 'market-opportunities']
 };
-const PAPER = new Set(['Tern Health & Research']); // hired 11 Sep, agent files not yet in tern-plugin
-const HIRED = { 'Tern Academy': '2026-09-11', 'Tern Animal Health': '2026-09-11', 'Tern Health & Research': '2026-09-11' };
+const PAPER = new Set(['Tern Health & Research', 'eSource']); // hired 11–12 Sep, agent files not yet in tern-plugin
+const HIRED = { 'Tern Academy': '2026-09-11', 'Tern Animal Health': '2026-09-11', 'Tern Health & Research': '2026-09-11', 'eSource': '2026-09-12' };
 // Per-person overrides for hires after the 11 Sep cohorts (EdTech team under Jonas Weber, 12 Sep; agent files pending).
 const PAPER_IDS = new Set(['kavitha-ramanathan', 'tobias-lindgren', 'hana-kobayashi', 'pranav-bhatt']);
 const HIRED_BY_ID = { 'kavitha-ramanathan': '2026-09-12', 'tobias-lindgren': '2026-09-12', 'hana-kobayashi': '2026-09-12', 'pranav-bhatt': '2026-09-12' };

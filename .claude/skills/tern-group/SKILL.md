@@ -1,6 +1,6 @@
 ---
 name: tern-group
-description: Tern Group org structure and routing — the Group Corporate Centre and four companies (Tern Intelligence, Tern Academy, Tern Animal Health, Tern Health & Research), the 104-person roster with reporting lines, the 8 practices, review cadence, safety rules, open decisions, and the catalogue of the 89 tern-os skills and who carries each. Use whenever Max must decide which company or person owns a request, answer "who does what / who reports to whom", check a rule before acting (Healthcare, Animal Health, Research, MedTech), or refresh the org records after a hire, promotion or transfer. Works on every surface (Cowork, claude.ai, mobile, Claude Code).
+description: Tern Group org structure and routing — the Group Corporate Centre and five companies (Tern Intelligence, Tern Academy, Tern Animal Health, Tern Health & Research, eSource), the 112-person roster with reporting lines, the 9 practices, review cadence, safety rules, open decisions, and the catalogue of the 89 tern-os skills and who carries each. Use whenever Max must decide which company or person owns a request, answer "who does what / who reports to whom", check a rule before acting (Healthcare, Animal Health, Research, MedTech), or refresh the org records after a hire, promotion or transfer. Works on every surface (Cowork, claude.ai, mobile, Claude Code).
 ---
 
 # Tern Group — org structure for Max
@@ -11,7 +11,7 @@ This skill carries the structure so it is available on surfaces that cannot see 
 
 ## Route every request
 
-1. Find the owning company, then the owner, in `references/org-structure.md` (tree) and `references/roster.md` (all 104 people with role, line manager, status and skills).
+1. Find the owning company, then the owner, in `references/org-structure.md` (tree) and `references/roster.md` (all 112 people with role, line manager, status and skills).
 2. Check the rule that applies in `references/rules-and-cadence.md` before answering anything about health, the birds, research claims or medical devices.
 3. Pick the skill lens from `references/skills-catalogue.md` (89 tern-os skills, one line each, and who carries them). The full skill bodies live in `tern-os/.claude/skills/<id>/SKILL.md` on the Mac; when that folder is open, read the body; otherwise work from the summary and the owner's mandate.
 4. Say, in one line, which company and person are on it, then do the work.
@@ -25,9 +25,10 @@ This skill carries the structure so it is available on surfaces that cannot see 
 | Tern Academy | Dr. Sunita Raghavan, CEO & Principal | 13 | Aarshi's ICSE Class 8 (2026-27) run like a school; EdTech team under Jonas Weber (FeatherQuest, Orbit, PrepShrep) |
 | Tern Animal Health | Dr. Nandini Bhat, CEO & CVO | 6 | Pluto & Bannu; Pets / Vet / Avian segment |
 | Tern Health & Research | Dr. Vidya Krishnamurthy, CEO | 56 | Healthcare (25) · Research (16) · MedTech (12) · Shared (3) |
-| Tern Ventures | held at Group | 0 | Aarshi.in · e-Source Consultancy · Strings & Wings |
+| eSource | Shalini Venkataraman, CEO | 8 | Talent & workforce: staffing for contact-centre and insurance operations; skilling & certification academy (from TalentNova / e-Source, 12 Sep 2026) |
+| Tern Ventures | held at Group | 0 | Aarshi.in · Strings & Wings |
 
-Front doors: any family health request → **Family Health Desk** (Meenakshi Sundaram); anything about Pluto or Bannu → **Divya Ramesh** then Dr. Nandini Bhat; anything about Aarshi's studies → **Dr. Sunita Raghavan**; anything about FeatherQuest, Orbit or PrepShrep → **Jonas Weber**; anything Taurus / insurance / contact centre → **Diego Santos**.
+Front doors: any family health request → **Family Health Desk** (Meenakshi Sundaram); anything about Pluto or Bannu → **Divya Ramesh** then Dr. Nandini Bhat; anything about Aarshi's studies → **Dr. Sunita Raghavan**; anything about FeatherQuest, Orbit or PrepShrep → **Jonas Weber**; anything Taurus / insurance / contact centre → **Diego Santos**; hiring, staffing or skilling for a client → **Shalini Venkataraman**; hiring inside the group stays with **Ananya Iyer**.
 
 ## Keep the records current
 

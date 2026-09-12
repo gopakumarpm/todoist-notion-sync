@@ -56,6 +56,58 @@
   ],
   "runs": [
     {
+      "id": "2026-09-12-esource",
+      "name": "eSource — fifth company, 8 founding roles",
+      "started": "2026-09-12T18:30:00+05:30",
+      "ended": "",
+      "status": "running",
+      "trigger": "Gopakumar",
+      "steps": [
+        {
+          "id": "request",
+          "status": "done",
+          "ms": 300,
+          "note": "Gopakumar, 12 Sep: diversify into talent; TalentNova becomes eSource; hire the right set of people"
+        },
+        {
+          "id": "reuse",
+          "status": "done",
+          "ms": 900,
+          "note": "Reuse 7: Rohan (sales), Lucas + Grace (hiring bot), Meera + Karthik (insurance content, quality), Anjali (demand), Ananya (sponsor), Academy (teaching). Hire 8: no one carries staffing delivery, skilling delivery, staffing compliance or talent ops"
+        },
+        {
+          "id": "spec",
+          "status": "done",
+          "ms": 1800,
+          "note": "CEO; Recruiting & Staffing; Skilling & Certification; Client Delivery; Compliance & Payroll; Talent Ops & Analytics; Senior Recruiter; Lead Trainer"
+        },
+        {
+          "id": "name",
+          "status": "done",
+          "ms": 400,
+          "note": "4 F / 4 M, 4 Indian / 4 global; group 56 / 56"
+        },
+        {
+          "id": "records",
+          "status": "done",
+          "ms": 1200,
+          "note": "ROSTER.md rows 104–111, HIRING-LOG.md, ORG-CHART.md; Notion org page + roster DB; company.json"
+        },
+        {
+          "id": "agentfile",
+          "status": "pending",
+          "ms": 0,
+          "note": "8 files pending on the desktop (sprint task agent-files-esource)"
+        },
+        {
+          "id": "announce",
+          "status": "pending",
+          "ms": 0,
+          "note": "Monday's Group Review"
+        }
+      ]
+    },
+    {
       "id": "2026-09-12-edtech-team",
       "name": "EdTech team under Jonas Weber — 4 roles",
       "started": "2026-09-12T09:30:00+05:30",

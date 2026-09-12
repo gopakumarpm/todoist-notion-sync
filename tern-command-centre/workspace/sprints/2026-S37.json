@@ -1,6 +1,6 @@
 {
   "name": "Sprint 37 — Tern Group stands up",
-  "goal": "Every hire is runnable, the weekly review runs on its own, and Gopakumar's five decisions are closed.",
+  "goal": "Every hire is runnable, the weekly review runs on its own, Gopakumar’s five decisions are closed, and the two new teams (EdTech, eSource) have plans.",
   "start": "2026-09-08",
   "end": "2026-09-14",
   "columns": [
@@ -129,6 +129,46 @@
       "priority": "P1",
       "due": "2026-09-19",
       "notes": "Todoist project PrepShrep - Launch Roadmap (52 tasks). Assign: prompts → Kavitha; app/backend/Supabase → Tobias; icon, screenshots, listing → Hana; RevenueCat, releases, push, email → Pranav; Stage 1 code VA → Arjun/Kabir."
+    },
+    {
+      "id": "esource-compliance-checklist",
+      "title": "Contract-staffing compliance checklist (CLRA, PF/ESI, POSH) and staffing agreement template",
+      "owner": "sanjay-kulshreshtha",
+      "company": "eSource",
+      "status": "todo",
+      "priority": "P1",
+      "due": "2026-09-26",
+      "notes": "With Vikram Desai; nothing deployed at a client before this is cleared."
+    },
+    {
+      "id": "hiring-voice-bot",
+      "title": "Hiring voice bot for eSource — scope and first build",
+      "owner": "lucas-meyer",
+      "company": "Tern Intelligence",
+      "status": "todo",
+      "priority": "P1",
+      "due": "2026-09-26",
+      "notes": "With Grace Liu; screening logic from Aisha Bello; intercompany charge to eSource."
+    },
+    {
+      "id": "esource-90-day-plan",
+      "title": "eSource 90-day plan: one paying client, hiring bot live, one skilling cohort",
+      "owner": "shalini-venkataraman",
+      "company": "eSource",
+      "status": "todo",
+      "priority": "P0",
+      "due": "2026-09-19",
+      "notes": "Absorb the TalentNova Todoist backlog (CA registration, CRM procurement and integration, website, recruiter, hiring voice bot). P&L with Priya; first client via Rohan from Taurus / HDFC Ergo."
+    },
+    {
+      "id": "agent-files-esource",
+      "title": "Create the 8 eSource agent files in tern-plugin/agents and refresh the plugin",
+      "owner": "aarav-mehta",
+      "company": "Tern Intelligence",
+      "status": "todo",
+      "priority": "P1",
+      "due": "2026-09-14",
+      "notes": "Specs are agents/*.md with company eSource, status: paper, hired 2026-09-12."
     },
     {
       "id": "featherquest-phase3",

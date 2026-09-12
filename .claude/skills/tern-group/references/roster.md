@@ -1,4 +1,4 @@
-# Tern Group — roster (104 people, generated 2026-09-12)
+# Tern Group — roster (112 people, generated 2026-09-12)
 
 Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only (agent file pending). Ids are the slugs used in flows, sprints and generations.
 
@@ -145,5 +145,18 @@ Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only 
 | vidya-krishnamurthy | Dr. Vidya Krishnamurthy ★ | CEO — Healthcare, Research, MedTech | Max | paper |  |
 | radhika-subramaniam | Dr. Radhika Subramaniam | Regulatory, Ethics & Research Governance | Dr. Vidya Krishnamurthy | paper |  |
 | nisha-patel | Nisha Patel | Research, Clinical & MedTech Operations | Dr. Vidya Krishnamurthy | paper |  |
+
+## eSource (8)
+
+| Id | Name | Role | Reports to | Status | Skills |
+|---|---|---|---|---|---|
+| deepa-balakrishnan | Deepa Balakrishnan ★ | Head of Skilling & Certification — Talent & Skilling Practice lead | Shalini Venkataraman | paper | teacher, doc-generator, presentation-maker, data-analyst |
+| marco-ferreira | Marco Ferreira ★ | Head of Recruiting & Staffing | Shalini Venkataraman | paper | resume, sales, automation-designer, email-writer |
+| shalini-venkataraman | Shalini Venkataraman ★ | CEO, eSource — talent & workforce | Max | paper | ceo-advisor, chro-advisor, bd-consultant, presentation-maker |
+| aisha-bello | Aisha Bello | Senior Recruiter — insurance & contact centre | Marco Ferreira | paper | resume, email-writer, linkedin-creator |
+| julian-moreau | Julian Moreau | Lead Trainer & Assessor | Deepa Balakrishnan | paper | teacher, meeting-analyzer, brainstorming |
+| lena-hoffmann | Lena Hoffmann | Talent Operations & Analytics Lead | Shalini Venkataraman | paper | dashboard-builder, data-analyst, automation-designer |
+| nitin-waghmare | Nitin Waghmare | Client Delivery & Account Lead | Shalini Venkataraman | paper | chief-customer-officer-advisor, data-analyst, email-writer, pm-skills |
+| sanjay-kulshreshtha | Sanjay Kulshreshtha | Staffing Compliance, Payroll & Labour Law | Shalini Venkataraman | paper | legal-advisor, finance, doc-generator |
 
 ★ = leads a team. Generated from `workspace/agents/*.md`; ROSTER.md in Drive is the record of truth.

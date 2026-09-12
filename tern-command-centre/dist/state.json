@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T17:46:09.423Z",
+ "generated": "2026-09-12T18:15:50.243Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -16,7 +16,7 @@
    "head": "max",
    "title": "Group MD",
    "color": "#E3C878",
-   "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, e-Source Consultancy, Strings & Wings) until they graduate."
+   "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, Strings & Wings) until they graduate; e-Source graduated as eSource on 12 Sep 2026."
   },
   {
    "key": "Tern Intelligence",
@@ -59,6 +59,15 @@
     "MedTech": "#3FA394",
     "Shared": "#8FA3BC"
    }
+  },
+  {
+   "key": "eSource",
+   "name": "eSource",
+   "short": "eSource",
+   "head": "shalini-venkataraman",
+   "title": "CEO",
+   "color": "#D9843B",
+   "blurb": "Talent and workforce: staffing for contact-centre and insurance operations, and a skilling & certification academy. Graduated from Tern Ventures (TalentNova / e-Source) on 12 Sep 2026. Talent & Skilling Practice."
   }
  ],
  "agents": [
@@ -106,6 +115,26 @@
    "hired": "",
    "updated": "2026-09-12",
    "body": "# Aditi Sharma\n\n**Embedded AI Delivery Consultant** — Tern Intelligence. Reports to Aarav Mehta.\n\n## Mandate\n- Own the work of this role for Tern Intelligence; escalate to Aarav Mehta when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.",
+   "reports": []
+  },
+  {
+   "id": "aisha-bello",
+   "name": "Aisha Bello",
+   "role": "Senior Recruiter — insurance & contact centre",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "marco-ferreira",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "resume",
+    "email-writer",
+    "linkedin-creator"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Aisha Bello\n\n**Senior Recruiter — insurance & contact centre** — eSource. Reports to Marco Ferreira.\n\n## Mandate\n- Run requisitions end to end for agent, team-lead and insurance-sales roles; own screening scripts and candidate experience; feed the hiring bot with real screening logic.\n- Escalate to Marco Ferreira when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
    "reports": []
   },
   {
@@ -363,6 +392,29 @@
    "updated": "2026-09-12",
    "body": "# Dr. David Mwangi\n\n**ENT** — Tern Health & Research · Healthcare. Reports to Dr. Harish Chandran.\n\n## Mandate\n- Own the work of this role for Tern Health & Research; escalate to Dr. Harish Chandran when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.\n\n## Rule\nSupports care and prepares the family for the doctor; never diagnoses or prescribes. Emergencies → 112 / 108 first.",
    "reports": []
+  },
+  {
+   "id": "deepa-balakrishnan",
+   "name": "Deepa Balakrishnan",
+   "role": "Head of Skilling & Certification — Talent & Skilling Practice lead",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "shalini-venkataraman",
+   "lead": true,
+   "status": "paper",
+   "skills": [
+    "teacher",
+    "doc-generator",
+    "presentation-maker",
+    "data-analyst"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Deepa Balakrishnan\n\n**Head of Skilling & Certification — Talent & Skilling Practice lead** — eSource. Reports to Shalini Venkataraman.\n\n## Mandate\n- Own the skilling line: curricula, cohorts, assessments and certification; run the Talent & Skilling Practice (sponsor Ananya Iyer) with Meera Krishnan, Karthik Subramanian, the Academy teachers and the EdTech team.\n- Julian Moreau reports to you. Escalate to Shalini Venkataraman when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": [
+    "julian-moreau"
+   ]
   },
   {
    "id": "devika-shetty",
@@ -790,6 +842,26 @@
    ]
   },
   {
+   "id": "julian-moreau",
+   "name": "Julian Moreau",
+   "role": "Lead Trainer & Assessor",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "deepa-balakrishnan",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "teacher",
+    "meeting-analyzer",
+    "brainstorming"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Julian Moreau\n\n**Lead Trainer & Assessor** — eSource. Reports to Deepa Balakrishnan. Dotted: Meera.\n\n## Mandate\n- Deliver skilling cohorts (voice and accent, customer handling, insurance basics with Meera Krishnan, dotted); run assessment centres and certification exams; coach client floor trainers.\n- Escalate to Deepa Balakrishnan when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
    "id": "kabir-menon",
    "name": "Kabir Menon",
    "role": "Security Engineer (VAPT)",
@@ -952,6 +1024,26 @@
    "reports": []
   },
   {
+   "id": "lena-hoffmann",
+   "name": "Lena Hoffmann",
+   "role": "Talent Operations & Analytics Lead",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "shalini-venkataraman",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "dashboard-builder",
+    "data-analyst",
+    "automation-designer"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Lena Hoffmann\n\n**Talent Operations & Analytics Lead** — eSource. Reports to Shalini Venkataraman. Dotted: Liam.\n\n## Mandate\n- Own the ATS / CRM (the TalentNova procurement), hiring-bot operations with Lucas Meyer, funnel and cohort analytics, the weekly eSource MIS; workforce analytics with Neha Joshi and Liam O’Brien (dotted).\n- Escalate to Shalini Venkataraman when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
    "id": "liam-o-brien",
    "name": "Liam O'Brien",
    "role": "Head of Data & Automation",
@@ -1049,6 +1141,29 @@
    "reports": []
   },
   {
+   "id": "marco-ferreira",
+   "name": "Marco Ferreira",
+   "role": "Head of Recruiting & Staffing",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "shalini-venkataraman",
+   "lead": true,
+   "status": "paper",
+   "skills": [
+    "resume",
+    "sales",
+    "automation-designer",
+    "email-writer"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Marco Ferreira\n\n**Head of Recruiting & Staffing** — eSource. Reports to Shalini Venkataraman.\n\n## Mandate\n- Own the staffing line: sourcing, screening, the hiring voice bot (with Lucas Meyer and Grace Liu), offers, onboarding hand-off to clients; bench and replacement SLAs.\n- Aisha Bello reports to you. Escalate to Shalini Venkataraman when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": [
+    "aisha-bello"
+   ]
+  },
+  {
    "id": "marcus-lee",
    "name": "Marcus Lee",
    "role": "Network & IT Infrastructure Security",
@@ -1111,6 +1226,7 @@
     "maya-lindqvist",
     "nandini-bhat",
     "priya-nair",
+    "shalini-venkataraman",
     "sofia-rossi",
     "sunita-raghavan",
     "vidya-krishnamurthy",
@@ -1305,6 +1421,27 @@
    "hired": "2026-09-11",
    "updated": "2026-09-12",
    "body": "# Nisha Patel\n\n**Research, Clinical & MedTech Operations** — Tern Health & Research · Shared. Reports to Dr. Vidya Krishnamurthy.\n\n## Mandate\n- Own the work of this role for Tern Health & Research; escalate to Dr. Vidya Krishnamurthy when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
+   "id": "nitin-waghmare",
+   "name": "Nitin Waghmare",
+   "role": "Client Delivery & Account Lead",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "shalini-venkataraman",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "chief-customer-officer-advisor",
+    "data-analyst",
+    "email-writer",
+    "pm-skills"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Nitin Waghmare\n\n**Client Delivery & Account Lead** — eSource. Reports to Shalini Venkataraman. Dotted: Rohan.\n\n## Mandate\n- Own every client relationship after the sale: SLAs, fill rate, attrition, quality; weekly reviews with Anjali Rao and Karthik Subramanian; renewals with Rohan Kapoor (dotted).\n- Escalate to Shalini Venkataraman when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
    "reports": []
   },
   {
@@ -1703,6 +1840,53 @@
     "pieter-van-der-berg",
     "rafael-costa",
     "sophie-laurent"
+   ]
+  },
+  {
+   "id": "sanjay-kulshreshtha",
+   "name": "Sanjay Kulshreshtha",
+   "role": "Staffing Compliance, Payroll & Labour Law",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "shalini-venkataraman",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "legal-advisor",
+    "finance",
+    "doc-generator"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Sanjay Kulshreshtha\n\n**Staffing Compliance, Payroll & Labour Law** — eSource. Reports to Shalini Venkataraman. Dotted: Vikram, Priya.\n\n## Mandate\n- Own contract-staffing compliance (CLRA, PF / ESI / PT, minimum wages, POSH) and payroll for deployed staff; staffing agreements with Vikram Desai; invoicing and margin with Priya Nair (both dotted).\n- Escalate to Shalini Venkataraman when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
+   "id": "shalini-venkataraman",
+   "name": "Shalini Venkataraman",
+   "role": "CEO, eSource — talent & workforce",
+   "company": "eSource",
+   "arm": "",
+   "reports_to": "max",
+   "lead": true,
+   "status": "paper",
+   "skills": [
+    "ceo-advisor",
+    "chro-advisor",
+    "bd-consultant",
+    "presentation-maker"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Shalini Venkataraman\n\n**CEO, eSource — talent & workforce** — eSource. Reports to Max.\n\n## Mandate\n- Build eSource from the TalentNova seed into a company with revenue, a leader per line and a P&L; report to Max, escalate above-role decisions to Gopakumar through Max.\n- Two lines: Recruiting & Staffing (Marco Ferreira) and Skilling & Certification (Deepa Balakrishnan); Client Delivery (Nitin Waghmare), Compliance & Payroll (Sanjay Kulshreshtha) and Talent Operations (Lena Hoffmann) serve both.\n- Reuse: Rohan Kapoor sells; Lucas Meyer and Grace Liu build the hiring voice bot; Meera Krishnan and Karthik Subramanian supply insurance content and quality; Anjali Rao signals floor demand; Tern Academy teaches; Ananya Iyer sponsors.\n- Ninety-day targets: one paying client, the hiring bot live, one skilling cohort delivered.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": [
+    "deepa-balakrishnan",
+    "lena-hoffmann",
+    "marco-ferreira",
+    "nitin-waghmare",
+    "sanjay-kulshreshtha"
    ]
   },
   {
@@ -2141,7 +2325,9 @@
    "updated": "2026-09-12",
    "body": "# automation-designer\n\nNo-code workflow design for n8n, Make.com and Zapier\n\nSource: `tern-os/.claude/skills/automation-designer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "liam-o-brien"
+    "lena-hoffmann",
+    "liam-o-brien",
+    "marco-ferreira"
    ]
   },
   {
@@ -2155,7 +2341,8 @@
    "body": "# bd-consultant\n\nBPO/IT business development: sales decks, RFP/RFI responses, solution proposals\n\nSource: `tern-os/.claude/skills/bd-consultant`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "rajeev-bhatia",
-    "rohan-kapoor"
+    "rohan-kapoor",
+    "shalini-venkataraman"
    ]
   },
   {
@@ -2195,6 +2382,7 @@
    "body": "# brainstorming\n\nCreative ideation partner for generating, expanding and refining ideas\n\nSource: `tern-os/.claude/skills/brainstorming`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
+    "julian-moreau",
     "kavitha-ramanathan"
    ]
   },
@@ -2219,7 +2407,8 @@
    "updated": "2026-09-12",
    "body": "# ceo-advisor\n\nExecutive strategy, organizational development, stakeholder management\n\nSource: `tern-os/.claude/skills/ceo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "diego-santos"
+    "diego-santos",
+    "shalini-venkataraman"
    ]
   },
   {
@@ -2271,7 +2460,8 @@
    "updated": "2026-09-12",
    "body": "# chief-customer-officer-advisor\n\nRetention decomposition, churn taxonomy, customer segmentation\n\nSource: `tern-os/.claude/skills/chief-customer-officer-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "chloe-martin"
+    "chloe-martin",
+    "nitin-waghmare"
    ]
   },
   {
@@ -2311,7 +2501,8 @@
    "updated": "2026-09-12",
    "body": "# chro-advisor\n\nHiring strategy, compensation design, org structure, culture, retention\n\nSource: `tern-os/.claude/skills/chro-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "ananya-iyer"
+    "ananya-iyer",
+    "shalini-venkataraman"
    ]
   },
   {
@@ -2510,6 +2701,7 @@
    "used_by": [
     "felix-andersson",
     "jonas-weber",
+    "lena-hoffmann",
     "liam-o-brien",
     "neha-joshi",
     "pranav-bhatt"
@@ -2525,9 +2717,12 @@
    "updated": "2026-09-12",
    "body": "# data-analyst\n\nStructured & unstructured data analysis and summarization\n\nSource: `tern-os/.claude/skills/data-analyst`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "deepa-balakrishnan",
     "felix-andersson",
     "kavitha-ramanathan",
+    "lena-hoffmann",
     "liam-o-brien",
+    "nitin-waghmare",
     "pranav-bhatt"
    ]
   },
@@ -2609,7 +2804,9 @@
    "updated": "2026-09-12",
    "body": "# doc-generator\n\nTurns unstructured information into polished SOPs and documents\n\nSource: `tern-os/.claude/skills/doc-generator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "deepa-balakrishnan",
     "maya-lindqvist",
+    "sanjay-kulshreshtha",
     "sophie-laurent"
    ]
   },
@@ -2623,6 +2820,9 @@
    "updated": "2026-09-12",
    "body": "# email-writer\n\nComposes fresh emails and crafts replies professionally\n\nSource: `tern-os/.claude/skills/email-writer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "aisha-bello",
+    "marco-ferreira",
+    "nitin-waghmare",
     "rohan-kapoor"
    ]
   },
@@ -2636,7 +2836,8 @@
    "updated": "2026-09-12",
    "body": "# finance\n\nJournal entries, reconciliations, statements, DCF, valuations, SOX\n\nSource: `tern-os/.claude/skills/finance`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "priya-nair"
+    "priya-nair",
+    "sanjay-kulshreshtha"
    ]
   },
   {
@@ -2780,6 +2981,7 @@
    "updated": "2026-09-12",
    "body": "# legal-advisor\n\nContracts, agreements, compliance, policies, disputes, regulations\n\nSource: `tern-os/.claude/skills/legal-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "sanjay-kulshreshtha",
     "vikram-desai"
    ]
   },
@@ -2793,6 +2995,7 @@
    "updated": "2026-09-12",
    "body": "# linkedin-creator\n\nProfessional posts, articles, profile optimization, B2B strategy\n\nSource: `tern-os/.claude/skills/linkedin-creator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "aisha-bello",
     "riya-malhotra"
    ]
   },
@@ -2847,7 +3050,8 @@
    "updated": "2026-09-12",
    "body": "# meeting-analyzer\n\nSurfaces behavioral patterns and coaching feedback from transcripts\n\nSource: `tern-os/.claude/skills/meeting-analyzer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "hannah-brooks"
+    "hannah-brooks",
+    "julian-moreau"
    ]
   },
   {
@@ -2915,6 +3119,7 @@
    "updated": "2026-09-12",
    "body": "# pm-skills\n\n6 project-management agents: senior PM, scrum master, Jira, Confluence\n\nSource: `tern-os/.claude/skills/pm-skills`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "nitin-waghmare",
     "sneha-pillai"
    ]
   },
@@ -2928,6 +3133,8 @@
    "updated": "2026-09-12",
    "body": "# presentation-maker\n\nPolished PPTX from PPT, Word, PDF, Excel or plain instructions\n\nSource: `tern-os/.claude/skills/presentation-maker`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "deepa-balakrishnan",
+    "shalini-venkataraman",
     "sunita-raghavan"
    ]
   },
@@ -2978,7 +3185,10 @@
    ],
    "updated": "2026-09-12",
    "body": "# resume\n\nATS-optimized resumes from PDF, DOCX, text or conversation\n\nSource: `tern-os/.claude/skills/resume`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
-   "used_by": []
+   "used_by": [
+    "aisha-bello",
+    "marco-ferreira"
+   ]
   },
   {
    "id": "sales",
@@ -2990,6 +3200,7 @@
    "updated": "2026-09-12",
    "body": "# sales\n\nProspect research, call prep, pipeline review, outreach, battlecards\n\nSource: `tern-os/.claude/skills/sales`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "marco-ferreira",
     "rajeev-bhatia",
     "rohan-kapoor"
    ]
@@ -3095,9 +3306,11 @@
    "updated": "2026-09-12",
    "body": "# teacher\n\nICSE curriculum assistant: board-pattern papers, marking schemes\n\nSource: `tern-os/.claude/skills/teacher`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "deepa-balakrishnan",
     "elena-petrova",
     "farah-siddiqui",
     "isabel-moreno",
+    "julian-moreau",
     "kavitha-ramanathan",
     "manoj-deshpande",
     "oliver-hughes",
@@ -3616,6 +3829,58 @@
    ],
    "runs": [
     {
+     "id": "2026-09-12-esource",
+     "name": "eSource — fifth company, 8 founding roles",
+     "started": "2026-09-12T18:30:00+05:30",
+     "ended": "",
+     "status": "running",
+     "trigger": "Gopakumar",
+     "steps": [
+      {
+       "id": "request",
+       "status": "done",
+       "ms": 300,
+       "note": "Gopakumar, 12 Sep: diversify into talent; TalentNova becomes eSource; hire the right set of people"
+      },
+      {
+       "id": "reuse",
+       "status": "done",
+       "ms": 900,
+       "note": "Reuse 7: Rohan (sales), Lucas + Grace (hiring bot), Meera + Karthik (insurance content, quality), Anjali (demand), Ananya (sponsor), Academy (teaching). Hire 8: no one carries staffing delivery, skilling delivery, staffing compliance or talent ops"
+      },
+      {
+       "id": "spec",
+       "status": "done",
+       "ms": 1800,
+       "note": "CEO; Recruiting & Staffing; Skilling & Certification; Client Delivery; Compliance & Payroll; Talent Ops & Analytics; Senior Recruiter; Lead Trainer"
+      },
+      {
+       "id": "name",
+       "status": "done",
+       "ms": 400,
+       "note": "4 F / 4 M, 4 Indian / 4 global; group 56 / 56"
+      },
+      {
+       "id": "records",
+       "status": "done",
+       "ms": 1200,
+       "note": "ROSTER.md rows 104–111, HIRING-LOG.md, ORG-CHART.md; Notion org page + roster DB; company.json"
+      },
+      {
+       "id": "agentfile",
+       "status": "pending",
+       "ms": 0,
+       "note": "8 files pending on the desktop (sprint task agent-files-esource)"
+      },
+      {
+       "id": "announce",
+       "status": "pending",
+       "ms": 0,
+       "note": "Monday's Group Review"
+      }
+     ]
+    },
+    {
      "id": "2026-09-12-edtech-team",
      "name": "EdTech team under Jonas Weber — 4 roles",
      "started": "2026-09-12T09:30:00+05:30",
@@ -4076,6 +4341,18 @@
    "body": "# EdTech team under Jonas Weber\n\nGopakumar decided on 12 Sep 2026 that Jonas Weber should have a team, so that FeatherQuest, Orbit and PrepShrep get better shape and support. Max had recommended waiting; Gopakumar's call stands and the records were updated the same day.\n\n**Reuse check (Ananya Iyer).** The group already carries the build skills, but every carrier is committed elsewhere: Aarav Mehta, Grace Liu and Lucas Meyer to Taurus and the group technology mandate; Sameer Rathi and Ines Fischer to regulated SaMD; Ethan Cole to product across four companies. Nobody carries board-grade AI content for Indian curricula or education product design full-time. **Verdict: hire four, reuse two.** Security (Arjun Khanna, Kabir Menon: PrepShrep Stage 1 code VA, RLS and API audits) and infrastructure (Aarav's team) stay with Tern Intelligence under the intercompany arrangement.\n\n| Hire | Role | Owns |\n|---|---|---|\n| Kavitha Ramanathan (F, Indian) | Curriculum & AI Content Lead | Board-pattern prompt tuning (CBSE, ICSE/ISC, Maharashtra), question-type variants, marking schemes; content gate with the seven teachers |\n| Tobias Lindgren (M, Swedish) | Mobile & Full-stack Engineer | PrepShrep React Native + FastAPI + Supabase, FeatherQuest, Orbit; launch backlog |\n| Hana Kobayashi (F, Japanese) | Product Designer & Growth Lead | UI/UX, app icon, store screenshots and listings, paywall, referral, launch campaign |\n| Pranav Bhatt (M, Indian) | QA, Release & Learning Analytics Engineer | Test automation, store releases, RevenueCat, push and email, learning-analytics dashboards |\n\n**Jonas Weber** becomes Head of EdTech & Learning Experience Design (lead of four), still reporting to Dr. Sunita Raghavan, Ethan Cole as practice sponsor. Tern Academy goes from 9 to 13; the group from 100 to 104; gender balance 52 / 52; names rotate Indian / global.\n\nStatus `paper` until Aarav Mehta creates the four tern-plugin agent files (sprint task `agent-files-edtech`)."
   },
   {
+   "id": "2026-09-12-esource-founding-team",
+   "title": "eSource — fifth company, founding team of 8 (12 Sep)",
+   "type": "record",
+   "agent": "ananya-iyer",
+   "flow": "hire-or-reuse",
+   "date": "2026-09-12",
+   "path": "Tern Intelligence/employees/ROSTER.md · logs/HIRING-LOG.md · charter/ORG-CHART.md",
+   "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
+   "summary": "Gopakumar chose talent & workforce as the group's fifth field and named the company eSource (from the TalentNova seed and e-Source Consultancy in Ventures). Eight founding hires under CEO Shalini Venkataraman; seven roles reused from Tern Intelligence, the Academy and the Corporate Centre. Group 112, balance 56 / 56.",
+   "body": "# eSource — fifth company, founding team\n\nMax recommended talent & workforce over financial services and senior care because every existing company gives it an unfair advantage: contact-centre operating knowledge (Tern Intelligence), a teaching engine (Tern Academy), insurance training (Meera Krishnan), the group's own hiring rule (Ananya Iyer), and a seed already started (TalentNova: CA registration, CRM, recruiter, hiring voice bot). Max proposed a 90-day incubation in Ventures; Gopakumar chose to stand it up as an operating company at once.\n\n**Reuse check (Ananya Iyer).** Reuse seven: Rohan Kapoor sells, Lucas Meyer and Grace Liu build the hiring voice bot, Meera Krishnan and Karthik Subramanian supply insurance content and quality, Anjali Rao signals floor demand, the Academy teaches, Ananya sponsors the practice. Hire eight: nobody carried staffing delivery, skilling delivery, staffing compliance or talent operations.\n\n| Hire | Role | Reports to |\n|---|---|---|\n| Shalini Venkataraman (F, Indian) | CEO | Max |\n| Marco Ferreira (M, Portuguese) | Head of Recruiting & Staffing | Shalini |\n| Deepa Balakrishnan (F, Indian) | Head of Skilling & Certification; Talent & Skilling Practice lead | Shalini |\n| Nitin Waghmare (M, Indian) | Client Delivery & Account Lead (dotted Rohan) | Shalini |\n| Aisha Bello (F, Nigerian) | Senior Recruiter, insurance & contact centre | Marco |\n| Sanjay Kulshreshtha (M, Indian) | Staffing Compliance, Payroll & Labour Law (dotted Vikram, Priya) | Shalini |\n| Lena Hoffmann (F, German) | Talent Operations & Analytics Lead (dotted Liam) | Shalini |\n| Julian Moreau (M, French) | Lead Trainer & Assessor (dotted Meera) | Deepa |\n\nNinety-day targets: one paying client from the Taurus or HDFC Ergo relationship, the hiring bot live, one skilling cohort delivered. Nothing deployed at a client before Sanjay's compliance checklist is cleared. Status `paper` until Aarav creates the eight agent files (sprint task `agent-files-esource`)."
+  },
+  {
    "id": "2026-09-12-live-map",
    "title": "Live map — animated view of the group",
    "type": "app",
@@ -4189,7 +4466,7 @@
    "tags": [
     "decisions"
    ],
-   "body": "# Open decisions for Gopakumar\n\n| # | Decision | Max's recommendation | Since |\n|---|---|---|---|\n| 1 | Confirm Diego Santos as CEO, Tern Intelligence and Sneha Pillai as COO | Confirm both; both were acting in the role | 11 Sep |\n| 2 | Dr. Meghna Raman over Dr. Hiroshi Nakamura to lead MedTech | Meghna — commercial and regulatory breadth; Hiroshi leads Device R&D | 11 Sep |\n| 3 | Reading of \"Advanced Medicine\" | Advanced & precision medicine (genomics, targeted therapy) under Medical Specialties | 11 Sep |\n| 4 | Marathi as Aarshi's third language | Yes; Manoj Deshpande already covers Hindi & Marathi | 11 Sep |\n| 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |\n\nSay the number and \"yes\", \"no\" or your change; Max updates the records the same day.\n\n## Decided\n\n| Date | Decision | Outcome |\n|---|---|---|\n| 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |"
+   "body": "# Open decisions for Gopakumar\n\n| # | Decision | Max's recommendation | Since |\n|---|---|---|---|\n| 1 | Confirm Diego Santos as CEO, Tern Intelligence and Sneha Pillai as COO | Confirm both; both were acting in the role | 11 Sep |\n| 2 | Dr. Meghna Raman over Dr. Hiroshi Nakamura to lead MedTech | Meghna — commercial and regulatory breadth; Hiroshi leads Device R&D | 11 Sep |\n| 3 | Reading of \"Advanced Medicine\" | Advanced & precision medicine (genomics, targeted therapy) under Medical Specialties | 11 Sep |\n| 4 | Marathi as Aarshi's third language | Yes; Manoj Deshpande already covers Hindi & Marathi | 11 Sep |\n| 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |\n\nSay the number and \"yes\", \"no\" or your change; Max updates the records the same day.\n\n## Decided\n\n| Date | Decision | Outcome |\n|---|---|---|\n| 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |\n| 12 Sep | Fifth field for the group: Max recommended talent & workforce (TalentNova seed), over financial services and senior care | Gopakumar: yes. TalentNova becomes **eSource**, an operating company (not a Ventures incubation as Max proposed). Eight founding hires under CEO Shalini Venkataraman; Talent & Skilling Practice added. Group 112, balance 56 / 56. |"
   },
   {
    "id": "org-structure",
@@ -4198,7 +4475,7 @@
    "tags": [
     "org"
    ],
-   "body": "# Tern Group — org structure\n\n**Gopakumar** — Founder, Owner & Chairman\n→ **Max** — Group Managing Director (`tern:max`), single point of contact\n\nGroup headcount 104 (Max + 103) as of 12 Sep 2026; balance 52 / 52.\n\n## Group Corporate Centre (11)\nHannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group GC; Amara Okonkwo) · Ananya Iyer (Group CHRO) · Kavya Reddy (Research & Strategy) · Sofia Rossi (Group CMO; Riya Malhotra) · Maya Lindqvist (Content; Noah Bennett)\n\n## Operating companies\n- **Tern Intelligence (18)** — Diego Santos, CEO. Aarav Mehta (CTO), Sneha Pillai (COO), Rohan Kapoor (Sales & BD), Ethan Cole (CPDO), Liam O'Brien (Data & Automation) and teams.\n- **Tern Academy (13)** — Dr. Sunita Raghavan, CEO & Principal. Seven ICSE subject teachers + the EdTech team under Jonas Weber (Head of EdTech): Kavitha Ramanathan (curriculum & AI content), Tobias Lindgren (mobile & full-stack), Hana Kobayashi (product design & growth), Pranav Bhatt (QA, release & learning analytics). Products: FeatherQuest, Orbit, PrepShrep.\n- **Tern Animal Health (6)** — Dr. Nandini Bhat, CEO & CVO. Vet, avian nutrition, behaviour, segment programme, veterinary nurse.\n- **Tern Health & Research (56)** — Dr. Vidya Krishnamurthy, CEO.\n  - Healthcare (25) — Dr. Rekha Iyengar, CMO: Family Health Desk, Primary & Emergency, Medical Specialties, Mental Health & Rehab, Diagnostics & Pharmacy & Dental.\n  - Research (16) — Dr. Samuel Adeyemi, CSO: Digital Health & AI, Medicine & Clinical Research, Disease & Epidemiology, Pharmacology, Biostatistics.\n  - MedTech (12) — Dr. Meghna Raman, CMTO: Device R&D, SaMD, Regulatory & Quality, Clinical Validation, Product, Manufacturing.\n  - Shared — Dr. Radhika Subramaniam (Regulatory, Ethics & Governance), Nisha Patel (Operations).\n- **Tern Ventures (0)** — held at Group: Aarshi.in, e-Source Consultancy, Strings & Wings.\n\n## Practices (8)\nInsurance · AI Delivery · Security & Infrastructure · Contact-Centre Operations · EdTech · Pet & Animal Health · MedTech & Digital Health · Group Health & Wellbeing. Each has an executive sponsor and a practice lead; members keep their line manager.\n\nSource of truth: `Tern Intelligence/charter/ORG-CHART.md`. The Org view of this dashboard is generated from `workspace/agents/`."
+   "body": "# Tern Group — org structure\n\n**Gopakumar** — Founder, Owner & Chairman\n→ **Max** — Group Managing Director (`tern:max`), single point of contact\n\nGroup headcount 112 (Max + 111) as of 12 Sep 2026; balance 56 / 56. Five operating companies.\n\n## Group Corporate Centre (11)\nHannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group GC; Amara Okonkwo) · Ananya Iyer (Group CHRO) · Kavya Reddy (Research & Strategy) · Sofia Rossi (Group CMO; Riya Malhotra) · Maya Lindqvist (Content; Noah Bennett)\n\n## Operating companies\n- **Tern Intelligence (18)** — Diego Santos, CEO. Aarav Mehta (CTO), Sneha Pillai (COO), Rohan Kapoor (Sales & BD), Ethan Cole (CPDO), Liam O'Brien (Data & Automation) and teams.\n- **Tern Academy (13)** — Dr. Sunita Raghavan, CEO & Principal. Seven ICSE subject teachers + the EdTech team under Jonas Weber (Head of EdTech): Kavitha Ramanathan (curriculum & AI content), Tobias Lindgren (mobile & full-stack), Hana Kobayashi (product design & growth), Pranav Bhatt (QA, release & learning analytics). Products: FeatherQuest, Orbit, PrepShrep.\n- **Tern Animal Health (6)** — Dr. Nandini Bhat, CEO & CVO. Vet, avian nutrition, behaviour, segment programme, veterinary nurse.\n- **Tern Health & Research (56)** — Dr. Vidya Krishnamurthy, CEO.\n  - Healthcare (25) — Dr. Rekha Iyengar, CMO: Family Health Desk, Primary & Emergency, Medical Specialties, Mental Health & Rehab, Diagnostics & Pharmacy & Dental.\n  - Research (16) — Dr. Samuel Adeyemi, CSO: Digital Health & AI, Medicine & Clinical Research, Disease & Epidemiology, Pharmacology, Biostatistics.\n  - MedTech (12) — Dr. Meghna Raman, CMTO: Device R&D, SaMD, Regulatory & Quality, Clinical Validation, Product, Manufacturing.\n  - Shared — Dr. Radhika Subramaniam (Regulatory, Ethics & Governance), Nisha Patel (Operations).\n- **eSource (8)** — Shalini Venkataraman, CEO. Talent and workforce: Marco Ferreira (Recruiting & Staffing → Aisha Bello), Deepa Balakrishnan (Skilling & Certification → Julian Moreau), Nitin Waghmare (Client Delivery), Sanjay Kulshreshtha (Compliance & Payroll), Lena Hoffmann (Talent Ops & Analytics). Graduated from Tern Ventures (TalentNova / e-Source) on 12 Sep 2026.\n- **Tern Ventures (0)** — held at Group: Aarshi.in, Strings & Wings.\n\n## Practices (9)\nInsurance · AI Delivery · Security & Infrastructure · Contact-Centre Operations · EdTech · Pet & Animal Health · MedTech & Digital Health · Group Health & Wellbeing · Talent & Skilling (sponsor Ananya Iyer, lead Deepa Balakrishnan). Each has an executive sponsor and a practice lead; members keep their line manager.\n\nSource of truth: `Tern Intelligence/charter/ORG-CHART.md`. The Org view of this dashboard is generated from `workspace/agents/`."
   },
   {
    "id": "review-cadence",
@@ -4356,6 +4633,46 @@
      "notes": "Todoist project PrepShrep - Launch Roadmap (52 tasks). Assign: prompts → Kavitha; app/backend/Supabase → Tobias; icon, screenshots, listing → Hana; RevenueCat, releases, push, email → Pranav; Stage 1 code VA → Arjun/Kabir."
     },
     {
+     "id": "esource-compliance-checklist",
+     "title": "Contract-staffing compliance checklist (CLRA, PF/ESI, POSH) and staffing agreement template",
+     "owner": "sanjay-kulshreshtha",
+     "company": "eSource",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-26",
+     "notes": "With Vikram Desai; nothing deployed at a client before this is cleared."
+    },
+    {
+     "id": "hiring-voice-bot",
+     "title": "Hiring voice bot for eSource — scope and first build",
+     "owner": "lucas-meyer",
+     "company": "Tern Intelligence",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-26",
+     "notes": "With Grace Liu; screening logic from Aisha Bello; intercompany charge to eSource."
+    },
+    {
+     "id": "esource-90-day-plan",
+     "title": "eSource 90-day plan: one paying client, hiring bot live, one skilling cohort",
+     "owner": "shalini-venkataraman",
+     "company": "eSource",
+     "status": "todo",
+     "priority": "P0",
+     "due": "2026-09-19",
+     "notes": "Absorb the TalentNova Todoist backlog (CA registration, CRM procurement and integration, website, recruiter, hiring voice bot). P&L with Priya; first client via Rohan from Taurus / HDFC Ergo."
+    },
+    {
+     "id": "agent-files-esource",
+     "title": "Create the 8 eSource agent files in tern-plugin/agents and refresh the plugin",
+     "owner": "aarav-mehta",
+     "company": "Tern Intelligence",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-14",
+     "notes": "Specs are agents/*.md with company eSource, status: paper, hired 2026-09-12."
+    },
+    {
      "id": "featherquest-phase3",
      "title": "Scope FeatherQuest Phase 3 (explain-it-to-Pluto, bird sounds, snap-a-doubt)",
      "owner": "jonas-weber",
@@ -4457,7 +4774,7 @@
     }
    ],
    "name": "Sprint 37 — Tern Group stands up",
-   "goal": "Every hire is runnable, the weekly review runs on its own, and Gopakumar's five decisions are closed.",
+   "goal": "Every hire is runnable, the weekly review runs on its own, Gopakumar’s five decisions are closed, and the two new teams (EdTech, eSource) have plans.",
    "start": "2026-09-08",
    "end": "2026-09-14",
    "columns": [
@@ -4503,7 +4820,7 @@
    "group": "Records",
    "title": "Notion · Tern Group — Org Structure",
    "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
-   "note": "Full structure + Tern Group Roster database (104 rows); readable by Max on every surface via the Notion connector"
+   "note": "Full structure + Tern Group Roster database (112 rows); readable by Max on every surface via the Notion connector"
   },
   {
    "group": "Records",
@@ -4561,15 +4878,15 @@
   }
  ],
  "counts": {
-  "agents": 104,
+  "agents": 112,
   "skills": 89,
   "flows": 5,
   "crons": 7,
-  "generations": 11,
+  "generations": 12,
   "docs": 6,
   "sprints": 1,
   "links": 15
  },
- "_agentIndex": 104,
+ "_agentIndex": 112,
  "mode": "static"
 }
