@@ -15,4 +15,5 @@ const HEAD = '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta
 fs.mkdirSync(path.join(ROOT, 'dist'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'dist', 'index.html'), HEAD + fragment + '\n</body></html>\n');   // open locally
 fs.writeFileSync(path.join(ROOT, 'dist', 'artifact.html'), fragment);                              // publish as Claude artifact (it adds the shell)
+fs.writeFileSync(path.join(ROOT, 'dist', 'state.json'), JSON.stringify(state, null, 1));           // read by video/ (Remotion)
 console.log(`dist/index.html + dist/artifact.html  ${(fragment.length / 1024).toFixed(0)} KB · ${state.counts.agents} agents · ${state.counts.skills} skills · ${state.counts.flows} flows · ${state.counts.docs} docs`);

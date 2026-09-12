@@ -28,6 +28,7 @@ Edit anything under `workspace/` in your editor or let Max do it; the page updat
 | Panel | Shows | Source |
 |---|---|---|
 | Overview | headline numbers, company board with pixel avatars, what needs attention, latest generations, running flows | everything |
+| Live | the group as a living map: every agent in its company district, flow packets travelling between the agents of each run, cron rings ticking on their owners, tasks in flight above their owners; pause, speed, focus a company, hover and click | everything |
 | Agents | all 100 people as pixel avatars; filter by company; reports-to and direct reports; skills; status (active · paper) | `agents/*.md` |
 | Skills | the 89 tern-os skills and who carries each | `skills/*.md` |
 | Flows | each workflow as a pipeline; pick a run and press Play to step through it | `flows/*.json` |
@@ -44,6 +45,19 @@ node build-static.js      # writes dist/index.html with the state inlined
 ```
 
 Max publishes `dist/index.html` to the existing artifact link so the same snapshot is on the phone. Full conventions for agents: `workspace/docs/how-agents-use-this.md`.
+
+## Video (Remotion)
+
+`video/` renders a 46-second state-of-the-group film from the same export (`dist/state.json`): intro → group board → Weekly Group Review pipeline lighting step by step → sprint board → needs attention & crons → outro. Storyboard is at the top of `video/src/compositions/TernGroupState.tsx`.
+
+```bash
+node build-static.js                 # refresh dist/state.json first
+cd video && npm install
+npm run studio                       # preview in the browser
+npm run render                       # → video/out/tern-group-state.mp4 (1920×1080, 30 fps)
+```
+
+If Remotion cannot launch your Chrome, add `--browser-executable=<path> --chrome-mode=chrome-for-testing` to the render command.
 
 ## Install into Tern OS
 
