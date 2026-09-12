@@ -7,6 +7,12 @@
   },
   {
     "group": "Command centre",
+    "title": "Tern Group Org Chart (diagram)",
+    "url": "https://claude.ai/code/artifact/8edbbcd9-c9d4-47e6-b6d5-f4be21866c08",
+    "note": "Owner, Group MD, four companies, the EdTech team and the eight practices, as of 12 Sep 2026; also linked from the Notion org page"
+  },
+  {
+    "group": "Command centre",
     "title": "Skills for Cowork (tern-group.zip · command-centre.zip)",
     "url": "https://github.com/gopakumarpm/todoist-notion-sync/tree/claude/company-org-structure-gusxlh/tern-command-centre/dist/skills",
     "note": "Upload once in the desktop app: Customize → Skills. Also in Drive MAX-PROJECT-PACK. Rebuild with scripts/build-skills.js"

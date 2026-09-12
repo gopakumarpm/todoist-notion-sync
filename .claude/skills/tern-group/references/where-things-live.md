@@ -39,6 +39,7 @@ The 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS f
 
 ### Command centre
 - [Tern OS Command Centre (published snapshot)](https://claude.ai/code/artifact/932a6090-6c9f-4d1c-81fe-f4e0bfa8252c) — Static export of this workspace; republish with build-static.js
+- [Tern Group Org Chart (diagram)](https://claude.ai/code/artifact/8edbbcd9-c9d4-47e6-b6d5-f4be21866c08) — Owner, Group MD, four companies, the EdTech team and the eight practices, as of 12 Sep 2026; also linked from the Notion org page
 - [Skills for Cowork (tern-group.zip · command-centre.zip)](https://github.com/gopakumarpm/todoist-notion-sync/tree/claude/company-org-structure-gusxlh/tern-command-centre/dist/skills) — Upload once in the desktop app: Customize → Skills. Also in Drive MAX-PROJECT-PACK. Rebuild with scripts/build-skills.js
 - [claude.ai Skills settings (Customize)](https://claude.ai/settings/capabilities) — The only skills Cowork loads are the ones enabled here
 - [claude.ai Routines](https://claude.ai/code/routines) — Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached
