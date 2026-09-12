@@ -1,0 +1,34 @@
+{
+  "name": "Weekly Group Review",
+  "description": "Every Monday 08:00 IST Max reviews the whole group and hands Gopakumar one 15-section report. Skills are rated and upgraded first; nothing runs on stale capability.",
+  "trigger": "cron:weekly-group-review",
+  "owner": "max",
+  "steps": [
+    { "id": "collect", "name": "Collect inputs", "agent": "hannah-brooks", "kind": "gather", "detail": "Todoist, Notion, Drive records, last report, each CEO's note" },
+    { "id": "skills", "name": "Skills review", "agent": "ananya-iyer", "kind": "assess", "detail": "Every agent Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire" },
+    { "id": "utilization", "name": "Utilization & tasks", "agent": "hannah-brooks", "kind": "assess", "detail": "Per company and person; completed, ongoing, recurring" },
+    { "id": "people", "name": "Hires, promotions, transfers", "agent": "ananya-iyer", "kind": "assess", "detail": "Reuse-before-hire check on every new role" },
+    { "id": "ventures", "name": "Ventures & pipeline", "agent": "kavya-reddy", "kind": "assess", "detail": "Tern Ventures; new opportunities" },
+    { "id": "finance", "name": "Financial report", "agent": "priya-nair", "kind": "assess", "detail": "Company P&Ls, intercompany charging, tool spend" },
+    { "id": "family", "name": "Family services", "agent": "vidya-krishnamurthy", "kind": "assess", "detail": "Academy, Animal Health, Family Health Desk — no clinical detail beyond what Gopakumar approved" },
+    { "id": "risk", "name": "Risk & safety rules", "agent": "vikram-desai", "kind": "assess", "detail": "Compliance, rule adherence, open exposures" },
+    { "id": "draft", "name": "Draft report", "agent": "max", "kind": "produce", "detail": "WEEKLY-REPORT-TEMPLATE.md → charter/reviews/<week>.md" },
+    { "id": "deliver", "name": "Deliver & log decisions", "agent": "max", "kind": "deliver", "detail": "Push + email to Gopakumar; decisions needed listed; generations/ entry" }
+  ],
+  "runs": [
+    { "id": "2026-W37", "name": "Baseline (manual)", "started": "2026-09-11T14:10:00+05:30", "ended": "2026-09-11T15:40:00+05:30", "status": "done", "trigger": "manual",
+      "steps": [
+        { "id": "collect", "status": "done", "ms": 900, "note": "Roster, org chart, hiring log, Notion consolidation of 29 Aug" },
+        { "id": "skills", "status": "done", "ms": 1400, "note": "89 skills; 44 agents without domain skills flagged" },
+        { "id": "utilization", "status": "done", "ms": 700, "note": "100 people; THR on paper" },
+        { "id": "people", "status": "done", "ms": 500, "note": "56 hires, 2 promotions on 11 Sep" },
+        { "id": "ventures", "status": "done", "ms": 300, "note": "Aarshi.in, e-Source, Strings & Wings held at Group" },
+        { "id": "finance", "status": "done", "ms": 400, "note": "No P&L yet; intercompany charging model to define" },
+        { "id": "family", "status": "done", "ms": 400, "note": "Lab retest mid-Sep; Aarshi timetable; pets weekly check" },
+        { "id": "risk", "status": "done", "ms": 300, "note": "Four safety rules written into the org chart" },
+        { "id": "draft", "status": "done", "ms": 1600, "note": "charter/reviews/2026-W37-weekly-review.md" },
+        { "id": "deliver", "status": "done", "ms": 200, "note": "Delivered in session; Routine disabled (no connectors)" }
+      ] },
+    { "id": "2026-W38", "name": "First scheduled run", "started": "", "ended": "", "status": "scheduled", "trigger": "cron", "steps": [] }
+  ]
+}

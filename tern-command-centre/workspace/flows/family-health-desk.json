@@ -1,0 +1,23 @@
+{
+  "name": "Family Health Desk",
+  "description": "How a family health question moves through Tern Health & Research. The desk supports care and prepares you for the doctor; it never diagnoses or prescribes. Emergencies → 112 / 108 first.",
+  "trigger": "request",
+  "owner": "meenakshi-sundaram",
+  "steps": [
+    { "id": "intake", "name": "Intake", "agent": "meenakshi-sundaram", "kind": "gather", "detail": "What happened, since when, what was already tried; red flags → 112 / 108" },
+    { "id": "route", "name": "Route to specialist", "agent": "rekha-iyengar", "kind": "assess", "detail": "Cardiology, endocrinology, dietetics, sports medicine…" },
+    { "id": "prepare", "name": "Prepare for the doctor", "agent": "harish-chandran", "kind": "produce", "detail": "Questions to ask, history summary, what to bring; no diagnosis" },
+    { "id": "brief", "name": "Brief Gopakumar", "agent": "meenakshi-sundaram", "kind": "deliver", "detail": "Plain language, one page" },
+    { "id": "log", "name": "Log & follow up", "agent": "meenakshi-sundaram", "kind": "deliver", "detail": "Private Family Health log (decision pending) · follow-up date" }
+  ],
+  "runs": [
+    { "id": "2026-09-lab-retest", "name": "Mid-September lab retest", "started": "2026-09-11T16:00:00+05:30", "ended": "", "status": "running", "trigger": "Health & Fitness area",
+      "steps": [
+        { "id": "intake", "status": "done", "ms": 400, "note": "Retest due: lipids, HbA1c, hs-CRP; 16 Jun baseline on file" },
+        { "id": "route", "status": "done", "ms": 200, "note": "Harish Chandran (internal medicine), Fatima Al-Sayed (endocrinology), Carlos Rivera (diet)" },
+        { "id": "prepare", "status": "running", "ms": 0, "note": "Question list and fasting instructions in draft" },
+        { "id": "brief", "status": "pending", "ms": 0, "note": "Evening of 14 Sep" },
+        { "id": "log", "status": "pending", "ms": 0, "note": "" }
+      ] }
+  ]
+}

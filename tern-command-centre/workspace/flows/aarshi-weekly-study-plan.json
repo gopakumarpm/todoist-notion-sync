@@ -1,0 +1,21 @@
+{
+  "name": "Aarshi's weekly study plan",
+  "description": "Tern Academy's Sunday routine: teachers submit topics, the Principal builds the week, Gopakumar sees one page.",
+  "trigger": "weekly · Saturday",
+  "owner": "sunita-raghavan",
+  "steps": [
+    { "id": "topics", "name": "Teachers submit topics", "agent": "vinod-kulkarni", "kind": "gather", "detail": "Each subject: chapter, ICSE pattern questions, homework load" },
+    { "id": "timetable", "name": "Build timetable", "agent": "sunita-raghavan", "kind": "produce", "detail": "Balance across subjects; revision slots; guitar kept" },
+    { "id": "materials", "name": "Worksheets & papers", "agent": "elena-petrova", "kind": "produce", "detail": "teacher skill: worksheets, unit-test papers with marking schemes" },
+    { "id": "review", "name": "Sunday review", "agent": "sunita-raghavan", "kind": "deliver", "detail": "One page to Gopakumar; last week's results; what to watch" }
+  ],
+  "runs": [
+    { "id": "2026-W38", "name": "Week of 14 Sep", "started": "2026-09-12T09:00:00+05:30", "ended": "", "status": "running", "trigger": "weekly",
+      "steps": [
+        { "id": "topics", "status": "running", "ms": 0, "note": "5 of 7 subjects in" },
+        { "id": "timetable", "status": "pending", "ms": 0, "note": "" },
+        { "id": "materials", "status": "pending", "ms": 0, "note": "" },
+        { "id": "review", "status": "pending", "ms": 0, "note": "Sunday 13 Sep" }
+      ] }
+  ]
+}

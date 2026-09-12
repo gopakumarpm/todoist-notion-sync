@@ -1,0 +1,18 @@
+[
+  { "id": "weekly-group-review", "name": "Weekly Group Review", "schedule": "30 2 * * 1", "human": "Monday 08:00 IST", "tz": "Asia/Kolkata", "flow": "weekly-group-review", "agent": "max",
+    "enabled": false, "status": "needs-connectors", "last_run": "2026-09-11 (manual baseline, 2026-W37)", "next_run": "2026-09-14 08:00 IST once recreated",
+    "note": "Routine trig_0131Sweeqtjm2BAeg1ZMV6WF was created without connectors and is disabled. Recreate from the claude.ai Routines page with Google Drive, Notion and Todoist attached; prompt in charter/reviews/ROUTINE-PROMPT-weekly-review.md." },
+  { "id": "daily-vault-capture", "name": "Daily vault capture", "schedule": "0 21 * * *", "human": "Daily 21:00 IST", "tz": "Asia/Kolkata", "flow": "", "agent": "hannah-brooks",
+    "enabled": true, "status": "ok", "last_run": "2026-09-11 21:00 IST", "next_run": "2026-09-12 21:00 IST",
+    "note": "Pulls Calendar + Todoist + Notion + Gmail into the day's Obsidian note (scheduled task daily-vault-capture on the desktop)." },
+  { "id": "hdfc-ergo-reviews", "name": "HDFC Ergo reviews", "schedule": "30 9 * * 2,5", "human": "Tue & Fri 15:00 IST", "tz": "Asia/Kolkata", "flow": "", "agent": "anjali-rao",
+    "enabled": true, "status": "ok", "last_run": "2026-09-11 15:00 IST", "next_run": "2026-09-15 15:00 IST", "note": "Taurus site review; prep pack from the Taurus Ops Dashboard." },
+  { "id": "pets-weekly-check", "name": "Pluto & Bannu weekly check", "schedule": "30 3 * * 6", "human": "Saturday 09:00 IST", "tz": "Asia/Kolkata", "flow": "", "agent": "divya-ramesh",
+    "enabled": true, "status": "new", "last_run": "", "next_run": "2026-09-13 09:00 IST", "note": "Diet, enrichment, weight and behaviour log into the Notion database Pluto & Bannu; flag anything acute to Nandini." },
+  { "id": "lab-retest-reminder", "name": "Lab retest prep (lipids · HbA1c · hs-CRP)", "schedule": "once 2026-09-15T03:30:00Z", "human": "15 Sep 09:00 IST, once", "tz": "Asia/Kolkata", "flow": "family-health-desk", "agent": "meenakshi-sundaram",
+    "enabled": true, "status": "new", "last_run": "", "next_run": "2026-09-15 09:00 IST", "note": "Prepare questions and fasting instructions; brief Gopakumar the evening before." },
+  { "id": "monthly-ceo-reviews", "name": "Monthly CEO business reviews", "schedule": "30 3 1-7 * 1", "human": "First Monday, 09:00 IST", "tz": "Asia/Kolkata", "flow": "", "agent": "max",
+    "enabled": true, "status": "new", "last_run": "", "next_run": "2026-10-05 09:00 IST", "note": "Diego, Sunita, Nandini, Vidya each present; family reviews with Gopakumar the same week." },
+  { "id": "quarterly-group-review", "name": "Quarterly group review", "schedule": "30 3 1-7 1,4,7,10 1", "human": "First Monday of the quarter", "tz": "Asia/Kolkata", "flow": "", "agent": "max",
+    "enabled": true, "status": "new", "last_run": "", "next_run": "2026-10-05", "note": "Group review with Gopakumar; MedTech regulatory & pipeline review in the same session." }
+]

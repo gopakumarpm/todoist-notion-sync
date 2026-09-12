@@ -1,0 +1,27 @@
+{
+  "name": "Sprint 37 — Tern Group stands up",
+  "goal": "Every hire is runnable, the weekly review runs on its own, and Gopakumar's five decisions are closed.",
+  "start": "2026-09-08",
+  "end": "2026-09-14",
+  "columns": ["backlog", "todo", "doing", "done"],
+  "tasks": [
+    { "id": "agent-files-thr", "title": "Create the 56 THR agent files in tern-plugin/agents and refresh the plugin", "owner": "aarav-mehta", "company": "Tern Intelligence", "status": "todo", "priority": "P0", "due": "2026-09-13", "notes": "Specs are the agents/*.md files with status: paper. Restart Claude after the plugin refresh." },
+    { "id": "routine-with-connectors", "title": "Recreate the Weekly Group Review Routine with Drive, Notion and Todoist attached", "owner": "gopakumar", "company": "Group", "status": "todo", "priority": "P0", "due": "2026-09-13", "notes": "claude.ai → Routines. Prompt: charter/reviews/ROUTINE-PROMPT-weekly-review.md. Schedule Mon 08:00 IST (30 2 * * 1 UTC)." },
+    { "id": "five-decisions", "title": "Close the five open decisions", "owner": "gopakumar", "company": "Group", "status": "todo", "priority": "P1", "due": "2026-09-14", "notes": "Diego/Sneha promotions · Meghna over Hiroshi · \"Advanced Medicine\" reading · Marathi for Aarshi · private Family Health log in Notion. See docs/open-decisions." },
+    { "id": "dsr-portal-commit", "title": "Commit the DSR Portal repo and rotate the default admin credential", "owner": "aarav-mehta", "company": "Tern Intelligence", "status": "todo", "priority": "P1", "due": "2026-09-14", "notes": "D:\\Taurus\\Gopa\\dsr-portal has zero commits." },
+    { "id": "carestreak-apple", "title": "Chase Apple on the CareStreak 2.1 reply (sent 23 Aug)", "owner": "ethan-cole", "company": "Tern Intelligence", "status": "doing", "priority": "P1", "due": "2026-09-12", "notes": "Run check_review.py; escalate via App Store Connect contact if still silent." },
+    { "id": "lab-retest-prep", "title": "Prepare the mid-September lab retest (lipids · HbA1c · hs-CRP)", "owner": "meenakshi-sundaram", "company": "Tern Health & Research", "status": "doing", "priority": "P1", "due": "2026-09-15", "notes": "Questions for the doctor, fasting instructions, comparison against the 16 Jun baseline. Supports care; the doctor decides." },
+    { "id": "aarshi-week-plan", "title": "Aarshi's study plan for the week of 14 Sep", "owner": "sunita-raghavan", "company": "Tern Academy", "status": "doing", "priority": "P1", "due": "2026-09-13", "notes": "Timetable per subject; teachers submit topics by Saturday." },
+    { "id": "pets-emergency-card", "title": "Emergency card for Pluto & Bannu — nearest avian vets, hours, numbers", "owner": "divya-ramesh", "company": "Tern Animal Health", "status": "todo", "priority": "P1", "due": "2026-09-13", "notes": "" },
+    { "id": "featherquest-phase3", "title": "Scope FeatherQuest Phase 3 (explain-it-to-Pluto, bird sounds, snap-a-doubt)", "owner": "jonas-weber", "company": "Tern Academy", "status": "backlog", "priority": "P2", "due": "", "notes": "Academy's first monthly review." },
+    { "id": "orbit-positioning", "title": "Decide Orbit positioning vs CareStreak and document the current build", "owner": "jonas-weber", "company": "Tern Academy", "status": "backlog", "priority": "P2", "due": "", "notes": "" },
+    { "id": "medtech-first-programmes", "title": "Prioritise MedTech's first programmes with Vidya", "owner": "meghna-raman", "company": "Tern Health & Research", "status": "backlog", "priority": "P2", "due": "", "notes": "Research-grade until a regulatory pathway and risk file exist." },
+    { "id": "services-pricing", "title": "Define Tern Intelligence services and pricing", "owner": "diego-santos", "company": "Tern Intelligence", "status": "backlog", "priority": "P1", "due": "", "notes": "Top company blocker since April." },
+    { "id": "skills-gap-clinical", "title": "Add vet, clinical, medical-device and regulatory skills to tern-os", "owner": "ananya-iyer", "company": "Group", "status": "backlog", "priority": "P2", "due": "", "notes": "44 agents currently run on research and domain files only. Weekly review to propose the first five." },
+    { "id": "tern-group-formed", "title": "Form Tern Group: Corporate Centre, four companies, 8 practices, 100 people", "owner": "max", "company": "Group", "status": "done", "priority": "P0", "due": "2026-09-11", "notes": "ORG-CHART.md, ROSTER.md, HIRING-LOG.md updated same day." },
+    { "id": "review-cadence", "title": "Set the Weekly Group Review cadence, template and baseline report", "owner": "hannah-brooks", "company": "Group", "status": "done", "priority": "P0", "due": "2026-09-11", "notes": "REVIEW-CADENCE.md, WEEKLY-REPORT-TEMPLATE.md, 2026-W37-weekly-review.md." },
+    { "id": "org-deck", "title": "Tern Group org-structure deck (14 slides)", "owner": "max", "company": "Group", "status": "done", "priority": "P1", "due": "2026-09-11", "notes": "Tern-Group-Org-Structure.pptx" },
+    { "id": "vault-refresh", "title": "Refresh the Obsidian vault for Tern Group (areas, projects, indexes)", "owner": "hannah-brooks", "company": "Group", "status": "done", "priority": "P1", "due": "2026-09-12", "notes": "16 notes written or rewritten." },
+    { "id": "command-centre-v2", "title": "Command Centre v2 and this file-based workspace", "owner": "max", "company": "Group", "status": "done", "priority": "P1", "due": "2026-09-12", "notes": "tern-command-centre/ — server, workspace, static export." }
+  ]
+}

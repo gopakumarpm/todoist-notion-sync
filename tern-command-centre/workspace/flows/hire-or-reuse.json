@@ -1,0 +1,33 @@
+{
+  "name": "Hire or reuse",
+  "description": "The hiring rule: reuse an existing agent before creating one; every hire, promotion or transfer updates the roster, hiring log and org chart the same day and gets an agent file.",
+  "trigger": "request",
+  "owner": "ananya-iyer",
+  "steps": [
+    { "id": "request", "name": "Role request", "agent": "max", "kind": "gather", "detail": "Who asked, which company, what outcome" },
+    { "id": "reuse", "name": "Reuse check", "agent": "ananya-iyer", "kind": "assess", "detail": "Can an existing agent absorb it with a skill upgrade?" },
+    { "id": "spec", "name": "Role spec", "agent": "ananya-iyer", "kind": "produce", "detail": "Mandate, line manager, practice, safety rules" },
+    { "id": "name", "name": "Name & balance", "agent": "hannah-brooks", "kind": "produce", "detail": "Indian / global rotation; 50 / 50 gender balance kept" },
+    { "id": "records", "name": "Roster · hiring log · org chart", "agent": "hannah-brooks", "kind": "deliver", "detail": "employees/ROSTER.md, logs/HIRING-LOG.md, charter/ORG-CHART.md — same day" },
+    { "id": "agentfile", "name": "Agent file", "agent": "aarav-mehta", "kind": "deliver", "detail": "tern-plugin/agents/<id>.md, model: fable; plugin refresh" },
+    { "id": "announce", "name": "Announce", "agent": "max", "kind": "deliver", "detail": "Line manager briefed; workspace/agents/<id>.md status → active" }
+  ],
+  "runs": [
+    { "id": "2026-09-11-thr", "name": "Tern Health & Research — 56 roles", "started": "2026-09-11T10:00:00+05:30", "ended": "", "status": "running", "trigger": "Gopakumar",
+      "steps": [
+        { "id": "request", "status": "done", "ms": 300, "note": "Healthcare, Research, MedTech; CEO + arm heads + teams" },
+        { "id": "reuse", "status": "done", "ms": 600, "note": "No clinical, research or device capability in the 44 existing agents" },
+        { "id": "spec", "status": "done", "ms": 2400, "note": "Four safety rules attached per arm" },
+        { "id": "name", "status": "done", "ms": 500, "note": "28 women / 28 men; Indian and global names" },
+        { "id": "records", "status": "done", "ms": 900, "note": "ROSTER.md rows 44–99, HIRING-LOG.md, ORG-CHART.md" },
+        { "id": "agentfile", "status": "pending", "ms": 0, "note": "56 files pending on the desktop (sprint task agent-files-thr)" },
+        { "id": "announce", "status": "pending", "ms": 0, "note": "" }
+      ] },
+    { "id": "2026-09-11-academy-animal", "name": "Tern Academy (9) + Tern Animal Health (6)", "started": "2026-09-11T08:30:00+05:30", "ended": "2026-09-11T09:40:00+05:30", "status": "done", "trigger": "Gopakumar",
+      "steps": [
+        { "id": "request", "status": "done", "ms": 200, "note": "" }, { "id": "reuse", "status": "done", "ms": 300, "note": "teacher skill reused for all subject teachers" },
+        { "id": "spec", "status": "done", "ms": 900, "note": "" }, { "id": "name", "status": "done", "ms": 200, "note": "" },
+        { "id": "records", "status": "done", "ms": 400, "note": "" }, { "id": "agentfile", "status": "done", "ms": 700, "note": "15 files" }, { "id": "announce", "status": "done", "ms": 100, "note": "" }
+      ] }
+  ]
+}
