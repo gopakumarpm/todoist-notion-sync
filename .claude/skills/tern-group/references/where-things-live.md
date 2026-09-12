@@ -46,6 +46,7 @@ The 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS f
 
 ### Records
 - [Notion · Tern Group — Org Structure](https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423) — Full structure + Tern Group Roster database (112 rows); readable by Max on every surface via the Notion connector
+- [Notion · eSource (company page)](https://app.notion.com/p/3cbcac843da6815da8b3e89856562d7f) — Fifth company, talent & workforce; team rows in the Tern Group Roster database (Company = eSource); seed backlog in the TalentNova page and Todoist project
 - [Tern Intelligence / charter (Drive)](https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD) — ORG-CHART.md · REVIEW-CADENCE.md · reviews/
 - [Tern Intelligence / employees (Drive)](https://drive.google.com/drive/folders/1hdaC7MAvSbTwFGPuh2gYHIAYtmW03GL0) — ROSTER.md — 100 rows
 - [Tern Intelligence / logs (Drive)](https://drive.google.com/drive/folders/1m2yQMs2RYG2p_OtwtPDvBOH6Fh4UpLux) — HIRING-LOG.md

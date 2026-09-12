@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T18:15:50.243Z",
+ "generated": "2026-09-12T19:01:15.826Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -4824,6 +4824,12 @@
   },
   {
    "group": "Records",
+   "title": "Notion · eSource (company page)",
+   "url": "https://app.notion.com/p/3cbcac843da6815da8b3e89856562d7f",
+   "note": "Fifth company, talent & workforce; team rows in the Tern Group Roster database (Company = eSource); seed backlog in the TalentNova page and Todoist project"
+  },
+  {
+   "group": "Records",
    "title": "Tern Intelligence / charter (Drive)",
    "url": "https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD",
    "note": "ORG-CHART.md · REVIEW-CADENCE.md · reviews/"
@@ -4885,7 +4891,7 @@
   "generations": 12,
   "docs": 6,
   "sprints": 1,
-  "links": 15
+  "links": 16
  },
  "_agentIndex": 112,
  "mode": "static"
