@@ -54,3 +54,9 @@ Files: `charter/REVIEW-CADENCE.md`, `charter/reviews/WEEKLY-REPORT-TEMPLATE.md`,
 | 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |
 
 Say the number and "yes", "no" or your change; Max updates the records the same day.
+
+## Decided
+
+| Date | Decision | Outcome |
+|---|---|---|
+| 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |

@@ -37,13 +37,22 @@ const SKILLS = {
   'sunita-raghavan': ['teacher', 'presentation-maker'],
   'vinod-kulkarni': ['teacher'], 'elena-petrova': ['teacher'], 'farah-siddiqui': ['teacher'], 'oliver-hughes': ['teacher'],
   'manoj-deshpande': ['teacher'], 'isabel-moreno': ['teacher'], 'rohit-saxena': ['teacher', 'chrome-extension-builder'],
-  'jonas-weber': ['app-builder', 'frontend-design', 'infographic'],
+  'jonas-weber': ['app-builder', 'frontend-design', 'infographic', 'cpo-advisor', 'dashboard-builder'],
+  'kavitha-ramanathan': ['teacher', 'brainstorming', 'data-analyst'],
+  'tobias-lindgren': ['mobile-app-builder', 'app-builder', 'api-builder', 'database-designer', 'test-builder'],
+  'hana-kobayashi': ['frontend-design', 'website-builder', 'marketing'],
+  'pranav-bhatt': ['test-builder', 'devops-builder', 'dashboard-builder', 'data-analyst'],
   'carlos-rivera': ['nutrition', 'fitness'], 'vikas-thakur': ['fitness'],
   'sophie-laurent': ['doc-generator', 'pdf'], 'felix-andersson': ['data-analyst', 'dashboard-builder'],
   'sameer-rathi': ['app-builder', 'api-builder'], 'ines-fischer': ['test-builder'], 'vivek-anand': ['cpo-advisor', 'market-opportunities']
 };
 const PAPER = new Set(['Tern Health & Research']); // hired 11 Sep, agent files not yet in tern-plugin
 const HIRED = { 'Tern Academy': '2026-09-11', 'Tern Animal Health': '2026-09-11', 'Tern Health & Research': '2026-09-11' };
+// Per-person overrides for hires after the 11 Sep cohorts (EdTech team under Jonas Weber, 12 Sep; agent files pending).
+const PAPER_IDS = new Set(['kavitha-ramanathan', 'tobias-lindgren', 'hana-kobayashi', 'pranav-bhatt']);
+const HIRED_BY_ID = { 'kavitha-ramanathan': '2026-09-12', 'tobias-lindgren': '2026-09-12', 'hana-kobayashi': '2026-09-12', 'pranav-bhatt': '2026-09-12' };
+const isPaper = (id, company) => PAPER_IDS.has(id) || PAPER.has(company);
+const hiredOn = (id, company) => HIRED_BY_ID[id] || HIRED[company];
 
 fs.mkdirSync(path.join(WS, 'agents'), { recursive: true });
 fs.mkdirSync(path.join(WS, 'skills'), { recursive: true });
@@ -53,11 +62,11 @@ for (const [name, role, company, arm, mgr, lead] of data.team) {
   const mid = mgr === 'Gopakumar' ? 'gopakumar' : slug(mgr);
   const skills = SKILLS[id] || [];
   const fm = ['---', `name: ${name}`, `role: ${role.replace(/:/g, ' -')}`, `company: ${company}`, arm ? `arm: ${arm}` : null, `reports_to: ${mid}`,
-    `lead: ${lead ? 'true' : 'false'}`, `status: ${PAPER.has(company) ? 'paper' : 'active'}`, HIRED[company] ? `hired: ${HIRED[company]}` : null,
+    `lead: ${lead ? 'true' : 'false'}`, `status: ${isPaper(id, company) ? 'paper' : 'active'}`, hiredOn(id, company) ? `hired: ${hiredOn(id, company)}` : null,
     `skills: [${skills.join(', ')}]`, 'model: fable', '---'].filter(Boolean).join('\n');
   const body = `\n# ${name}\n\n**${role}** — ${company}${arm ? ' · ' + arm : ''}. Reports to ${mgr === 'Gopakumar' ? 'Gopakumar (Chairman)' : mgr}.\n\n` +
     (id === 'max' ? 'Group Managing Director. Reads the roster, routes every request to the right company, delegates, and reports back to Gopakumar as one voice. Chairs the Weekly Group Review every Monday 08:00 IST.\n'
-      : `## Mandate\n- Own the work of this role for ${company}; escalate to ${mgr === 'Gopakumar' ? 'Gopakumar' : mgr} when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n${PAPER.has(company) ? '- Agent file pending in tern-plugin/agents — this profile is the spec for it.\n' : ''}`) +
+      : `## Mandate\n- Own the work of this role for ${company}; escalate to ${mgr === 'Gopakumar' ? 'Gopakumar' : mgr} when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n${isPaper(id, company) ? '- Agent file pending in tern-plugin/agents — this profile is the spec for it.\n' : ''}`) +
     (company === 'Tern Health & Research' && arm === 'Healthcare' ? '\n## Rule\nSupports care and prepares the family for the doctor; never diagnoses or prescribes. Emergencies → 112 / 108 first.\n' : '') +
     (company === 'Tern Animal Health' ? '\n## Rule\nAdvises and prepares; any acute sign in Pluto or Bannu → same-day licensed avian vet in Pune.\n' : '') +
     (company === 'Tern Health & Research' && arm === 'Research' ? '\n## Rule\nAdvisory only; ethics approval before any human-subject study; every claim cited.\n' : '') +

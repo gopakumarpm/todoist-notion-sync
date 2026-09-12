@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T13:43:12.266Z",
+ "generated": "2026-09-12T17:17:08.829Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -34,7 +34,7 @@
    "head": "sunita-raghavan",
    "title": "CEO & Principal",
    "color": "#C9708F",
-   "blurb": "Aarshi's ICSE Class 8 (2026-27) run like a school, plus Tern's educational apps (FeatherQuest, Orbit). EdTech Practice."
+   "blurb": "Aarshi's ICSE Class 8 (2026-27) run like a school, plus Tern's educational apps (FeatherQuest, Orbit, PrepShrep) built by the EdTech team under Jonas Weber. EdTech Practice."
   },
   {
    "key": "Tern Animal Health",
@@ -571,6 +571,26 @@
    "reports": []
   },
   {
+   "id": "hana-kobayashi",
+   "name": "Hana Kobayashi",
+   "role": "Product Designer & Growth Lead, EdTech",
+   "company": "Tern Academy",
+   "arm": "",
+   "reports_to": "jonas-weber",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "frontend-design",
+    "website-builder",
+    "marketing"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Hana Kobayashi\n\n**Product Designer & Growth Lead, EdTech** — Tern Academy. Reports to Jonas Weber.\n\n## Mandate\n- Own UI and UX for PrepShrep, FeatherQuest and Orbit: design system, onboarding, paywall and plan-comparison screens, app icon and store screenshots.\n- Own the store presence and growth loop: App Store and Play Store listings and keywords, referral programme, paper sharing, launch campaign with Sofia Rossi and Riya Malhotra.\n- Escalate to Jonas Weber when a decision is above the role; design-quality bar set with Ethan Cole as sponsor.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
    "id": "hannah-brooks",
    "name": "Hannah Brooks",
    "role": "Chief of Staff to the Group MD — group & practice cadence, Gopakumar's office",
@@ -745,22 +765,29 @@
   {
    "id": "jonas-weber",
    "name": "Jonas Weber",
-   "role": "Learning Experience Designer / EdTech Product Lead — EdTech Practice lead",
+   "role": "Head of EdTech & Learning Experience Design — EdTech Practice lead (FeatherQuest, Orbit, PrepShrep)",
    "company": "Tern Academy",
    "arm": "",
    "reports_to": "sunita-raghavan",
-   "lead": false,
+   "lead": true,
    "status": "active",
    "skills": [
     "app-builder",
     "frontend-design",
-    "infographic"
+    "infographic",
+    "cpo-advisor",
+    "dashboard-builder"
    ],
    "model": "fable",
    "hired": "2026-09-11",
    "updated": "2026-09-12",
-   "body": "# Jonas Weber\n\n**Learning Experience Designer / EdTech Product Lead — EdTech Practice lead** — Tern Academy. Reports to Dr. Sunita Raghavan.\n\n## Mandate\n- Own the work of this role for Tern Academy; escalate to Dr. Sunita Raghavan when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.",
-   "reports": []
+   "body": "# Jonas Weber\n\n**Head of EdTech & Learning Experience Design — EdTech Practice lead (FeatherQuest, Orbit, PrepShrep)** — Tern Academy. Reports to Dr. Sunita Raghavan. Sponsor: Ethan Cole.\n\n## Mandate\n- Own Tern Academy's products end to end: FeatherQuest (live), Orbit and PrepShrep (launch roadmap). Roadmap, PRDs, learning design, learner analytics.\n- Lead the EdTech team (from 12 Sep 2026): Kavitha Ramanathan (curriculum & AI content), Tobias Lindgren (mobile & full-stack), Hana Kobayashi (product design & growth), Pranav Bhatt (QA, release & learning analytics).\n- Reuse Tern Intelligence for security (Arjun Khanna, Kabir Menon: PrepShrep code VA, RLS and API audits) and infrastructure (Aarav Mehta's team) under the intercompany arrangement; do not rebuild them.\n- Escalate to Dr. Sunita Raghavan when a decision is above the role; product-portfolio calls to Ethan Cole as sponsor.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.",
+   "reports": [
+    "hana-kobayashi",
+    "kavitha-ramanathan",
+    "pranav-bhatt",
+    "tobias-lindgren"
+   ]
   },
   {
    "id": "kabir-menon",
@@ -817,6 +844,26 @@
    "reports": [
     "meera-krishnan"
    ]
+  },
+  {
+   "id": "kavitha-ramanathan",
+   "name": "Kavitha Ramanathan",
+   "role": "Curriculum & AI Content Lead, EdTech",
+   "company": "Tern Academy",
+   "arm": "",
+   "reports_to": "jonas-weber",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "teacher",
+    "brainstorming",
+    "data-analyst"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Kavitha Ramanathan\n\n**Curriculum & AI Content Lead, EdTech** — Tern Academy. Reports to Jonas Weber.\n\n## Mandate\n- Own the quality of everything PrepShrep generates: prompt tuning per board (CBSE, ICSE/ISC, Maharashtra), prompt variants per question type (MCQ, long-answer, case-based), marking schemes and answer keys.\n- Curriculum-map FeatherQuest and Orbit content to the ICSE syllabus; run the content review gate with the seven subject teachers (Vinod, Elena, Farah, Oliver, Manoj, Isabel, Rohit).\n- Escalate to Jonas Weber when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
   },
   {
    "id": "kavya-reddy",
@@ -1382,6 +1429,27 @@
    ]
   },
   {
+   "id": "pranav-bhatt",
+   "name": "Pranav Bhatt",
+   "role": "QA, Release & Learning Analytics Engineer, EdTech",
+   "company": "Tern Academy",
+   "arm": "",
+   "reports_to": "jonas-weber",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "test-builder",
+    "devops-builder",
+    "dashboard-builder",
+    "data-analyst"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Pranav Bhatt\n\n**QA, Release & Learning Analytics Engineer, EdTech** — Tern Academy. Reports to Jonas Weber.\n\n## Mandate\n- Own test automation and release engineering for the three apps: App Store Connect and Play Console products and submissions, RevenueCat subscription plumbing, push notifications, transactional email, crash and offline behaviour.\n- Own learning analytics: Aarshi's progress dashboards for Dr. Sunita Raghavan and the teachers, PrepShrep usage and revenue reporting for the monthly Academy review.\n- Escalate to Jonas Weber when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
    "id": "preeti-kaur",
    "name": "Preeti Kaur",
    "role": "Head, Regulatory Affairs & Quality",
@@ -1796,6 +1864,28 @@
    "reports": []
   },
   {
+   "id": "tobias-lindgren",
+   "name": "Tobias Lindgren",
+   "role": "Mobile & Full-stack Engineer, EdTech",
+   "company": "Tern Academy",
+   "arm": "",
+   "reports_to": "jonas-weber",
+   "lead": false,
+   "status": "paper",
+   "skills": [
+    "mobile-app-builder",
+    "app-builder",
+    "api-builder",
+    "database-designer",
+    "test-builder"
+   ],
+   "model": "fable",
+   "hired": "2026-09-12",
+   "updated": "2026-09-12",
+   "body": "# Tobias Lindgren\n\n**Mobile & Full-stack Engineer, EdTech** — Tern Academy. Reports to Jonas Weber.\n\n## Mandate\n- Build and maintain PrepShrep (React Native app, FastAPI backend, Supabase schema and RLS policies), FeatherQuest and Orbit.\n- Ship the PrepShrep launch backlog: production Supabase and environment, backend deployment, paywall and RevenueCat integration, offline handling, error boundaries, loading states.\n- Fix findings from the Security & Infrastructure Practice audits (Arjun Khanna, Kabir Menon); deploy with Aarav Mehta's team under the intercompany arrangement.\n- Escalate to Jonas Weber when a decision is above the role.\n- Reuse before hire; every deliverable lands in generations/ with the flow that produced it.\n- Agent file pending in tern-plugin/agents — this profile is the spec for it.",
+   "reports": []
+  },
+  {
    "id": "tomas-alvarez",
    "name": "Dr. Tomás Alvarez",
    "role": "Companion Animal Veterinarian",
@@ -1983,7 +2073,8 @@
    "used_by": [
     "aarav-mehta",
     "grace-liu",
-    "sameer-rathi"
+    "sameer-rathi",
+    "tobias-lindgren"
    ]
   },
   {
@@ -1999,7 +2090,8 @@
     "aarav-mehta",
     "grace-liu",
     "jonas-weber",
-    "sameer-rathi"
+    "sameer-rathi",
+    "tobias-lindgren"
    ]
   },
   {
@@ -2102,7 +2194,8 @@
    "updated": "2026-09-12",
    "body": "# brainstorming\n\nCreative ideation partner for generating, expanding and refining ideas\n\nSource: `tern-os/.claude/skills/brainstorming`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "ethan-cole"
+    "ethan-cole",
+    "kavitha-ramanathan"
    ]
   },
   {
@@ -2351,6 +2444,7 @@
    "body": "# cpo-advisor\n\nProduct vision, portfolio strategy, product-market fit, product org\n\nSource: `tern-os/.claude/skills/cpo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
+    "jonas-weber",
     "vivek-anand"
    ]
   },
@@ -2415,8 +2509,10 @@
    "body": "# dashboard-builder\n\nInteractive HTML or Excel dashboards for analysts and business users\n\nSource: `tern-os/.claude/skills/dashboard-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "felix-andersson",
+    "jonas-weber",
     "liam-o-brien",
-    "neha-joshi"
+    "neha-joshi",
+    "pranav-bhatt"
    ]
   },
   {
@@ -2430,7 +2526,9 @@
    "body": "# data-analyst\n\nStructured & unstructured data analysis and summarization\n\nSource: `tern-os/.claude/skills/data-analyst`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "felix-andersson",
-    "liam-o-brien"
+    "kavitha-ramanathan",
+    "liam-o-brien",
+    "pranav-bhatt"
    ]
   },
   {
@@ -2470,7 +2568,8 @@
    "updated": "2026-09-12",
    "body": "# database-designer\n\nSchemas, ERDs, migrations, query optimization — PostgreSQL/Supabase\n\nSource: `tern-os/.claude/skills/database-designer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "aarav-mehta"
+    "aarav-mehta",
+    "tobias-lindgren"
    ]
   },
   {
@@ -2496,7 +2595,8 @@
    "updated": "2026-09-12",
    "body": "# devops-builder\n\nGitHub Actions, Dockerfiles, deployment configs, environments\n\nSource: `tern-os/.claude/skills/devops-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "aarav-mehta"
+    "aarav-mehta",
+    "pranav-bhatt"
    ]
   },
   {
@@ -2575,6 +2675,7 @@
    "body": "# frontend-design\n\nPixel-perfect responsive accessible UIs from wireframes or descriptions\n\nSource: `tern-os/.claude/skills/frontend-design`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
+    "hana-kobayashi",
     "jonas-weber"
    ]
   },
@@ -2732,6 +2833,7 @@
    "updated": "2026-09-12",
    "body": "# marketing\n\nCampaign strategy, copy, content calendars, SEO, email design\n\nSource: `tern-os/.claude/skills/marketing`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
+    "hana-kobayashi",
     "sofia-rossi"
    ]
   },
@@ -2759,7 +2861,8 @@
    "body": "# mobile-app-builder\n\nReact Native, Flutter, Swift/SwiftUI apps with navigation and state\n\nSource: `tern-os/.claude/skills/mobile-app-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
-    "lucas-meyer"
+    "lucas-meyer",
+    "tobias-lindgren"
    ]
   },
   {
@@ -2995,6 +3098,7 @@
     "elena-petrova",
     "farah-siddiqui",
     "isabel-moreno",
+    "kavitha-ramanathan",
     "manoj-deshpande",
     "oliver-hughes",
     "rohit-saxena",
@@ -3026,7 +3130,9 @@
    "body": "# test-builder\n\nTest generation and QA: pytest, Jest, Playwright, manual plans\n\nSource: `tern-os/.claude/skills/test-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
-    "ines-fischer"
+    "ines-fischer",
+    "pranav-bhatt",
+    "tobias-lindgren"
    ]
   },
   {
@@ -3089,7 +3195,8 @@
    "updated": "2026-09-12",
    "body": "# website-builder\n\nLanding pages, portfolios, business and multi-page sites\n\nSource: `tern-os/.claude/skills/website-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "ethan-cole"
+    "ethan-cole",
+    "hana-kobayashi"
    ]
   },
   {
@@ -3509,6 +3616,58 @@
    ],
    "runs": [
     {
+     "id": "2026-09-12-edtech-team",
+     "name": "EdTech team under Jonas Weber — 4 roles",
+     "started": "2026-09-12T09:30:00+05:30",
+     "ended": "",
+     "status": "running",
+     "trigger": "Gopakumar",
+     "steps": [
+      {
+       "id": "request",
+       "status": "done",
+       "ms": 300,
+       "note": "Gopakumar, 12 Sep: a team under Jonas so FeatherQuest, PrepShrep and Orbit get shape and support"
+      },
+      {
+       "id": "reuse",
+       "status": "done",
+       "ms": 900,
+       "note": "Build skills exist but every carrier is committed (Taurus, SaMD, group product); no board-grade AI content or education product design. Hire 4, reuse security + infra from Tern Intelligence"
+      },
+      {
+       "id": "spec",
+       "status": "done",
+       "ms": 1500,
+       "note": "Curriculum & AI content · mobile & full-stack · product design & growth · QA, release & learning analytics; all → Jonas; Jonas → Head of EdTech"
+      },
+      {
+       "id": "name",
+       "status": "done",
+       "ms": 400,
+       "note": "Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt — 2 F / 2 M, Indian / global rotation; group 52 / 52"
+      },
+      {
+       "id": "records",
+       "status": "done",
+       "ms": 1200,
+       "note": "ROSTER.md rows 100–103, HIRING-LOG.md, ORG-CHART.md; Notion org page + roster DB"
+      },
+      {
+       "id": "agentfile",
+       "status": "pending",
+       "ms": 0,
+       "note": "4 files pending on the desktop (sprint task agent-files-edtech)"
+      },
+      {
+       "id": "announce",
+       "status": "pending",
+       "ms": 0,
+       "note": "Sunita and Jonas briefed at Monday's Group Review"
+      }
+     ]
+    },
+    {
      "id": "2026-09-11-thr",
      "name": "Tern Health & Research — 56 roles",
      "started": "2026-09-11T10:00:00+05:30",
@@ -3905,6 +4064,18 @@
    "body": "# tern-group and command-centre skills packaged for Cowork\n\nGopakumar reported on 12 Sep that the new org structure and related skills were not available in Cowork on the Mac. Cause: Cowork loads only the skills enabled on the claude.ai account, never `tern-os/.claude/skills` or `~/.claude/skills` (see `docs/surfaces`). Fix: package the structure as an account skill.\n\n- `skill/tern-group/` — SKILL.md plus generated references (org tree, roster, skills catalogue, rules and cadence, where things live).\n- `skill/command-centre/` — unchanged conventions, now also zipped.\n- `scripts/build-skills.js` — regenerates the references, mirrors both into `.claude/skills/` at the repo root, writes `dist/skills/*.zip`.\n\nRemaining step for Gopakumar: upload the two zips once in the desktop app (Customize → Skills); tracked as sprint task `cowork-skills`."
   },
   {
+   "id": "2026-09-12-edtech-team",
+   "title": "EdTech team under Jonas Weber (4 hires, 12 Sep)",
+   "type": "record",
+   "agent": "ananya-iyer",
+   "flow": "hire-or-reuse",
+   "date": "2026-09-12",
+   "path": "Tern Intelligence/employees/ROSTER.md · logs/HIRING-LOG.md · charter/ORG-CHART.md",
+   "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
+   "summary": "Gopakumar's decision of 12 Sep — a team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get proper shape and support. Four hires in Tern Academy, Jonas elevated to Head of EdTech; security and infrastructure stay reused from Tern Intelligence. Group headcount 104, balance 52 / 52.",
+   "body": "# EdTech team under Jonas Weber\n\nGopakumar decided on 12 Sep 2026 that Jonas Weber should have a team, so that FeatherQuest, Orbit and PrepShrep get better shape and support. Max had recommended waiting; Gopakumar's call stands and the records were updated the same day.\n\n**Reuse check (Ananya Iyer).** The group already carries the build skills, but every carrier is committed elsewhere: Aarav Mehta, Grace Liu and Lucas Meyer to Taurus and the group technology mandate; Sameer Rathi and Ines Fischer to regulated SaMD; Ethan Cole to product across four companies. Nobody carries board-grade AI content for Indian curricula or education product design full-time. **Verdict: hire four, reuse two.** Security (Arjun Khanna, Kabir Menon: PrepShrep Stage 1 code VA, RLS and API audits) and infrastructure (Aarav's team) stay with Tern Intelligence under the intercompany arrangement.\n\n| Hire | Role | Owns |\n|---|---|---|\n| Kavitha Ramanathan (F, Indian) | Curriculum & AI Content Lead | Board-pattern prompt tuning (CBSE, ICSE/ISC, Maharashtra), question-type variants, marking schemes; content gate with the seven teachers |\n| Tobias Lindgren (M, Swedish) | Mobile & Full-stack Engineer | PrepShrep React Native + FastAPI + Supabase, FeatherQuest, Orbit; launch backlog |\n| Hana Kobayashi (F, Japanese) | Product Designer & Growth Lead | UI/UX, app icon, store screenshots and listings, paywall, referral, launch campaign |\n| Pranav Bhatt (M, Indian) | QA, Release & Learning Analytics Engineer | Test automation, store releases, RevenueCat, push and email, learning-analytics dashboards |\n\n**Jonas Weber** becomes Head of EdTech & Learning Experience Design (lead of four), still reporting to Dr. Sunita Raghavan, Ethan Cole as practice sponsor. Tern Academy goes from 9 to 13; the group from 100 to 104; gender balance 52 / 52; names rotate Indian / global.\n\nStatus `paper` until Aarav Mehta creates the four tern-plugin agent files (sprint task `agent-files-edtech`)."
+  },
+  {
    "id": "2026-09-12-live-map",
    "title": "Live map — animated view of the group",
    "type": "app",
@@ -4006,16 +4177,16 @@
    "tags": [
     "decisions"
    ],
-   "body": "# Open decisions for Gopakumar\n\n| # | Decision | Max's recommendation | Since |\n|---|---|---|---|\n| 1 | Confirm Diego Santos as CEO, Tern Intelligence and Sneha Pillai as COO | Confirm both; both were acting in the role | 11 Sep |\n| 2 | Dr. Meghna Raman over Dr. Hiroshi Nakamura to lead MedTech | Meghna — commercial and regulatory breadth; Hiroshi leads Device R&D | 11 Sep |\n| 3 | Reading of \"Advanced Medicine\" | Advanced & precision medicine (genomics, targeted therapy) under Medical Specialties | 11 Sep |\n| 4 | Marathi as Aarshi's third language | Yes; Manoj Deshpande already covers Hindi & Marathi | 11 Sep |\n| 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |\n\nSay the number and \"yes\", \"no\" or your change; Max updates the records the same day."
+   "body": "# Open decisions for Gopakumar\n\n| # | Decision | Max's recommendation | Since |\n|---|---|---|---|\n| 1 | Confirm Diego Santos as CEO, Tern Intelligence and Sneha Pillai as COO | Confirm both; both were acting in the role | 11 Sep |\n| 2 | Dr. Meghna Raman over Dr. Hiroshi Nakamura to lead MedTech | Meghna — commercial and regulatory breadth; Hiroshi leads Device R&D | 11 Sep |\n| 3 | Reading of \"Advanced Medicine\" | Advanced & precision medicine (genomics, targeted therapy) under Medical Specialties | 11 Sep |\n| 4 | Marathi as Aarshi's third language | Yes; Manoj Deshpande already covers Hindi & Marathi | 11 Sep |\n| 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |\n\nSay the number and \"yes\", \"no\" or your change; Max updates the records the same day.\n\n## Decided\n\n| Date | Decision | Outcome |\n|---|---|---|\n| 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |"
   },
   {
    "id": "org-structure",
    "title": "Tern Group — org structure",
-   "updated": "2026-09-11",
+   "updated": "2026-09-12",
    "tags": [
     "org"
    ],
-   "body": "# Tern Group — org structure\n\n**Gopakumar** — Founder, Owner & Chairman\n→ **Max** — Group Managing Director (`tern:max`), single point of contact\n\n## Group Corporate Centre (11)\nHannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group GC; Amara Okonkwo) · Ananya Iyer (Group CHRO) · Kavya Reddy (Research & Strategy) · Sofia Rossi (Group CMO; Riya Malhotra) · Maya Lindqvist (Content; Noah Bennett)\n\n## Operating companies\n- **Tern Intelligence (18)** — Diego Santos, CEO. Aarav Mehta (CTO), Sneha Pillai (COO), Rohan Kapoor (Sales & BD), Ethan Cole (CPDO), Liam O'Brien (Data & Automation) and teams.\n- **Tern Academy (9)** — Dr. Sunita Raghavan, CEO & Principal. Seven ICSE subject teachers + Jonas Weber (EdTech).\n- **Tern Animal Health (6)** — Dr. Nandini Bhat, CEO & CVO. Vet, avian nutrition, behaviour, segment programme, veterinary nurse.\n- **Tern Health & Research (56)** — Dr. Vidya Krishnamurthy, CEO.\n  - Healthcare (25) — Dr. Rekha Iyengar, CMO: Family Health Desk, Primary & Emergency, Medical Specialties, Mental Health & Rehab, Diagnostics & Pharmacy & Dental.\n  - Research (16) — Dr. Samuel Adeyemi, CSO: Digital Health & AI, Medicine & Clinical Research, Disease & Epidemiology, Pharmacology, Biostatistics.\n  - MedTech (12) — Dr. Meghna Raman, CMTO: Device R&D, SaMD, Regulatory & Quality, Clinical Validation, Product, Manufacturing.\n  - Shared — Dr. Radhika Subramaniam (Regulatory, Ethics & Governance), Nisha Patel (Operations).\n- **Tern Ventures (0)** — held at Group: Aarshi.in, e-Source Consultancy, Strings & Wings.\n\n## Practices (8)\nInsurance · AI Delivery · Security & Infrastructure · Contact-Centre Operations · EdTech · Pet & Animal Health · MedTech & Digital Health · Group Health & Wellbeing. Each has an executive sponsor and a practice lead; members keep their line manager.\n\nSource of truth: `Tern Intelligence/charter/ORG-CHART.md`. The Org view of this dashboard is generated from `workspace/agents/`."
+   "body": "# Tern Group — org structure\n\n**Gopakumar** — Founder, Owner & Chairman\n→ **Max** — Group Managing Director (`tern:max`), single point of contact\n\nGroup headcount 104 (Max + 103) as of 12 Sep 2026; balance 52 / 52.\n\n## Group Corporate Centre (11)\nHannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group GC; Amara Okonkwo) · Ananya Iyer (Group CHRO) · Kavya Reddy (Research & Strategy) · Sofia Rossi (Group CMO; Riya Malhotra) · Maya Lindqvist (Content; Noah Bennett)\n\n## Operating companies\n- **Tern Intelligence (18)** — Diego Santos, CEO. Aarav Mehta (CTO), Sneha Pillai (COO), Rohan Kapoor (Sales & BD), Ethan Cole (CPDO), Liam O'Brien (Data & Automation) and teams.\n- **Tern Academy (13)** — Dr. Sunita Raghavan, CEO & Principal. Seven ICSE subject teachers + the EdTech team under Jonas Weber (Head of EdTech): Kavitha Ramanathan (curriculum & AI content), Tobias Lindgren (mobile & full-stack), Hana Kobayashi (product design & growth), Pranav Bhatt (QA, release & learning analytics). Products: FeatherQuest, Orbit, PrepShrep.\n- **Tern Animal Health (6)** — Dr. Nandini Bhat, CEO & CVO. Vet, avian nutrition, behaviour, segment programme, veterinary nurse.\n- **Tern Health & Research (56)** — Dr. Vidya Krishnamurthy, CEO.\n  - Healthcare (25) — Dr. Rekha Iyengar, CMO: Family Health Desk, Primary & Emergency, Medical Specialties, Mental Health & Rehab, Diagnostics & Pharmacy & Dental.\n  - Research (16) — Dr. Samuel Adeyemi, CSO: Digital Health & AI, Medicine & Clinical Research, Disease & Epidemiology, Pharmacology, Biostatistics.\n  - MedTech (12) — Dr. Meghna Raman, CMTO: Device R&D, SaMD, Regulatory & Quality, Clinical Validation, Product, Manufacturing.\n  - Shared — Dr. Radhika Subramaniam (Regulatory, Ethics & Governance), Nisha Patel (Operations).\n- **Tern Ventures (0)** — held at Group: Aarshi.in, e-Source Consultancy, Strings & Wings.\n\n## Practices (8)\nInsurance · AI Delivery · Security & Infrastructure · Contact-Centre Operations · EdTech · Pet & Animal Health · MedTech & Digital Health · Group Health & Wellbeing. Each has an executive sponsor and a practice lead; members keep their line manager.\n\nSource of truth: `Tern Intelligence/charter/ORG-CHART.md`. The Org view of this dashboard is generated from `workspace/agents/`."
   },
   {
    "id": "review-cadence",
@@ -4141,6 +4312,36 @@
      "priority": "P1",
      "due": "2026-09-13",
      "notes": ""
+    },
+    {
+     "id": "agent-files-edtech",
+     "title": "Create the 4 EdTech agent files (Kavitha, Tobias, Hana, Pranav) in tern-plugin/agents and refresh the plugin",
+     "owner": "aarav-mehta",
+     "company": "Tern Intelligence",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-14",
+     "notes": "Specs are agents/*.md with status: paper, hired 2026-09-12. Then flip status to active."
+    },
+    {
+     "id": "edtech-team-kickoff",
+     "title": "EdTech team kickoff — roadmap for FeatherQuest, Orbit and PrepShrep through the 2026-27 school year",
+     "owner": "jonas-weber",
+     "company": "Tern Academy",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-16",
+     "notes": "Owners per product, PrepShrep launch date, what Security & Infrastructure (Arjun) and Aarav's team are asked for. Present at the first Academy monthly review."
+    },
+    {
+     "id": "prepshrep-launch-plan",
+     "title": "PrepShrep launch plan from the Todoist roadmap (prompts, paywall, store assets, code VA, production)",
+     "owner": "jonas-weber",
+     "company": "Tern Academy",
+     "status": "todo",
+     "priority": "P1",
+     "due": "2026-09-19",
+     "notes": "Todoist project PrepShrep - Launch Roadmap (52 tasks). Assign: prompts → Kavitha; app/backend/Supabase → Tobias; icon, screenshots, listing → Hana; RevenueCat, releases, push, email → Pranav; Stage 1 code VA → Arjun/Kabir."
     },
     {
      "id": "featherquest-phase3",
@@ -4284,7 +4485,7 @@
    "group": "Records",
    "title": "Notion · Tern Group — Org Structure",
    "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
-   "note": "Full structure + Tern Group Roster database (100 rows); readable by Max on every surface via the Notion connector"
+   "note": "Full structure + Tern Group Roster database (104 rows); readable by Max on every surface via the Notion connector"
   },
   {
    "group": "Records",
@@ -4342,15 +4543,15 @@
   }
  ],
  "counts": {
-  "agents": 100,
+  "agents": 104,
   "skills": 89,
   "flows": 5,
   "crons": 7,
-  "generations": 9,
+  "generations": 10,
   "docs": 6,
   "sprints": 1,
   "links": 14
  },
- "_agentIndex": 100,
+ "_agentIndex": 104,
  "mode": "static"
 }

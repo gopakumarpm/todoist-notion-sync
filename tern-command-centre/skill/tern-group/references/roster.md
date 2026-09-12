@@ -1,4 +1,4 @@
-# Tern Group — roster (100 people, generated 2026-09-12)
+# Tern Group — roster (104 people, generated 2026-09-12)
 
 Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only (agent file pending). Ids are the slugs used in flows, sprints and generations.
 
@@ -41,18 +41,22 @@ Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only 
 | neha-joshi | Neha Joshi | BI Developer, Power BI | Liam O'Brien | active | data-report, data-report-generator, dashboard-builder |
 | rajeev-bhatia | Rajeev Bhatia | Insurance Sales Lead, six LOBs | Rohan Kapoor | active | sales, bd-consultant |
 
-## Tern Academy (9)
+## Tern Academy (13)
 
 | Id | Name | Role | Reports to | Status | Skills |
 |---|---|---|---|---|---|
 | sunita-raghavan | Dr. Sunita Raghavan ★ | CEO & Principal — Aarshi's ICSE studies, FeatherQuest | Max | active | teacher, presentation-maker |
+| jonas-weber | Jonas Weber ★ | Head of EdTech & Learning Experience Design — EdTech Practice lead (FeatherQuest, Orbit, PrepShrep) | Dr. Sunita Raghavan | active | app-builder, frontend-design, infographic, cpo-advisor, dashboard-builder |
 | elena-petrova | Elena Petrova | Physics & Chemistry Teacher | Dr. Sunita Raghavan | active | teacher |
 | farah-siddiqui | Farah Siddiqui | Biology Teacher | Dr. Sunita Raghavan | active | teacher |
+| hana-kobayashi | Hana Kobayashi | Product Designer & Growth Lead, EdTech | Jonas Weber | paper | frontend-design, website-builder, marketing |
 | isabel-moreno | Isabel Moreno | History-Civics & Geography Teacher | Dr. Sunita Raghavan | active | teacher |
-| jonas-weber | Jonas Weber | Learning Experience Designer / EdTech Product Lead — EdTech Practice lead | Dr. Sunita Raghavan | active | app-builder, frontend-design, infographic |
+| kavitha-ramanathan | Kavitha Ramanathan | Curriculum & AI Content Lead, EdTech | Jonas Weber | paper | teacher, brainstorming, data-analyst |
 | manoj-deshpande | Manoj Deshpande | Hindi & Marathi Teacher | Dr. Sunita Raghavan | active | teacher |
 | oliver-hughes | Oliver Hughes | English Language & Literature Teacher | Dr. Sunita Raghavan | active | teacher |
+| pranav-bhatt | Pranav Bhatt | QA, Release & Learning Analytics Engineer, EdTech | Jonas Weber | paper | test-builder, devops-builder, dashboard-builder, data-analyst |
 | rohit-saxena | Rohit Saxena | Computer Applications Teacher | Dr. Sunita Raghavan | active | teacher, chrome-extension-builder |
+| tobias-lindgren | Tobias Lindgren | Mobile & Full-stack Engineer, EdTech | Jonas Weber | paper | mobile-app-builder, app-builder, api-builder, database-designer, test-builder |
 | vinod-kulkarni | Vinod Kulkarni | Mathematics Teacher | Dr. Sunita Raghavan | active | teacher |
 
 ## Tern Animal Health (6)

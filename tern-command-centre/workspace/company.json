@@ -1,17 +1,63 @@
 {
   "chairman": "Gopakumar",
-  "brand": { "name": "Tern Group", "essence": "Furthest Reach. Sharpest Insight.", "navy": "#0C1B2E", "blue": "#2878CC", "gold": "#C9A43E" },
+  "brand": {
+    "name": "Tern Group",
+    "essence": "Furthest Reach. Sharpest Insight.",
+    "navy": "#0C1B2E",
+    "blue": "#2878CC",
+    "gold": "#C9A43E"
+  },
   "companies": [
-    { "key": "Group", "name": "Group Corporate Centre", "short": "Corporate Centre", "head": "max", "title": "Group MD", "color": "#E3C878",
-      "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, e-Source Consultancy, Strings & Wings) until they graduate." },
-    { "key": "Tern Intelligence", "name": "Tern Intelligence", "short": "Intelligence", "head": "diego-santos", "title": "CEO", "color": "#5FA0E0",
-      "blurb": "AI, contact-centre technology and insurance solutions. Group technology provider. Practices: Insurance, AI Delivery, Security & Infrastructure, Contact-Centre Operations." },
-    { "key": "Tern Academy", "name": "Tern Academy", "short": "Academy", "head": "sunita-raghavan", "title": "CEO & Principal", "color": "#C9708F",
-      "blurb": "Aarshi's ICSE Class 8 (2026-27) run like a school, plus Tern's educational apps (FeatherQuest, Orbit). EdTech Practice." },
-    { "key": "Tern Animal Health", "name": "Tern Animal Health", "short": "Animal Health", "head": "nandini-bhat", "title": "CEO & CVO", "color": "#79A85F",
-      "blurb": "Pluto (African Grey) and Bannu (albino cockatiel), plus the Pets / Vet / Avian segment. Advises and prepares; acute signs go to a same-day licensed avian vet in Pune." },
-    { "key": "Tern Health & Research", "name": "Tern Health & Research", "short": "Health & Research", "head": "vidya-krishnamurthy", "title": "CEO", "color": "#7FB6E8",
+    {
+      "key": "Group",
+      "name": "Group Corporate Centre",
+      "short": "Corporate Centre",
+      "head": "max",
+      "title": "Group MD",
+      "color": "#E3C878",
+      "blurb": "Chairman's office and shared functions. Also holds Tern Ventures (Aarshi.in, e-Source Consultancy, Strings & Wings) until they graduate."
+    },
+    {
+      "key": "Tern Intelligence",
+      "name": "Tern Intelligence",
+      "short": "Intelligence",
+      "head": "diego-santos",
+      "title": "CEO",
+      "color": "#5FA0E0",
+      "blurb": "AI, contact-centre technology and insurance solutions. Group technology provider. Practices: Insurance, AI Delivery, Security & Infrastructure, Contact-Centre Operations."
+    },
+    {
+      "key": "Tern Academy",
+      "name": "Tern Academy",
+      "short": "Academy",
+      "head": "sunita-raghavan",
+      "title": "CEO & Principal",
+      "color": "#C9708F",
+      "blurb": "Aarshi's ICSE Class 8 (2026-27) run like a school, plus Tern's educational apps (FeatherQuest, Orbit, PrepShrep) built by the EdTech team under Jonas Weber. EdTech Practice."
+    },
+    {
+      "key": "Tern Animal Health",
+      "name": "Tern Animal Health",
+      "short": "Animal Health",
+      "head": "nandini-bhat",
+      "title": "CEO & CVO",
+      "color": "#79A85F",
+      "blurb": "Pluto (African Grey) and Bannu (albino cockatiel), plus the Pets / Vet / Avian segment. Advises and prepares; acute signs go to a same-day licensed avian vet in Pune."
+    },
+    {
+      "key": "Tern Health & Research",
+      "name": "Tern Health & Research",
+      "short": "Health & Research",
+      "head": "vidya-krishnamurthy",
+      "title": "CEO",
+      "color": "#7FB6E8",
       "blurb": "Healthcare (Rekha Iyengar, CMO), Research (Samuel Adeyemi, CSO), MedTech (Meghna Raman, CMTO). Healthcare never replaces a licensed physician; emergencies → 112 / 108.",
-      "arms": { "Healthcare": "#7FB6E8", "Research": "#8D7BD8", "MedTech": "#3FA394", "Shared": "#8FA3BC" } }
+      "arms": {
+        "Healthcare": "#7FB6E8",
+        "Research": "#8D7BD8",
+        "MedTech": "#3FA394",
+        "Shared": "#8FA3BC"
+      }
+    }
   ]
 }

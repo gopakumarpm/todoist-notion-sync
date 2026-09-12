@@ -4,30 +4,212 @@
   "trigger": "request",
   "owner": "ananya-iyer",
   "steps": [
-    { "id": "request", "name": "Role request", "agent": "max", "kind": "gather", "detail": "Who asked, which company, what outcome" },
-    { "id": "reuse", "name": "Reuse check", "agent": "ananya-iyer", "kind": "assess", "detail": "Can an existing agent absorb it with a skill upgrade?" },
-    { "id": "spec", "name": "Role spec", "agent": "ananya-iyer", "kind": "produce", "detail": "Mandate, line manager, practice, safety rules" },
-    { "id": "name", "name": "Name & balance", "agent": "hannah-brooks", "kind": "produce", "detail": "Indian / global rotation; 50 / 50 gender balance kept" },
-    { "id": "records", "name": "Roster · hiring log · org chart", "agent": "hannah-brooks", "kind": "deliver", "detail": "employees/ROSTER.md, logs/HIRING-LOG.md, charter/ORG-CHART.md — same day" },
-    { "id": "agentfile", "name": "Agent file", "agent": "aarav-mehta", "kind": "deliver", "detail": "tern-plugin/agents/<id>.md, model: fable; plugin refresh" },
-    { "id": "announce", "name": "Announce", "agent": "max", "kind": "deliver", "detail": "Line manager briefed; workspace/agents/<id>.md status → active" }
+    {
+      "id": "request",
+      "name": "Role request",
+      "agent": "max",
+      "kind": "gather",
+      "detail": "Who asked, which company, what outcome"
+    },
+    {
+      "id": "reuse",
+      "name": "Reuse check",
+      "agent": "ananya-iyer",
+      "kind": "assess",
+      "detail": "Can an existing agent absorb it with a skill upgrade?"
+    },
+    {
+      "id": "spec",
+      "name": "Role spec",
+      "agent": "ananya-iyer",
+      "kind": "produce",
+      "detail": "Mandate, line manager, practice, safety rules"
+    },
+    {
+      "id": "name",
+      "name": "Name & balance",
+      "agent": "hannah-brooks",
+      "kind": "produce",
+      "detail": "Indian / global rotation; 50 / 50 gender balance kept"
+    },
+    {
+      "id": "records",
+      "name": "Roster · hiring log · org chart",
+      "agent": "hannah-brooks",
+      "kind": "deliver",
+      "detail": "employees/ROSTER.md, logs/HIRING-LOG.md, charter/ORG-CHART.md — same day"
+    },
+    {
+      "id": "agentfile",
+      "name": "Agent file",
+      "agent": "aarav-mehta",
+      "kind": "deliver",
+      "detail": "tern-plugin/agents/<id>.md, model: fable; plugin refresh"
+    },
+    {
+      "id": "announce",
+      "name": "Announce",
+      "agent": "max",
+      "kind": "deliver",
+      "detail": "Line manager briefed; workspace/agents/<id>.md status → active"
+    }
   ],
   "runs": [
-    { "id": "2026-09-11-thr", "name": "Tern Health & Research — 56 roles", "started": "2026-09-11T10:00:00+05:30", "ended": "", "status": "running", "trigger": "Gopakumar",
+    {
+      "id": "2026-09-12-edtech-team",
+      "name": "EdTech team under Jonas Weber — 4 roles",
+      "started": "2026-09-12T09:30:00+05:30",
+      "ended": "",
+      "status": "running",
+      "trigger": "Gopakumar",
       "steps": [
-        { "id": "request", "status": "done", "ms": 300, "note": "Healthcare, Research, MedTech; CEO + arm heads + teams" },
-        { "id": "reuse", "status": "done", "ms": 600, "note": "No clinical, research or device capability in the 44 existing agents" },
-        { "id": "spec", "status": "done", "ms": 2400, "note": "Four safety rules attached per arm" },
-        { "id": "name", "status": "done", "ms": 500, "note": "28 women / 28 men; Indian and global names" },
-        { "id": "records", "status": "done", "ms": 900, "note": "ROSTER.md rows 44–99, HIRING-LOG.md, ORG-CHART.md" },
-        { "id": "agentfile", "status": "pending", "ms": 0, "note": "56 files pending on the desktop (sprint task agent-files-thr)" },
-        { "id": "announce", "status": "pending", "ms": 0, "note": "" }
-      ] },
-    { "id": "2026-09-11-academy-animal", "name": "Tern Academy (9) + Tern Animal Health (6)", "started": "2026-09-11T08:30:00+05:30", "ended": "2026-09-11T09:40:00+05:30", "status": "done", "trigger": "Gopakumar",
+        {
+          "id": "request",
+          "status": "done",
+          "ms": 300,
+          "note": "Gopakumar, 12 Sep: a team under Jonas so FeatherQuest, PrepShrep and Orbit get shape and support"
+        },
+        {
+          "id": "reuse",
+          "status": "done",
+          "ms": 900,
+          "note": "Build skills exist but every carrier is committed (Taurus, SaMD, group product); no board-grade AI content or education product design. Hire 4, reuse security + infra from Tern Intelligence"
+        },
+        {
+          "id": "spec",
+          "status": "done",
+          "ms": 1500,
+          "note": "Curriculum & AI content · mobile & full-stack · product design & growth · QA, release & learning analytics; all → Jonas; Jonas → Head of EdTech"
+        },
+        {
+          "id": "name",
+          "status": "done",
+          "ms": 400,
+          "note": "Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt — 2 F / 2 M, Indian / global rotation; group 52 / 52"
+        },
+        {
+          "id": "records",
+          "status": "done",
+          "ms": 1200,
+          "note": "ROSTER.md rows 100–103, HIRING-LOG.md, ORG-CHART.md; Notion org page + roster DB"
+        },
+        {
+          "id": "agentfile",
+          "status": "pending",
+          "ms": 0,
+          "note": "4 files pending on the desktop (sprint task agent-files-edtech)"
+        },
+        {
+          "id": "announce",
+          "status": "pending",
+          "ms": 0,
+          "note": "Sunita and Jonas briefed at Monday's Group Review"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-thr",
+      "name": "Tern Health & Research — 56 roles",
+      "started": "2026-09-11T10:00:00+05:30",
+      "ended": "",
+      "status": "running",
+      "trigger": "Gopakumar",
       "steps": [
-        { "id": "request", "status": "done", "ms": 200, "note": "" }, { "id": "reuse", "status": "done", "ms": 300, "note": "teacher skill reused for all subject teachers" },
-        { "id": "spec", "status": "done", "ms": 900, "note": "" }, { "id": "name", "status": "done", "ms": 200, "note": "" },
-        { "id": "records", "status": "done", "ms": 400, "note": "" }, { "id": "agentfile", "status": "done", "ms": 700, "note": "15 files" }, { "id": "announce", "status": "done", "ms": 100, "note": "" }
-      ] }
+        {
+          "id": "request",
+          "status": "done",
+          "ms": 300,
+          "note": "Healthcare, Research, MedTech; CEO + arm heads + teams"
+        },
+        {
+          "id": "reuse",
+          "status": "done",
+          "ms": 600,
+          "note": "No clinical, research or device capability in the 44 existing agents"
+        },
+        {
+          "id": "spec",
+          "status": "done",
+          "ms": 2400,
+          "note": "Four safety rules attached per arm"
+        },
+        {
+          "id": "name",
+          "status": "done",
+          "ms": 500,
+          "note": "28 women / 28 men; Indian and global names"
+        },
+        {
+          "id": "records",
+          "status": "done",
+          "ms": 900,
+          "note": "ROSTER.md rows 44–99, HIRING-LOG.md, ORG-CHART.md"
+        },
+        {
+          "id": "agentfile",
+          "status": "pending",
+          "ms": 0,
+          "note": "56 files pending on the desktop (sprint task agent-files-thr)"
+        },
+        {
+          "id": "announce",
+          "status": "pending",
+          "ms": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-academy-animal",
+      "name": "Tern Academy (9) + Tern Animal Health (6)",
+      "started": "2026-09-11T08:30:00+05:30",
+      "ended": "2026-09-11T09:40:00+05:30",
+      "status": "done",
+      "trigger": "Gopakumar",
+      "steps": [
+        {
+          "id": "request",
+          "status": "done",
+          "ms": 200,
+          "note": ""
+        },
+        {
+          "id": "reuse",
+          "status": "done",
+          "ms": 300,
+          "note": "teacher skill reused for all subject teachers"
+        },
+        {
+          "id": "spec",
+          "status": "done",
+          "ms": 900,
+          "note": ""
+        },
+        {
+          "id": "name",
+          "status": "done",
+          "ms": 200,
+          "note": ""
+        },
+        {
+          "id": "records",
+          "status": "done",
+          "ms": 400,
+          "note": ""
+        },
+        {
+          "id": "agentfile",
+          "status": "done",
+          "ms": 700,
+          "note": "15 files"
+        },
+        {
+          "id": "announce",
+          "status": "done",
+          "ms": 100,
+          "note": ""
+        }
+      ]
+    }
   ]
 }
