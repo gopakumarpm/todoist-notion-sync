@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T05:40:31.617Z",
+ "generated": "2026-09-12T06:50:46.552Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -3213,6 +3213,40 @@
    ],
    "runs": [
     {
+     "id": "2026-09-12-v3.1",
+     "name": "v3.1 — Live map + film + vault/pack refresh",
+     "started": "2026-09-12T11:30:00+05:30",
+     "ended": "2026-09-12T13:00:00+05:30",
+     "status": "done",
+     "trigger": "Gopakumar",
+     "steps": [
+      {
+       "id": "roster",
+       "status": "skipped",
+       "ms": 0,
+       "note": "roster unchanged"
+      },
+      {
+       "id": "vault",
+       "status": "done",
+       "ms": 900,
+       "note": "Tern OS, Projects Index, Home, Command Centre notes; Max pack (instructions, context, README, skill)"
+      },
+      {
+       "id": "build",
+       "status": "done",
+       "ms": 400,
+       "note": "dist/artifact.html + state.json; video rendered (46 s)"
+      },
+      {
+       "id": "publish",
+       "status": "done",
+       "ms": 200,
+       "note": "Version 9"
+      }
+     ]
+    },
+    {
      "id": "2026-09-12",
      "name": "v3 — file-based workspace",
      "started": "2026-09-12T10:00:00+05:30",
@@ -3811,6 +3845,30 @@
    "body": "# Tern OS Command Centre (published snapshot)\n\nThe artifact link always shows the last `build-static.js` export. The live version runs locally with `node server.js` and re-reads the workspace every few seconds."
   },
   {
+   "id": "2026-09-12-live-map",
+   "title": "Live map — animated view of the group",
+   "type": "app",
+   "agent": "aarav-mehta",
+   "flow": "command-centre-refresh",
+   "date": "2026-09-12",
+   "path": "tern-command-centre/app/index.html (Live panel)",
+   "url": "https://claude.ai/code/artifact/932a6090-6c9f-4d1c-81fe-f4e0bfa8252c#live",
+   "summary": "Canvas scene - every agent as a pixel avatar in its company district, flow packets between the agents of each run, cron rings on owners, tasks in flight; pause, speed, focus, hover, click.",
+   "body": "# Live map\n\nThe Live panel of the command centre. Districts for the Corporate Centre and the four companies; agents bob in place; packets travel the curves of every recorded run (green done, blue running); cron rings tick on their owners (red when a schedule needs attention); gold tickets count tasks in \"doing\". A ticker cycles through everything that has happened across runs. Works at phone width (2×2 districts) and respects reduced-motion settings."
+  },
+  {
+   "id": "2026-09-12-state-of-the-group-film",
+   "title": "State of the Group — film (Remotion)",
+   "type": "film",
+   "agent": "noah-bennett",
+   "flow": "command-centre-refresh",
+   "date": "2026-09-12",
+   "path": "tern-command-centre/video/out/tern-group-state.mp4",
+   "url": "",
+   "summary": "46-second 1080p film rendered from dist/state.json - intro, group board, Weekly Group Review pipeline, sprint board, needs attention & crons, outro.",
+   "body": "# State of the Group — film\n\nRendered with Remotion from the same export the artifact is built from. Six scenes: intro → group board (cards spring in, counts count up, avatars pop) → Weekly Group Review pipeline lighting step by step → sprint board → needs attention & crons → outro. `cd video && npm run render`. Re-render after every refresh so the film matches the workspace."
+  },
+  {
    "id": "2026-09-12-vault-refresh",
    "title": "Obsidian vault refresh for Tern Group",
    "type": "vault",
@@ -4177,7 +4235,7 @@
   "skills": 89,
   "flows": 5,
   "crons": 7,
-  "generations": 5,
+  "generations": 7,
   "docs": 5,
   "sprints": 1,
   "links": 11
