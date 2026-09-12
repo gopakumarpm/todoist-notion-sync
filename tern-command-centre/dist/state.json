@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T06:50:46.552Z",
+ "generated": "2026-09-12T07:29:54.768Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -3857,6 +3857,18 @@
    "body": "# Live map\n\nThe Live panel of the command centre. Districts for the Corporate Centre and the four companies; agents bob in place; packets travel the curves of every recorded run (green done, blue running); cron rings tick on their owners (red when a schedule needs attention); gold tickets count tasks in \"doing\". A ticker cycles through everything that has happened across runs. Works at phone width (2×2 districts) and respects reduced-motion settings."
   },
   {
+   "id": "2026-09-12-notion-org-structure",
+   "title": "Tern Group — Org Structure in Notion (+ roster database)",
+   "type": "record",
+   "agent": "hannah-brooks",
+   "flow": "command-centre-refresh",
+   "date": "2026-09-12",
+   "path": "",
+   "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
+   "summary": "Org page under Tern Intelligence in Notion with the full tree, practices, cadence, rules and open decisions; Tern Group Roster database with all 100 people; company rows for Tern Academy, Tern Animal Health and Tern Health & Research.",
+   "body": "# Tern Group — Org Structure in Notion\n\nCreated 12 Sep 2026 so the structure is readable by Max on every surface (mobile, Cowork, Mac) through the Notion connector. The roster database mirrors `employees/ROSTER.md`; the org page mirrors `charter/ORG-CHART.md`. Refresh both after any hire, promotion or transfer."
+  },
+  {
    "id": "2026-09-12-state-of-the-group-film",
    "title": "State of the Group — film (Remotion)",
    "type": "film",
@@ -4177,6 +4189,12 @@
   },
   {
    "group": "Records",
+   "title": "Notion · Tern Group — Org Structure",
+   "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
+   "note": "Full structure + Tern Group Roster database (100 rows); readable by Max on every surface via the Notion connector"
+  },
+  {
+   "group": "Records",
    "title": "Tern Intelligence / charter (Drive)",
    "url": "https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD",
    "note": "ORG-CHART.md · REVIEW-CADENCE.md · reviews/"
@@ -4235,10 +4253,10 @@
   "skills": 89,
   "flows": 5,
   "crons": 7,
-  "generations": 7,
+  "generations": 8,
   "docs": 5,
   "sprints": 1,
-  "links": 11
+  "links": 12
  },
  "_agentIndex": 100,
  "mode": "static"

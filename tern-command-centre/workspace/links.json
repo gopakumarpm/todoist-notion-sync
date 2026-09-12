@@ -1,13 +1,74 @@
 [
-  { "group": "Command centre", "title": "Tern OS Command Centre (published snapshot)", "url": "https://claude.ai/code/artifact/932a6090-6c9f-4d1c-81fe-f4e0bfa8252c", "note": "Static export of this workspace; republish with build-static.js" },
-  { "group": "Command centre", "title": "claude.ai Routines", "url": "https://claude.ai/code/routines", "note": "Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached" },
-  { "group": "Records", "title": "Tern Intelligence / charter (Drive)", "url": "https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD", "note": "ORG-CHART.md · REVIEW-CADENCE.md · reviews/" },
-  { "group": "Records", "title": "Tern Intelligence / employees (Drive)", "url": "https://drive.google.com/drive/folders/1hdaC7MAvSbTwFGPuh2gYHIAYtmW03GL0", "note": "ROSTER.md — 100 rows" },
-  { "group": "Records", "title": "Tern Intelligence / logs (Drive)", "url": "https://drive.google.com/drive/folders/1m2yQMs2RYG2p_OtwtPDvBOH6Fh4UpLux", "note": "HIRING-LOG.md" },
-  { "group": "Records", "title": "Gopa Vault (Drive mirror of Obsidian)", "url": "https://drive.google.com/drive/folders/1mJinYEVGFjkB5sY_0v6UgpJOpegl5ura", "note": "PARA vault; Obsidian Sync carries it to Surface, Mac, iPhone" },
-  { "group": "Records", "title": "Tern OS / MAX-PROJECT-PACK (Drive)", "url": "https://drive.google.com/drive/folders/1GKmUfFouH1rCkT2fjJIMFFaqZCmQAinB", "note": "Max system instructions v2, company context, roster" },
-  { "group": "Live products", "title": "Taurus Ops Dashboard (HDFC Ergo MIS)", "url": "https://insurance-taurus-dashboard.netlify.app", "note": "" },
-  { "group": "Live products", "title": "FeatherQuest", "url": "https://featherquest.netlify.app", "note": "Aarshi's study-rewards app — Tern Academy" },
-  { "group": "Family", "title": "Notion · Pluto & Bannu", "url": "https://www.notion.so", "note": "Diet, weights, moults, vet visits — Tern Animal Health's working record" },
-  { "group": "Family", "title": "Notion · Family Tasks", "url": "https://www.notion.so", "note": "" }
+  {
+    "group": "Command centre",
+    "title": "Tern OS Command Centre (published snapshot)",
+    "url": "https://claude.ai/code/artifact/932a6090-6c9f-4d1c-81fe-f4e0bfa8252c",
+    "note": "Static export of this workspace; republish with build-static.js"
+  },
+  {
+    "group": "Command centre",
+    "title": "claude.ai Routines",
+    "url": "https://claude.ai/code/routines",
+    "note": "Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached"
+  },
+  {
+    "group": "Records",
+    "title": "Notion · Tern Group — Org Structure",
+    "url": "https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423",
+    "note": "Full structure + Tern Group Roster database (100 rows); readable by Max on every surface via the Notion connector"
+  },
+  {
+    "group": "Records",
+    "title": "Tern Intelligence / charter (Drive)",
+    "url": "https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD",
+    "note": "ORG-CHART.md · REVIEW-CADENCE.md · reviews/"
+  },
+  {
+    "group": "Records",
+    "title": "Tern Intelligence / employees (Drive)",
+    "url": "https://drive.google.com/drive/folders/1hdaC7MAvSbTwFGPuh2gYHIAYtmW03GL0",
+    "note": "ROSTER.md — 100 rows"
+  },
+  {
+    "group": "Records",
+    "title": "Tern Intelligence / logs (Drive)",
+    "url": "https://drive.google.com/drive/folders/1m2yQMs2RYG2p_OtwtPDvBOH6Fh4UpLux",
+    "note": "HIRING-LOG.md"
+  },
+  {
+    "group": "Records",
+    "title": "Gopa Vault (Drive mirror of Obsidian)",
+    "url": "https://drive.google.com/drive/folders/1mJinYEVGFjkB5sY_0v6UgpJOpegl5ura",
+    "note": "PARA vault; Obsidian Sync carries it to Surface, Mac, iPhone"
+  },
+  {
+    "group": "Records",
+    "title": "Tern OS / MAX-PROJECT-PACK (Drive)",
+    "url": "https://drive.google.com/drive/folders/1GKmUfFouH1rCkT2fjJIMFFaqZCmQAinB",
+    "note": "Max system instructions v2, company context, roster"
+  },
+  {
+    "group": "Live products",
+    "title": "Taurus Ops Dashboard (HDFC Ergo MIS)",
+    "url": "https://insurance-taurus-dashboard.netlify.app",
+    "note": ""
+  },
+  {
+    "group": "Live products",
+    "title": "FeatherQuest",
+    "url": "https://featherquest.netlify.app",
+    "note": "Aarshi's study-rewards app — Tern Academy"
+  },
+  {
+    "group": "Family",
+    "title": "Notion · Pluto & Bannu",
+    "url": "https://www.notion.so",
+    "note": "Diet, weights, moults, vet visits — Tern Animal Health's working record"
+  },
+  {
+    "group": "Family",
+    "title": "Notion · Family Tasks",
+    "url": "https://www.notion.so",
+    "note": ""
+  }
 ]
