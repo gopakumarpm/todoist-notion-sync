@@ -1,140 +1,174 @@
 {
-  "name": "Command Centre refresh",
-  "description": "Say \"refresh the command centre\": Max rescans the records, updates this workspace, exports the static build and republishes the artifact to the same link.",
-  "trigger": "request",
-  "owner": "max",
-  "steps": [
+ "name": "Command Centre refresh",
+ "description": "Say \"refresh the command centre\": Max rescans the records, updates this workspace, exports the static build and republishes the artifact to the same link.",
+ "trigger": "request",
+ "owner": "max",
+ "steps": [
+  {
+   "id": "roster",
+   "name": "Scan roster & org chart",
+   "agent": "hannah-brooks",
+   "kind": "gather",
+   "detail": "employees/ROSTER.md → workspace/agents (scripts/seed.js)"
+  },
+  {
+   "id": "vault",
+   "name": "Scan vault & Notion",
+   "agent": "hannah-brooks",
+   "kind": "gather",
+   "detail": "Projects, areas, open items → docs/, sprints/, generations/"
+  },
+  {
+   "id": "build",
+   "name": "Build static",
+   "agent": "aarav-mehta",
+   "kind": "produce",
+   "detail": "node build-static.js → dist/index.html"
+  },
+  {
+   "id": "publish",
+   "name": "Publish",
+   "agent": "max",
+   "kind": "deliver",
+   "detail": "Artifact 932a6090… republished; vault note updated"
+  }
+ ],
+ "runs": [
+  {
+   "id": "2026-09-12-v3.1",
+   "name": "v3.1 — Live map + film + vault/pack refresh",
+   "started": "2026-09-12T11:30:00+05:30",
+   "ended": "2026-09-12T13:00:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar",
+   "steps": [
     {
-      "id": "roster",
-      "name": "Scan roster & org chart",
-      "agent": "hannah-brooks",
-      "kind": "gather",
-      "detail": "employees/ROSTER.md → workspace/agents (scripts/seed.js)"
+     "id": "roster",
+     "status": "skipped",
+     "ms": 0,
+     "note": "roster unchanged"
     },
     {
-      "id": "vault",
-      "name": "Scan vault & Notion",
-      "agent": "hannah-brooks",
-      "kind": "gather",
-      "detail": "Projects, areas, open items → docs/, sprints/, generations/"
+     "id": "vault",
+     "status": "done",
+     "ms": 900,
+     "note": "Tern OS, Projects Index, Home, Command Centre notes; Max pack (instructions, context, README, skill)"
     },
     {
-      "id": "build",
-      "name": "Build static",
-      "agent": "aarav-mehta",
-      "kind": "produce",
-      "detail": "node build-static.js → dist/index.html"
+     "id": "build",
+     "status": "done",
+     "ms": 400,
+     "note": "dist/artifact.html + state.json; video rendered (46 s)"
     },
     {
-      "id": "publish",
-      "name": "Publish",
-      "agent": "max",
-      "kind": "deliver",
-      "detail": "Artifact 932a6090… republished; vault note updated"
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "Version 9"
     }
-  ],
-  "runs": [
+   ]
+  },
+  {
+   "id": "2026-09-12",
+   "name": "v3 — file-based workspace",
+   "started": "2026-09-12T10:00:00+05:30",
+   "ended": "2026-09-12T11:30:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar",
+   "steps": [
     {
-      "id": "2026-09-12-v3.1",
-      "name": "v3.1 — Live map + film + vault/pack refresh",
-      "started": "2026-09-12T11:30:00+05:30",
-      "ended": "2026-09-12T13:00:00+05:30",
-      "status": "done",
-      "trigger": "Gopakumar",
-      "steps": [
-        {
-          "id": "roster",
-          "status": "skipped",
-          "ms": 0,
-          "note": "roster unchanged"
-        },
-        {
-          "id": "vault",
-          "status": "done",
-          "ms": 900,
-          "note": "Tern OS, Projects Index, Home, Command Centre notes; Max pack (instructions, context, README, skill)"
-        },
-        {
-          "id": "build",
-          "status": "done",
-          "ms": 400,
-          "note": "dist/artifact.html + state.json; video rendered (46 s)"
-        },
-        {
-          "id": "publish",
-          "status": "done",
-          "ms": 200,
-          "note": "Version 9"
-        }
-      ]
+     "id": "roster",
+     "status": "done",
+     "ms": 500,
+     "note": "100 agents, 89 skills seeded"
     },
     {
-      "id": "2026-09-12",
-      "name": "v3 — file-based workspace",
-      "started": "2026-09-12T10:00:00+05:30",
-      "ended": "2026-09-12T11:30:00+05:30",
-      "status": "done",
-      "trigger": "Gopakumar",
-      "steps": [
-        {
-          "id": "roster",
-          "status": "done",
-          "ms": 500,
-          "note": "100 agents, 89 skills seeded"
-        },
-        {
-          "id": "vault",
-          "status": "done",
-          "ms": 800,
-          "note": "5 docs, 5 flows, 7 crons, sprint S37"
-        },
-        {
-          "id": "build",
-          "status": "done",
-          "ms": 300,
-          "note": "dist/index.html"
-        },
-        {
-          "id": "publish",
-          "status": "done",
-          "ms": 200,
-          "note": "Version 7"
-        }
-      ]
+     "id": "vault",
+     "status": "done",
+     "ms": 800,
+     "note": "5 docs, 5 flows, 7 crons, sprint S37"
     },
     {
-      "id": "2026-09-12-v2",
-      "name": "v2 — bridge layout",
-      "started": "2026-09-12T08:30:00+05:30",
-      "ended": "2026-09-12T09:30:00+05:30",
-      "status": "done",
-      "trigger": "Gopakumar",
-      "steps": [
-        {
-          "id": "roster",
-          "status": "done",
-          "ms": 400,
-          "note": ""
-        },
-        {
-          "id": "vault",
-          "status": "done",
-          "ms": 600,
-          "note": ""
-        },
-        {
-          "id": "build",
-          "status": "done",
-          "ms": 300,
-          "note": ""
-        },
-        {
-          "id": "publish",
-          "status": "done",
-          "ms": 200,
-          "note": "Version 6"
-        }
-      ]
+     "id": "build",
+     "status": "done",
+     "ms": 300,
+     "note": "dist/index.html"
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "Version 7"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-09-12-v2",
+   "name": "v2 — bridge layout",
+   "started": "2026-09-12T08:30:00+05:30",
+   "ended": "2026-09-12T09:30:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar",
+   "steps": [
+    {
+     "id": "roster",
+     "status": "done",
+     "ms": 400,
+     "note": ""
+    },
+    {
+     "id": "vault",
+     "status": "done",
+     "ms": 600,
+     "note": ""
+    },
+    {
+     "id": "build",
+     "status": "done",
+     "ms": 300,
+     "note": ""
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "Version 6"
+    }
+   ]
+  },
+  {
+   "id": "2026-09-12-cowork-skills",
+   "name": "Cowork skills — org structure as an account skill",
+   "started": "2026-09-12T14:00:00+05:30",
+   "ended": "2026-09-12T14:45:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar: org structure and skills missing in Cowork on the Mac",
+   "steps": [
+    {
+     "id": "roster",
+     "status": "done",
+     "ms": 300,
+     "note": "roster unchanged; references generated from workspace"
+    },
+    {
+     "id": "vault",
+     "status": "done",
+     "ms": 500,
+     "note": "docs/surfaces, generation cowork-skills, sprint task cowork-skills, 2 links"
+    },
+    {
+     "id": "build",
+     "status": "done",
+     "ms": 400,
+     "note": "build-static + build-skills → dist/skills/tern-group.zip, command-centre.zip; .claude/skills mirrored"
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "artifact republished; zips copied to Drive MAX-PROJECT-PACK; upload to Customize is Gopakumar's step"
+    }
+   ]
+  }
+ ]
 }

@@ -5,7 +5,7 @@ company: Tern Intelligence
 reports_to: diego-santos
 lead: true
 status: active
-skills: []
+skills: [data-analyst, dashboard-builder, automation-designer, streamlit-builder, chief-data-officer-advisor]
 model: fable
 ---
 

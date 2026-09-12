@@ -7,6 +7,18 @@
   },
   {
     "group": "Command centre",
+    "title": "Skills for Cowork (tern-group.zip · command-centre.zip)",
+    "url": "https://github.com/gopakumarpm/todoist-notion-sync/tree/claude/company-org-structure-gusxlh/tern-command-centre/dist/skills",
+    "note": "Upload once in the desktop app: Customize → Skills. Also in Drive MAX-PROJECT-PACK. Rebuild with scripts/build-skills.js"
+  },
+  {
+    "group": "Command centre",
+    "title": "claude.ai Skills settings (Customize)",
+    "url": "https://claude.ai/settings/capabilities",
+    "note": "The only skills Cowork loads are the ones enabled here"
+  },
+  {
+    "group": "Command centre",
     "title": "claude.ai Routines",
     "url": "https://claude.ai/code/routines",
     "note": "Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached"

@@ -59,6 +59,16 @@ npm run render                       # → video/out/tern-group-state.mp4 (1920�
 
 If Remotion cannot launch your Chrome, add `--browser-executable=<path> --chrome-mode=chrome-for-testing` to the render command.
 
-## Install into Tern OS
+## Install into Tern OS (Claude Code on the Mac)
 
-Copy this folder next to `tern-plugin/` in the Tern OS folder, copy `skill/command-centre/` into `.claude/skills/`, and add one line to Max's system instructions: *"Keep `tern-command-centre/workspace/` current per the command-centre skill."*
+Copy this folder next to `tern-plugin/` in the Tern OS folder, copy `skill/command-centre/` and `skill/tern-group/` into `.claude/skills/`, and add one line to Max's system instructions: *"Keep `tern-command-centre/workspace/` current per the command-centre skill."*
+
+## Make it available in Cowork, claude.ai and cloud sessions
+
+Cowork loads **only the skills enabled on the claude.ai account** (Desktop app → Customize → Skills); it never reads `tern-os/.claude/skills` or `~/.claude/skills`. So the org structure travels as a skill:
+
+```bash
+node scripts/build-skills.js   # → skill/tern-group/references/*.md, .claude/skills/{tern-group,command-centre} at the repo root, dist/skills/*.zip
+```
+
+Upload `dist/skills/tern-group.zip` and `dist/skills/command-centre.zip` once in the desktop app (sidebar **Customize → Skills**, same page as claude.ai → Settings → Capabilities → Skills), then start a new Cowork session. Re-run the script and re-upload after any roster change. Cloud sessions and Routines on this repo pick the skills up from `.claude/skills/` without an upload. Full map of surfaces: `workspace/docs/surfaces.md`.

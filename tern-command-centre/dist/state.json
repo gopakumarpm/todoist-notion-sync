@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T07:29:54.768Z",
+ "generated": "2026-09-12T13:43:12.266Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -913,7 +913,13 @@
    "reports_to": "diego-santos",
    "lead": true,
    "status": "active",
-   "skills": [],
+   "skills": [
+    "data-analyst",
+    "dashboard-builder",
+    "automation-designer",
+    "streamlit-builder",
+    "chief-data-officer-advisor"
+   ],
    "model": "fable",
    "hired": "",
    "updated": "2026-09-12",
@@ -2042,7 +2048,9 @@
    ],
    "updated": "2026-09-12",
    "body": "# automation-designer\n\nNo-code workflow design for n8n, Make.com and Zapier\n\nSource: `tern-os/.claude/skills/automation-designer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
-   "used_by": []
+   "used_by": [
+    "liam-o-brien"
+   ]
   },
   {
    "id": "bd-consultant",
@@ -2182,7 +2190,9 @@
    ],
    "updated": "2026-09-12",
    "body": "# chief-data-officer-advisor\n\nData product strategy: warehouse vs lakehouse vs mesh, training-data rights\n\nSource: `tern-os/.claude/skills/chief-data-officer-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
-   "used_by": []
+   "used_by": [
+    "liam-o-brien"
+   ]
   },
   {
    "id": "chief-of-staff",
@@ -2405,6 +2415,7 @@
    "body": "# dashboard-builder\n\nInteractive HTML or Excel dashboards for analysts and business users\n\nSource: `tern-os/.claude/skills/dashboard-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "felix-andersson",
+    "liam-o-brien",
     "neha-joshi"
    ]
   },
@@ -2418,7 +2429,8 @@
    "updated": "2026-09-12",
    "body": "# data-analyst\n\nStructured & unstructured data analysis and summarization\n\nSource: `tern-os/.claude/skills/data-analyst`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
-    "felix-andersson"
+    "felix-andersson",
+    "liam-o-brien"
    ]
   },
   {
@@ -2966,7 +2978,9 @@
    ],
    "updated": "2026-09-12",
    "body": "# streamlit-builder\n\nStreamlit data apps and internal tools with auth and DB integration\n\nSource: `tern-os/.claude/skills/streamlit-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
-   "used_by": []
+   "used_by": [
+    "liam-o-brien"
+   ]
   },
   {
    "id": "teacher",
@@ -3311,6 +3325,40 @@
        "status": "done",
        "ms": 200,
        "note": "Version 6"
+      }
+     ]
+    },
+    {
+     "id": "2026-09-12-cowork-skills",
+     "name": "Cowork skills — org structure as an account skill",
+     "started": "2026-09-12T14:00:00+05:30",
+     "ended": "2026-09-12T14:45:00+05:30",
+     "status": "done",
+     "trigger": "Gopakumar: org structure and skills missing in Cowork on the Mac",
+     "steps": [
+      {
+       "id": "roster",
+       "status": "done",
+       "ms": 300,
+       "note": "roster unchanged; references generated from workspace"
+      },
+      {
+       "id": "vault",
+       "status": "done",
+       "ms": 500,
+       "note": "docs/surfaces, generation cowork-skills, sprint task cowork-skills, 2 links"
+      },
+      {
+       "id": "build",
+       "status": "done",
+       "ms": 400,
+       "note": "build-static + build-skills → dist/skills/tern-group.zip, command-centre.zip; .claude/skills mirrored"
+      },
+      {
+       "id": "publish",
+       "status": "done",
+       "ms": 200,
+       "note": "artifact republished; zips copied to Drive MAX-PROJECT-PACK; upload to Customize is Gopakumar's step"
       }
      ]
     }
@@ -3845,6 +3893,18 @@
    "body": "# Tern OS Command Centre (published snapshot)\n\nThe artifact link always shows the last `build-static.js` export. The live version runs locally with `node server.js` and re-reads the workspace every few seconds."
   },
   {
+   "id": "2026-09-12-cowork-skills",
+   "title": "tern-group and command-centre skills packaged for Cowork",
+   "type": "app",
+   "agent": "aarav-mehta",
+   "flow": "command-centre-refresh",
+   "date": "2026-09-12",
+   "path": "tern-command-centre/dist/skills/tern-group.zip · command-centre.zip · .claude/skills/",
+   "url": "",
+   "summary": "Two uploadable skills so Max carries the 11 Sep org structure, the 100-person roster, the 89-skill catalogue and the command-centre conventions on Cowork, claude.ai, mobile and cloud sessions. Built by scripts/build-skills.js from this workspace; mirrored into the repo's .claude/skills for cloud sessions; copies placed in the MAX-PROJECT-PACK folder in Drive.",
+   "body": "# tern-group and command-centre skills packaged for Cowork\n\nGopakumar reported on 12 Sep that the new org structure and related skills were not available in Cowork on the Mac. Cause: Cowork loads only the skills enabled on the claude.ai account, never `tern-os/.claude/skills` or `~/.claude/skills` (see `docs/surfaces`). Fix: package the structure as an account skill.\n\n- `skill/tern-group/` — SKILL.md plus generated references (org tree, roster, skills catalogue, rules and cadence, where things live).\n- `skill/command-centre/` — unchanged conventions, now also zipped.\n- `scripts/build-skills.js` — regenerates the references, mirrors both into `.claude/skills/` at the repo root, writes `dist/skills/*.zip`.\n\nRemaining step for Gopakumar: upload the two zips once in the desktop app (Customize → Skills); tracked as sprint task `cowork-skills`."
+  },
+  {
    "id": "2026-09-12-live-map",
    "title": "Live map — animated view of the group",
    "type": "app",
@@ -3975,12 +4035,33 @@
     "safety"
    ],
    "body": "# Rules every agent carries\n\n## Safety\n- **Healthcare** supports care and prepares the family for the doctor. It never replaces a licensed physician: no diagnosis, no prescribing. Emergencies → **112 / 108** first.\n- **Animal Health** advises and prepares. Any acute sign in Pluto or Bannu (fluffed, tail-bobbing, off food, bleeding, laboured breathing) → **same-day licensed avian vet in Pune**.\n- **Research** is advisory only. Ethics approval before any human-subject study. Every claim cited.\n- **MedTech** concepts stay research-grade until a regulatory pathway (CDSCO / FDA / CE) and a risk file exist.\n\n## Organisation\n- Everyone has exactly one line manager. Practices are matrix teams: an executive sponsor, a practice lead, members keep their line.\n- **Reuse before hire.** A new role needs a reuse check by the Group CHRO.\n- Every hire, promotion and transfer updates `ROSTER.md`, `HIRING-LOG.md` and `ORG-CHART.md` the same day, and gets an agent file.\n- Gender balance stays 50 / 50; names rotate Indian / global.\n\n## Working with Gopakumar\n- Max is the single voice. Companies report to Max; Max reports to Gopakumar.\n- Decisions above a role are escalated, never assumed. Open decisions are listed in `docs/open-decisions` and section 14 of the weekly report."
+  },
+  {
+   "id": "surfaces",
+   "title": "Where Max runs and what each surface loads",
+   "updated": "2026-09-12",
+   "tags": [
+    "conventions",
+    "surfaces",
+    "cowork"
+   ],
+   "body": "# Where Max runs and what each surface loads\n\nThe org structure and the tern-os skills are files. Each surface Max runs on reads a different set of files, so \"it exists\" is not the same as \"Max can see it here\". This is the map.\n\n| Surface | Skills it loads | Sees the Tern OS folder? | How the org structure reaches it |\n|---|---|---|---|\n| **Claude Code on the Mac** (Tern OS folder open) | `tern-os/.claude/skills/*` (all 89), `tern-plugin` agents, `~/.claude/skills` | Yes | ORG-CHART.md, ROSTER.md, the command-centre workspace, the `command-centre` skill |\n| **Cowork on the Mac** (Desktop app, Cowork tab) | **Only skills and plugins enabled for the claude.ai account** (Desktop sidebar → Customize, or claude.ai → Settings → Capabilities → Skills). It does **not** read `~/.claude/skills` or a project's `.claude/skills` | Only the folder picked for the session, as plain files | The `tern-group` skill (uploaded once), the Notion org page via the Notion connector, and the Tern OS folder if it is picked for the session |\n| **claude.ai / iPhone** (project \"Max — Tern Group\") | Account skills; no plugin skills | No | Project instructions + `COMPANY-CONTEXT.md`, `ROSTER.md` in the MAX-PROJECT-PACK; the `tern-group` skill |\n| **Cloud sessions and Routines** (claude.ai/code, Weekly Group Review) | Account skills **plus** `.claude/skills/` committed in the cloned repo | The repo only | `.claude/skills/tern-group` and `.claude/skills/command-centre` in `gopakumarpm/todoist-notion-sync`; Drive and Notion connectors |\n\n## Why the new org structure was missing in Cowork\n\nCowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. The only skills it had were the ones enabled on the claude.ai account (teacher, legal-advisor, bd-consultant, remotion, data-report-generator and the Anthropic examples), none of which carry the 11 Sep structure. The Notion org page is reachable, but only if Max is told to look there.\n\n## The fix (two uploads, once)\n\n1. Get the zips: `tern-command-centre/dist/skills/tern-group.zip` and `command-centre.zip` (regenerate with `node scripts/build-skills.js`; also copied to the MAX-PROJECT-PACK folder in Drive).\n2. Claude desktop app → sidebar **Customize** → **Skills** → add / upload → pick `tern-group.zip`; repeat for `command-centre.zip`. The same page exists at claude.ai → Settings → Capabilities → Skills.\n3. Start a new Cowork session. Both skills are synced at session start; ask Max \"who owns X?\" or \"refresh the command centre\" to confirm.\n4. Optional: pick the Tern OS folder as the Cowork session folder so Max can also read `tern-command-centre/workspace/` and the full skill bodies as files.\n\n## What the `tern-group` skill carries\n\n`SKILL.md` (routing, companies, front doors, rules) and `references/`: `org-structure.md`, `roster.md` (100 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: `seed.js` → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork keeps the previous version.\n\n## Not fixed by this\n\nThe 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS folder open. In Cowork Max works from the one-line summary and the carrier's mandate, or reads the SKILL.md as a file if the folder is picked. Uploading each of the 89 as an account skill is possible but is a separate decision (Ananya Iyer to propose the first five in the weekly review)."
   }
  ],
  "sprints": [
   {
    "id": "2026-S37",
    "tasks": [
+    {
+     "id": "cowork-skills",
+     "title": "Upload tern-group.zip and command-centre.zip in the desktop app (Customize → Skills) so Cowork sees the org structure",
+     "owner": "gopakumar",
+     "company": "Group",
+     "status": "todo",
+     "priority": "P0",
+     "due": "2026-09-13",
+     "notes": "Zips in tern-command-centre/dist/skills and in Drive MAX-PROJECT-PACK. Then start a new Cowork session and ask Max \"who owns X?\". Why: Cowork loads only account skills — docs/surfaces."
+    },
     {
      "id": "agent-files-thr",
      "title": "Create the 56 THR agent files in tern-plugin/agents and refresh the plugin",
@@ -4183,6 +4264,18 @@
   },
   {
    "group": "Command centre",
+   "title": "Skills for Cowork (tern-group.zip · command-centre.zip)",
+   "url": "https://github.com/gopakumarpm/todoist-notion-sync/tree/claude/company-org-structure-gusxlh/tern-command-centre/dist/skills",
+   "note": "Upload once in the desktop app: Customize → Skills. Also in Drive MAX-PROJECT-PACK. Rebuild with scripts/build-skills.js"
+  },
+  {
+   "group": "Command centre",
+   "title": "claude.ai Skills settings (Customize)",
+   "url": "https://claude.ai/settings/capabilities",
+   "note": "The only skills Cowork loads are the ones enabled here"
+  },
+  {
+   "group": "Command centre",
    "title": "claude.ai Routines",
    "url": "https://claude.ai/code/routines",
    "note": "Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached"
@@ -4253,10 +4346,10 @@
   "skills": 89,
   "flows": 5,
   "crons": 7,
-  "generations": 8,
-  "docs": 5,
+  "generations": 9,
+  "docs": 6,
   "sprints": 1,
-  "links": 12
+  "links": 14
  },
  "_agentIndex": 100,
  "mode": "static"

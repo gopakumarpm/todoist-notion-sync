@@ -26,7 +26,7 @@ const SKILLS = {
   'sneha-pillai': ['coo-advisor', 'senior-pm', 'scrum-master', 'pm-skills', 'change-management'],
   'rohan-kapoor': ['sales', 'cro-advisor', 'bd-consultant', 'email-writer'],
   'ethan-cole': ['cpo-advisor', 'frontend-design', 'mobile-app-builder', 'website-builder', 'brainstorming'],
-  'liam-obrien': ['data-analyst', 'dashboard-builder', 'automation-designer', 'streamlit-builder', 'chief-data-officer-advisor'],
+  'liam-o-brien': ['data-analyst', 'dashboard-builder', 'automation-designer', 'streamlit-builder', 'chief-data-officer-advisor'],
   'arjun-khanna': ['ciso-advisor'],
   'grace-liu': ['app-builder', 'api-builder', 'agent-protocol'],
   'lucas-meyer': ['mobile-app-builder'],
