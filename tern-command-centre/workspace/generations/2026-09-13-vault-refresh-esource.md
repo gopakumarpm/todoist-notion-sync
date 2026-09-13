@@ -4,13 +4,13 @@ type: vault
 agent: hannah-brooks
 flow: command-centre-refresh
 date: 2026-09-13
-path: Gopa Vault (Drive mirror) · 02 Areas/eSource · Projects/Tern Group — Org Chart · Attachments/tern-group-org-chart-2026-09-12.jpg
-summary: Two new notes (eSource area, Org Chart project with the embedded diagram) and eight rewritten notes (Home, Areas and Projects indexes, Tern Group, Tern Academy, Org Structure, Command Centre, e-Source Consultancy) bringing the vault to 112 people, five companies, nine practices. Previous versions kept beside them as .bak files.
+path: Gopa Vault (Drive mirror) · 02 Areas/eSource · Projects/Tern Group — Org Chart · Attachments/ (empty; JPEG sent to Gopakumar for a local copy)
+summary: Two new notes (eSource area, Org Chart project with the embedded diagram) and eight rewritten notes (Home, Areas and Projects indexes, Tern Group, Tern Academy, Org Structure, Command Centre, e-Source Consultancy) bringing the vault to 112 people, five companies, nine practices. The diagram is embedded from the hosted PNG in the repo; previous versions kept beside the new notes as .bak files.
 ---
 
 # Obsidian vault refresh — 13 Sep 2026
 
-New: `02 Areas/eSource.md`, `Projects/Tern Group — Org Chart.md`, `Attachments/tern-group-org-chart-2026-09-12.jpg`.
+New: `02 Areas/eSource.md`, `Projects/Tern Group — Org Chart.md`, an empty `Attachments/` folder. The org chart is embedded from the hosted PNG (`dist/org-chart.png` on the repo branch); the Drive connector could not carry the 122 KB JPEG, so it was sent to Gopakumar to drop into `Attachments/` if an offline copy is wanted.
 
 Rewritten: `Home.md`, `02 Areas/_Areas Index.md`, `02 Areas/Tern Group.md` (chart embedded, eSource, 12 Sep decisions, open items), `02 Areas/Tern Academy.md` (EdTech team of five, PrepShrep, dated tasks), `Projects/_Projects Index.md` (Org Chart row, eSource section, TalentNova absorbed), `Projects/Tern Group — Org Structure.md` (tree with EdTech team and eSource, practices, headcount 112, what happened on 12 Sep), `Projects/Tern OS Command Centre.md` (v3.2), `Projects/e-Source Consultancy.md` (graduated banner pointing to the eSource area).
 
