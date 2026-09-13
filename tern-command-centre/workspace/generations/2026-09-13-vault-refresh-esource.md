@@ -19,3 +19,5 @@ Written to the Drive mirror of the vault from a cloud session; the Mac picks it 
 ## Graph view coloured (13 Sep, later)
 
 `.obsidian/graph.json` replaced with 15 colour groups (eSource orange, Tern companies deep teal, `#tern` teal, Areas green, Projects blue, Daily yellow, Inbox red, Knowledge purple, Resources cyan, Notion pink, Activity brown, AI Identity magenta, Archive grey, system slate, Home gold), tags shown, nodes at 1.2×. Previous settings kept as `graph.json.2026-09-13.bak`. Legend written into `Projects/Obsidian Second Brain.md`. A copy of the settings is in `workspace/docs/obsidian-graph.json` for the Mac migration.
+
+Confirmed by Gopakumar on 13 Sep: the coloured graph shows on the Surface, the Mac and the iPhone (Obsidian Sync carries `graph.json` as a core plugin setting). One device had overwritten the file with its old in-memory settings once; the replication steps are written into `Projects/Obsidian Second Brain.md`.
