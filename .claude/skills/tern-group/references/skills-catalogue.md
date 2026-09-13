@@ -1,4 +1,4 @@
-# tern-os skills catalogue (89 skills, generated 2026-09-12)
+# tern-os skills catalogue (89 skills, generated 2026-09-13)
 
 Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Claude Code loads it there). On other surfaces Max works from this summary and the carrier's mandate. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).
 

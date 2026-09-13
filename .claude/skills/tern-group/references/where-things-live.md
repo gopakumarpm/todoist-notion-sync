@@ -1,4 +1,4 @@
-# Where things live (generated 2026-09-12)
+# Where things live (generated 2026-09-13)
 
 ## Records of truth
 - **ORG-CHART.md, ROSTER.md, HIRING-LOG.md** — Google Drive, `Tern Intelligence/charter`, `employees`, `logs` (links below). Updated the same day as any hire, promotion or transfer.
@@ -29,7 +29,11 @@ Cowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. 
 
 ## What the `tern-group` skill carries
 
-`SKILL.md` (routing, companies, front doors, rules) and `references/`: `org-structure.md`, `roster.md` (100 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: `seed.js` → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork keeps the previous version.
+`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (112 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.
+
+## iPhone
+
+The Claude iPhone app loads the same account skills as Cowork (claude.ai → Settings → Capabilities → Skills). Upload `tern-group.zip` and `command-centre.zip` there once and both phones see them; connectors (Notion, Drive, Todoist) work on the phone too, so Max can read the Notion org page and roster database and update Notion from the phone. The Tern OS folder and the repo are not reachable from the phone; file changes wait for the next Mac or cloud session (the `command-centre` skill says how to sync).
 
 ## Not fixed by this
 

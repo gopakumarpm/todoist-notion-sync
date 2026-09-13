@@ -1,0 +1,311 @@
+<title>Tern Group Org Chart</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{
+  --ground:#F6F4EE;--panel:#FFFFFF;--raise:#EEF2F7;--line:#C9D2DE;--line-soft:#E1E7EF;
+  --ink:#0C1B2E;--dim:#4E607A;--faint:#7E8DA3;
+  --navy:#0C1B2E;--blue:#2878CC;--gold:#B8912E;--gold-soft:#C9A43E;--new:#B8912E;--new-ink:#0C1B2E;
+  --c-group:#B8912E;--c-ti:#2878CC;--c-ta:#B4557A;--c-tah:#5E8F45;--c-thr:#3F86C4;--c-es:#C2681F;
+  --a-hc:#3F86C4;--a-r:#7A68C4;--a-mt:#2E8C7E;--a-sh:#7E8DA3;
+  --disp:'Montserrat',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0A1523;--panel:#0F1F33;--raise:#16304C;--line:#2A4664;--line-soft:#1B3149;
+    --ink:#E8EDF4;--dim:#9FB0C6;--faint:#6F8299;
+    --gold:#C9A43E;--gold-soft:#E3C878;--new:#C9A43E;--new-ink:#0A1523;
+    --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;
+    --a-hc:#7FB6E8;--a-r:#A899E8;--a-mt:#5CBFAF;--a-sh:#8FA3BC;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0A1523;--panel:#0F1F33;--raise:#16304C;--line:#2A4664;--line-soft:#1B3149;
+  --ink:#E8EDF4;--dim:#9FB0C6;--faint:#6F8299;
+  --gold:#C9A43E;--gold-soft:#E3C878;--new:#C9A43E;--new-ink:#0A1523;
+  --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;
+  --a-hc:#7FB6E8;--a-r:#A899E8;--a-mt:#5CBFAF;--a-sh:#8FA3BC;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.45;padding:0 20px;padding-block:28px 48px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1380px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:22px}
+.mark{font-family:var(--disp);font-weight:800;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim)}
+.mark b{color:var(--gold)}
+h1{font-family:var(--disp);font-weight:700;font-size:26px;letter-spacing:-.01em;line-height:1.15;text-wrap:balance;margin-top:4px}
+.sub{color:var(--dim);font-size:13px;margin-top:6px;max-width:64ch}
+.stats{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--dim)}
+.stats b{display:block;font-size:22px;color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums;line-height:1.1}
+.stats span{font-family:var(--disp);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase}
+
+/* ---------- tree ---------- */
+.chart{overflow-x:auto;padding-bottom:6px}
+.tree{min-width:1380px}
+.tier{display:flex;justify-content:center}
+.node{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 16px;text-align:center;min-width:220px}
+.node .nm{font-family:var(--disp);font-weight:700;font-size:14px}
+.node .rl{font-size:12px;color:var(--dim)}
+.node.owner{border-color:var(--gold);border-width:1.5px}
+.node.md{border-color:var(--gold)}
+.node.md .nm{color:var(--gold)}
+.vline{width:1px;height:22px;background:var(--line);margin:0 auto}
+.cos{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;position:relative;padding-top:22px}
+.cos::before{content:"";position:absolute;top:0;left:8.33%;right:8.33%;height:1px;background:var(--line)}
+.co{position:relative;background:var(--panel);border:1px solid var(--line-soft);border-top:3px solid var(--c);border-radius:8px;padding:12px 12px 14px;min-width:0}
+.co::before{content:"";position:absolute;top:-23px;left:50%;width:1px;height:22px;background:var(--line)}
+.co .hd{font-family:var(--disp);font-weight:700;font-size:13.5px;line-height:1.2;color:var(--c)}
+.co .hd small{display:block;font-family:var(--mono);font-size:10px;font-weight:500;color:var(--faint);letter-spacing:.06em;margin-top:2px}
+.co .ceo{margin-top:8px;padding:7px 9px;border:1px solid var(--line);border-radius:5px;background:var(--raise)}
+.co .ceo b{display:block;font-weight:600;font-size:12.5px}.co .ceo span{font-size:11px;color:var(--dim)}
+.co .blurb{font-size:11.5px;color:var(--dim);margin-top:8px;line-height:1.4}
+
+/* nested people list with rails */
+ul.p{list-style:none;padding:0 0 0 12px;margin:8px 0 0;border-left:1px solid var(--line-soft);display:flex;flex-direction:column;gap:5px}
+ul.p ul.p{margin-top:5px}
+li.q{position:relative;font-size:12px;line-height:1.35}
+li.q::before{content:"";position:absolute;left:-12px;top:9px;width:8px;height:1px;background:var(--line-soft)}
+li.q b{font-weight:600}
+li.q span{color:var(--dim)}
+li.q .n{font-family:var(--mono);font-size:10.5px;color:var(--faint);white-space:nowrap}
+li.q .grp{color:var(--dim);font-size:11.5px}
+.arm{margin-top:9px;padding-left:9px;border-left:3px solid var(--ac)}
+.arm .ah{font-family:var(--disp);font-weight:700;font-size:11.5px;color:var(--ac);letter-spacing:.02em}
+.arm .ah small{font-family:var(--mono);font-weight:500;font-size:10px;color:var(--faint);margin-left:4px}
+.arm ul.p{margin-top:5px}
+
+/* the new team */
+.team{margin-top:8px;border:1.5px solid var(--gold);border-radius:6px;padding:8px 9px;background:var(--panel)}
+.team .th{font-family:var(--disp);font-size:9.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.team .lead{margin-top:4px;font-size:12.5px}.team .lead b{font-weight:700}.team .lead span{display:block;font-size:11.5px;color:var(--dim)}
+.team ul.p{border-left-color:var(--gold)}
+.team li.q::before{background:var(--gold)}
+.tag{display:inline-block;font-family:var(--disp);font-size:8.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:1px 6px;border-radius:999px;background:var(--new);color:var(--new-ink);vertical-align:2px;margin-left:4px}
+.tag.up{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+.team .lead span.tag{display:inline-block;font-size:8.5px;color:var(--gold)}
+.team .note{font-size:11px;color:var(--dim);margin-top:7px;line-height:1.4}
+.team .note b{color:var(--ink);font-weight:600}
+
+/* practices */
+h2{font-family:var(--disp);font-size:10.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--dim);margin:30px 0 10px}
+.prac{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.pr{background:var(--panel);border:1px solid var(--line-soft);border-radius:6px;padding:9px 11px;font-size:12px}
+.pr b{display:block;font-family:var(--disp);font-weight:700;font-size:12.5px;line-height:1.25}
+.pr span{display:block;color:var(--dim);font-size:11.5px;margin-top:3px}
+.pr.hot{border-color:var(--gold)}
+.pr.hot b{color:var(--gold)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:16px;font-size:11.5px;color:var(--dim)}
+.legend i{display:inline-block;width:14px;height:1px;background:var(--line);vertical-align:middle;margin-right:6px}
+.legend .sw{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:6px}
+footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
+@media (max-width:1440px){.cos{grid-template-columns:repeat(6,224px)}}
+@media (max-width:760px){.prac{grid-template-columns:1fr 1fr}}
+@media (max-width:460px){.prac{grid-template-columns:1fr}h1{font-size:22px}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <div class="mark"><b>TERN</b> GROUP · ORG CHART</div>
+    <h1>One owner, one Group MD, five companies</h1>
+    <p class="sub">As of 12 September 2026. Solid lines are line management; every person has exactly one. Added today, in gold: the EdTech team under Jonas Weber and eSource, the fifth company.</p>
+  </div>
+  <div class="stats">
+    <div><b>112</b><span>people</span></div>
+    <div><b>56 / 56</b><span>women / men</span></div>
+    <div><b>9</b><span>practices</span></div>
+    <div><b>+12</b><span>hired 12 Sep</span></div>
+  </div>
+</header>
+
+<div class="chart">
+<div class="tree">
+  <div class="tier"><div class="node owner"><div class="nm">Gopakumar</div><div class="rl">Founder, Owner &amp; Chairman</div></div></div>
+  <div class="vline"></div>
+  <div class="tier"><div class="node md"><div class="nm">Max</div><div class="rl">Group Managing Director · single point of contact</div></div></div>
+  <div class="vline"></div>
+
+  <div class="cos">
+
+    <!-- Corporate Centre -->
+    <section class="co" style="--c:var(--c-group)">
+      <div class="hd">Group Corporate Centre<small>11 · reports to Max</small></div>
+      <ul class="p">
+        <li class="q"><b>Hannah Brooks</b> <span>· Chief of Staff</span></li>
+        <li class="q"><b>Priya Nair</b> <span>· Group CFO</span></li>
+        <li class="q"><b>Vikram Desai</b> <span>· General Counsel</span>
+          <ul class="p"><li class="q">Amara Okonkwo <span>· AI Governance &amp; Audit</span></li></ul></li>
+        <li class="q"><b>Ananya Iyer</b> <span>· Group CHRO</span></li>
+        <li class="q"><b>Kavya Reddy</b> <span>· Research &amp; Strategy</span></li>
+        <li class="q"><b>Sofia Rossi</b> <span>· Group CMO</span>
+          <ul class="p"><li class="q">Riya Malhotra <span>· Social Media</span></li></ul></li>
+        <li class="q"><b>Maya Lindqvist</b> <span>· Content &amp; Editorial</span>
+          <ul class="p"><li class="q">Noah Bennett <span>· Video Producer</span></li></ul></li>
+      </ul>
+      <p class="blurb">Also holds <b>Tern Ventures</b> (0): Aarshi.in · Strings &amp; Wings. e-Source graduated as eSource today.</p>
+    </section>
+
+    <!-- Tern Intelligence -->
+    <section class="co" style="--c:var(--c-ti)">
+      <div class="hd">Tern Intelligence<small>18 · AI, contact centre, insurance</small></div>
+      <div class="ceo"><b>Diego Santos</b><span>CEO</span></div>
+      <ul class="p">
+        <li class="q"><b>Aarav Mehta</b> <span>· CTO, group technology provider</span>
+          <ul class="p">
+            <li class="q">Arjun Khanna <span>· CISO</span>
+              <ul class="p"><li class="q">Kabir Menon <span>· Security Engineer</span></li></ul></li>
+            <li class="q">Marcus Lee <span>· Network &amp; Infra Security</span></li>
+            <li class="q">Grace Liu <span>· AI Engineer</span></li>
+            <li class="q">Aditi Sharma <span>· AI Delivery Consultant</span></li>
+            <li class="q">Lucas Meyer <span>· Voice AI</span></li>
+          </ul></li>
+        <li class="q"><b>Sneha Pillai</b> <span>· COO, PMO</span>
+          <ul class="p">
+            <li class="q">Karthik Subramanian <span>· Quality &amp; Process</span>
+              <ul class="p"><li class="q">Meera Krishnan <span>· Insurance Trainer</span></li></ul></li>
+            <li class="q">Anjali Rao <span>· Call Centre Ops</span></li>
+          </ul></li>
+        <li class="q"><b>Rohan Kapoor</b> <span>· Sales &amp; BD</span>
+          <ul class="p">
+            <li class="q">Chloe Martin <span>· Customer Success</span></li>
+            <li class="q">Rajeev Bhatia <span>· Insurance Sales</span></li>
+          </ul></li>
+        <li class="q"><b>Ethan Cole</b> <span>· Chief Product &amp; Design Officer</span></li>
+        <li class="q"><b>Liam O'Brien</b> <span>· Data &amp; Automation</span>
+          <ul class="p"><li class="q">Neha Joshi <span>· BI Developer</span></li></ul></li>
+      </ul>
+    </section>
+
+    <!-- Tern Academy -->
+    <section class="co" style="--c:var(--c-ta)">
+      <div class="hd">Tern Academy<small>13 · was 9 yesterday</small></div>
+      <div class="ceo"><b>Dr. Sunita Raghavan</b><span>CEO &amp; Principal</span></div>
+      <ul class="p">
+        <li class="q"><span class="grp">Seven ICSE subject teachers</span>
+          <ul class="p">
+            <li class="q">Vinod Kulkarni <span>· Mathematics</span></li>
+            <li class="q">Elena Petrova <span>· Physics &amp; Chemistry</span></li>
+            <li class="q">Farah Siddiqui <span>· Biology</span></li>
+            <li class="q">Oliver Hughes <span>· English</span></li>
+            <li class="q">Manoj Deshpande <span>· Hindi &amp; Marathi</span></li>
+            <li class="q">Isabel Moreno <span>· History-Civics &amp; Geography</span></li>
+            <li class="q">Rohit Saxena <span>· Computer Applications</span></li>
+          </ul></li>
+      </ul>
+      <div class="team">
+        <div class="th">EdTech team · 12 Sep</div>
+        <div class="lead"><b>Jonas Weber</b><span class="tag up">elevated</span><span>Head of EdTech &amp; Learning Experience Design · EdTech Practice lead</span></div>
+        <ul class="p">
+          <li class="q"><b>Kavitha Ramanathan</b><span class="tag">new</span><br><span>Curriculum &amp; AI Content Lead</span></li>
+          <li class="q"><b>Tobias Lindgren</b><span class="tag">new</span><br><span>Mobile &amp; Full-stack Engineer</span></li>
+          <li class="q"><b>Hana Kobayashi</b><span class="tag">new</span><br><span>Product Designer &amp; Growth Lead</span></li>
+          <li class="q"><b>Pranav Bhatt</b><span class="tag">new</span><br><span>QA, Release &amp; Learning Analytics</span></li>
+        </ul>
+        <p class="note"><b>Products:</b> FeatherQuest · Orbit · PrepShrep. Security (Arjun, Kabir) and infrastructure (Aarav) come from Tern Intelligence; sponsor Ethan Cole.</p>
+      </div>
+    </section>
+
+    <!-- Tern Animal Health -->
+    <section class="co" style="--c:var(--c-tah)">
+      <div class="hd">Tern Animal Health<small>6 · Pluto &amp; Bannu, Pets / Vet / Avian</small></div>
+      <div class="ceo"><b>Dr. Nandini Bhat</b><span>CEO &amp; Chief Veterinary Officer</span></div>
+      <ul class="p">
+        <li class="q"><b>Dr. Tomás Alvarez</b> <span>· Companion Animal Vet</span></li>
+        <li class="q"><b>Lakshmi Venkatesh</b> <span>· Avian Nutrition &amp; Husbandry</span></li>
+        <li class="q"><b>Kenji Tanaka</b> <span>· Avian Behaviour &amp; Training</span></li>
+        <li class="q"><b>Daniel Kim</b> <span>· Pet &amp; Vet Segment Programme</span></li>
+        <li class="q"><b>Divya Ramesh</b> <span>· Veterinary Nurse, care log</span></li>
+      </ul>
+      <p class="blurb">Advises and prepares. Any acute sign in Pluto or Bannu goes to a same-day licensed avian vet in Pune.</p>
+    </section>
+
+    <!-- Tern Health & Research -->
+    <section class="co" style="--c:var(--c-thr)">
+      <div class="hd">Tern Health &amp; Research<small>56 · three arms, one CEO</small></div>
+      <div class="ceo"><b>Dr. Vidya Krishnamurthy</b><span>CEO</span></div>
+      <ul class="p">
+        <li class="q"><b>Dr. Radhika Subramaniam</b> <span>· Regulatory, Ethics &amp; Governance</span></li>
+        <li class="q"><b>Nisha Patel</b> <span>· Operations, all three arms</span></li>
+      </ul>
+      <div class="arm" style="--ac:var(--a-hc)">
+        <div class="ah">Healthcare<small>25</small></div>
+        <ul class="p">
+          <li class="q"><b>Dr. Rekha Iyengar</b> <span>· Chief Medical Officer</span>
+            <ul class="p">
+              <li class="q">Meenakshi Sundaram <span>· Head Nurse, Family Health Desk</span></li>
+              <li class="q">Dr. Prakash Verma <span>· Primary &amp; Emergency Care</span> <span class="n">+2</span></li>
+              <li class="q">Dr. Harish Chandran <span>· Medical Specialties</span> <span class="n">+9</span></li>
+              <li class="q">Dr. Ingrid Olsen <span>· Mental Health &amp; Rehab</span> <span class="n">+4</span></li>
+              <li class="q">Dr. Mei Tan <span>· Diagnostics, Pharmacy &amp; Dental</span> <span class="n">+4</span></li>
+            </ul></li>
+        </ul>
+      </div>
+      <div class="arm" style="--ac:var(--a-r)">
+        <div class="ah">Research<small>16</small></div>
+        <ul class="p">
+          <li class="q"><b>Dr. Samuel Adeyemi</b> <span>· Chief Scientific Officer</span>
+            <ul class="p">
+              <li class="q">Sophie Laurent <span>· Medical Writer</span></li>
+              <li class="q">Dr. Neelam Chaudhary <span>· Digital Health &amp; AI</span> <span class="n">+1</span></li>
+              <li class="q">Dr. Rafael Costa <span>· Medicine &amp; Clinical Research</span> <span class="n">+3</span></li>
+              <li class="q">Dr. Lin Wei <span>· Disease &amp; Epidemiology</span> <span class="n">+4</span></li>
+              <li class="q">Dr. Emily Carter <span>· Pharmacology</span> <span class="n">+1</span></li>
+              <li class="q">Dr. Pieter van der Berg <span>· Biostatistics</span></li>
+            </ul></li>
+        </ul>
+      </div>
+      <div class="arm" style="--ac:var(--a-mt)">
+        <div class="ah">MedTech<small>12</small></div>
+        <ul class="p">
+          <li class="q"><b>Dr. Meghna Raman</b> <span>· Chief MedTech Officer</span>
+            <ul class="p">
+              <li class="q">Dr. Hiroshi Nakamura <span>· Device R&amp;D</span> <span class="n">+3</span></li>
+              <li class="q">Sameer Rathi <span>· Digital Health &amp; SaMD</span> <span class="n">+1</span></li>
+              <li class="q">Preeti Kaur <span>· Regulatory &amp; Quality</span> <span class="n">+1</span></li>
+              <li class="q">Dr. Leena Thomas <span>· Clinical Validation</span></li>
+              <li class="q">Vivek Anand <span>· Product &amp; Commercial</span></li>
+              <li class="q">Emre Yilmaz <span>· Manufacturing &amp; Supply</span></li>
+            </ul></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- eSource -->
+    <section class="co" style="--c:var(--c-es);border-color:var(--gold)">
+      <div class="hd">eSource<span class="tag">new</span><small>8 · talent &amp; workforce</small></div>
+      <div class="ceo"><b>Shalini Venkataraman</b><span>CEO</span></div>
+      <ul class="p">
+        <li class="q"><b>Marco Ferreira</b> <span>· Recruiting &amp; Staffing</span>
+          <ul class="p"><li class="q">Aisha Bello <span>· Senior Recruiter</span></li></ul></li>
+        <li class="q"><b>Deepa Balakrishnan</b> <span>· Skilling &amp; Certification</span>
+          <ul class="p"><li class="q">Julian Moreau <span>· Lead Trainer &amp; Assessor</span></li></ul></li>
+        <li class="q"><b>Nitin Waghmare</b> <span>· Client Delivery &amp; Accounts</span></li>
+        <li class="q"><b>Sanjay Kulshreshtha</b> <span>· Compliance, Payroll &amp; Labour Law</span></li>
+        <li class="q"><b>Lena Hoffmann</b> <span>· Talent Ops &amp; Analytics</span></li>
+      </ul>
+      <p class="blurb">From the TalentNova seed and e-Source in Ventures. Staffing for contact-centre and insurance floors, plus a skilling academy. Sales via Rohan, hiring bot via Lucas and Grace, insurance content via Meera.</p>
+    </section>
+
+  </div>
+</div>
+</div>
+
+<h2>Cross-functional practices · sponsor → lead</h2>
+<div class="prac">
+  <div class="pr"><b>Insurance</b><span>Rohan Kapoor → Rajeev Bhatia</span></div>
+  <div class="pr"><b>AI Delivery</b><span>Aarav Mehta → Aditi Sharma</span></div>
+  <div class="pr"><b>Security &amp; Infrastructure</b><span>Aarav Mehta → Arjun Khanna</span></div>
+  <div class="pr"><b>Contact-Centre Operations</b><span>Sneha Pillai → Anjali Rao</span></div>
+  <div class="pr hot"><b>EdTech</b><span>Ethan Cole → Jonas Weber</span></div>
+  <div class="pr"><b>Pet &amp; Animal Health</b><span>Rohan Kapoor → Daniel Kim</span></div>
+  <div class="pr"><b>MedTech &amp; Digital Health</b><span>Dr. Vidya Krishnamurthy → Sameer Rathi</span></div>
+  <div class="pr"><b>Group Health &amp; Wellbeing</b><span>Ananya Iyer → Meenakshi Sundaram</span></div>
+  <div class="pr hot"><b>Talent &amp; Skilling</b><span>Ananya Iyer → Deepa Balakrishnan</span></div>
+</div>
+
+<div class="legend">
+  <span><i></i>line management</span>
+  <span><span class="sw" style="background:var(--gold)"></span>added or elevated 12 Sep</span>
+  <span><b style="font-family:var(--mono);font-weight:500">+n</b> &nbsp;people under that head, not drawn</span>
+</div>
+
+<footer>Records of truth: ORG-CHART.md, ROSTER.md and HIRING-LOG.md in Drive, the Notion page Tern Group — Org Structure, and the command-centre workspace. Practices are matrix teams; members keep their line manager. Maintained by Max.</footer>
+</div>

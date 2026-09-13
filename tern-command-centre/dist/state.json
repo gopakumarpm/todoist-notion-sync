@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T19:01:15.826Z",
+ "generated": "2026-09-13T05:38:01.622Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -2225,7 +2225,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# Legal\n\nContract review, drafting, compliance checks, risk assessment\n\nSource: `tern-os/.claude/skills/Legal`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "vikram-desai"
@@ -2238,7 +2238,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# agent-protocol\n\nInter-agent communication protocol for C-suite agent teams: invocation syntax, loop prevention, isolation rules\n\nSource: `tern-os/.claude/skills/agent-protocol`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "grace-liu",
@@ -2252,7 +2252,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# api-builder\n\nDesigns, builds, documents and tests production-grade REST, GraphQL and gRPC APIs\n\nSource: `tern-os/.claude/skills/api-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
@@ -2268,7 +2268,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# app-builder\n\nFull-stack application builder — frontend, backend, database, auth and deployment\n\nSource: `tern-os/.claude/skills/app-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
@@ -2285,7 +2285,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# astro\n\nVedic, Western & Chinese astrology, numerology, tarot, vastu, horoscopes\n\nSource: `tern-os/.claude/skills/astro`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -2296,7 +2296,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# atlassian-admin\n\nAdministers Jira, Confluence, Bitbucket, Trello — users, permissions, security\n\nSource: `tern-os/.claude/skills/atlassian-admin`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "karthik-subramanian"
@@ -2309,7 +2309,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# atlassian-templates\n\nCreates and manages Jira/Confluence templates, blueprints and layouts\n\nSource: `tern-os/.claude/skills/atlassian-templates`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "karthik-subramanian"
@@ -2322,7 +2322,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# automation-designer\n\nNo-code workflow design for n8n, Make.com and Zapier\n\nSource: `tern-os/.claude/skills/automation-designer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "lena-hoffmann",
@@ -2337,7 +2337,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# bd-consultant\n\nBPO/IT business development: sales decks, RFP/RFI responses, solution proposals\n\nSource: `tern-os/.claude/skills/bd-consultant`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "rajeev-bhatia",
@@ -2352,7 +2352,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# board-deck-builder\n\nAssembles board and investor decks pulling from all C-suite roles\n\nSource: `tern-os/.claude/skills/board-deck-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "diego-santos"
@@ -2365,7 +2365,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# board-meeting\n\n6-phase multi-agent board deliberation protocol for strategic decisions\n\nSource: `tern-os/.claude/skills/board-meeting`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "max"
@@ -2378,7 +2378,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# brainstorming\n\nCreative ideation partner for generating, expanding and refining ideas\n\nSource: `tern-os/.claude/skills/brainstorming`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
@@ -2393,7 +2393,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# c-level-advisor\n\n10 C-level advisory agents: CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO\n\nSource: `tern-os/.claude/skills/c-level-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -2404,7 +2404,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# ceo-advisor\n\nExecutive strategy, organizational development, stakeholder management\n\nSource: `tern-os/.claude/skills/ceo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "diego-santos",
@@ -2418,7 +2418,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cfo-advisor\n\nFinancial modeling, unit economics, fundraising, cash management\n\nSource: `tern-os/.claude/skills/cfo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "priya-nair"
@@ -2431,7 +2431,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# change-management\n\nADKAR-based change rollout: communication templates, resistance patterns\n\nSource: `tern-os/.claude/skills/change-management`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sneha-pillai"
@@ -2444,7 +2444,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chief-ai-officer-advisor\n\nModel build-vs-buy, AI risk classification, EU AI Act navigation\n\nSource: `tern-os/.claude/skills/chief-ai-officer-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "amara-okonkwo"
@@ -2457,7 +2457,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chief-customer-officer-advisor\n\nRetention decomposition, churn taxonomy, customer segmentation\n\nSource: `tern-os/.claude/skills/chief-customer-officer-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "chloe-martin",
@@ -2471,7 +2471,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chief-data-officer-advisor\n\nData product strategy: warehouse vs lakehouse vs mesh, training-data rights\n\nSource: `tern-os/.claude/skills/chief-data-officer-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "liam-o-brien"
@@ -2484,7 +2484,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chief-of-staff\n\nC-suite orchestration: routes questions, triggers board meetings, synthesizes\n\nSource: `tern-os/.claude/skills/chief-of-staff`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "hannah-brooks",
@@ -2498,7 +2498,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chro-advisor\n\nHiring strategy, compensation design, org structure, culture, retention\n\nSource: `tern-os/.claude/skills/chro-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ananya-iyer",
@@ -2512,7 +2512,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# chrome-extension-builder\n\nBrowser extensions with Manifest V3: popup UI, scripts, storage\n\nSource: `tern-os/.claude/skills/chrome-extension-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "rohit-saxena"
@@ -2525,7 +2525,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# ciso-advisor\n\nRisk in dollars, SOC 2 / ISO 27001 / HIPAA / GDPR compliance roadmaps\n\nSource: `tern-os/.claude/skills/ciso-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "amara-okonkwo",
@@ -2539,7 +2539,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cmo-advisor\n\nBrand positioning, growth model design, marketing budget and org\n\nSource: `tern-os/.claude/skills/cmo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sofia-rossi"
@@ -2552,7 +2552,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# company-os\n\nThe meta-framework for how a company runs: EOS, Scaling Up, OKR-native\n\nSource: `tern-os/.claude/skills/company-os`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "diego-santos",
@@ -2566,7 +2566,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# competitive-intel\n\nCompetitor tracking feeding positioning, battlecards, roadmap\n\nSource: `tern-os/.claude/skills/competitive-intel`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "kavya-reddy"
@@ -2579,7 +2579,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# confluence-expert\n\nSpaces, knowledge bases, documentation, permissions, page templates\n\nSource: `tern-os/.claude/skills/confluence-expert`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "karthik-subramanian"
@@ -2592,7 +2592,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# content-repurposer\n\nTurns one piece of content into multi-platform posts\n\nSource: `tern-os/.claude/skills/content-repurposer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "maya-lindqvist"
@@ -2605,7 +2605,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# context-engine\n\nLoads and manages company context for all C-suite advisors\n\nSource: `tern-os/.claude/skills/context-engine`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "max"
@@ -2618,7 +2618,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# coo-advisor\n\nProcess design, OKR execution, operational cadence, scaling playbooks\n\nSource: `tern-os/.claude/skills/coo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sneha-pillai"
@@ -2631,7 +2631,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cpo-advisor\n\nProduct vision, portfolio strategy, product-market fit, product org\n\nSource: `tern-os/.claude/skills/cpo-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
@@ -2646,7 +2646,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cro-advisor\n\nRevenue forecasting, sales model design, pricing, NRR, team scaling\n\nSource: `tern-os/.claude/skills/cro-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "rohan-kapoor"
@@ -2659,7 +2659,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cs-onboard\n\nFounder onboarding interview capturing company context across 7 dimensions\n\nSource: `tern-os/.claude/skills/cs-onboard`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -2670,7 +2670,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# cto-advisor\n\nTechnical debt, engineering scaling, architecture decisions\n\nSource: `tern-os/.claude/skills/cto-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta"
@@ -2683,7 +2683,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# culture-architect\n\nCulture as operational behavior: values-to-behaviors translation\n\nSource: `tern-os/.claude/skills/culture-architect`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ananya-iyer"
@@ -2696,7 +2696,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# dashboard-builder\n\nInteractive HTML or Excel dashboards for analysts and business users\n\nSource: `tern-os/.claude/skills/dashboard-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "felix-andersson",
@@ -2714,7 +2714,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# data-analyst\n\nStructured & unstructured data analysis and summarization\n\nSource: `tern-os/.claude/skills/data-analyst`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "deepa-balakrishnan",
@@ -2733,7 +2733,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# data-report-generator\n\nFull analysis-to-report pipeline for CSV/Excel data\n\nSource: `tern-os/.claude/skills/data-report-generator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "neha-joshi"
@@ -2746,7 +2746,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# data-report\n\nData reports from CSV/Excel in PDF, Excel, PowerPoint or Markdown\n\nSource: `tern-os/.claude/skills/data-report`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "neha-joshi",
@@ -2760,7 +2760,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# database-designer\n\nSchemas, ERDs, migrations, query optimization — PostgreSQL/Supabase\n\nSource: `tern-os/.claude/skills/database-designer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
@@ -2774,7 +2774,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# decision-logger\n\nTwo-layer memory for board decisions: transcripts + approved decisions\n\nSource: `tern-os/.claude/skills/decision-logger`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "max"
@@ -2787,7 +2787,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# devops-builder\n\nGitHub Actions, Dockerfiles, deployment configs, environments\n\nSource: `tern-os/.claude/skills/devops-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
@@ -2801,7 +2801,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# doc-generator\n\nTurns unstructured information into polished SOPs and documents\n\nSource: `tern-os/.claude/skills/doc-generator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "deepa-balakrishnan",
@@ -2817,7 +2817,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# email-writer\n\nComposes fresh emails and crafts replies professionally\n\nSource: `tern-os/.claude/skills/email-writer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aisha-bello",
@@ -2833,7 +2833,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# finance\n\nJournal entries, reconciliations, statements, DCF, valuations, SOX\n\nSource: `tern-os/.claude/skills/finance`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "priya-nair",
@@ -2847,7 +2847,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# fitness\n\nDietitian + personal trainer: diet plans (Indian regional), training\n\nSource: `tern-os/.claude/skills/fitness`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "carlos-rivera",
@@ -2861,7 +2861,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# founder-coach\n\nFounder archetypes, delegation frameworks, energy management\n\nSource: `tern-os/.claude/skills/founder-coach`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -2872,7 +2872,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# frontend-design\n\nPixel-perfect responsive accessible UIs from wireframes or descriptions\n\nSource: `tern-os/.claude/skills/frontend-design`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
@@ -2887,7 +2887,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# general-counsel-advisor\n\nContract review (MSA, SaaS, NDA, DPA), IP strategy, term sheets\n\nSource: `tern-os/.claude/skills/general-counsel-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "vikram-desai"
@@ -2900,7 +2900,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# get-video-highlights\n\nExtracts highlights from video content\n\nSource: `tern-os/.claude/skills/get-video-highlights`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "noah-bennett"
@@ -2913,7 +2913,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# infographic\n\nData-rich HTML infographics with deep web research, exported PNG/PDF\n\nSource: `tern-os/.claude/skills/infographic`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "jonas-weber"
@@ -2926,7 +2926,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# instagram-creator\n\nCarousels, Reel scripts, Stories, bio and hashtag strategy\n\nSource: `tern-os/.claude/skills/instagram-creator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "riya-malhotra"
@@ -2939,7 +2939,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# internal-narrative\n\nOne coherent company story across employees, investors, customers\n\nSource: `tern-os/.claude/skills/internal-narrative`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sofia-rossi"
@@ -2952,7 +2952,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# intl-expansion\n\nMarket selection, entry modes, localization, regulatory compliance\n\nSource: `tern-os/.claude/skills/intl-expansion`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "kavya-reddy"
@@ -2965,7 +2965,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# jira-expert\n\nProjects, JQL, workflows, custom fields, automation, reporting\n\nSource: `tern-os/.claude/skills/jira-expert`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "karthik-subramanian"
@@ -2978,7 +2978,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# legal-advisor\n\nContracts, agreements, compliance, policies, disputes, regulations\n\nSource: `tern-os/.claude/skills/legal-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sanjay-kulshreshtha",
@@ -2992,7 +2992,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# linkedin-creator\n\nProfessional posts, articles, profile optimization, B2B strategy\n\nSource: `tern-os/.claude/skills/linkedin-creator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aisha-bello",
@@ -3006,7 +3006,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# ma-playbook\n\nM&A: due diligence, valuation, integration, deal structure\n\nSource: `tern-os/.claude/skills/ma-playbook`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "kavya-reddy"
@@ -3019,7 +3019,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# market-opportunities\n\nMulti-agent research pipeline: web research, scraping, analysis\n\nSource: `tern-os/.claude/skills/market-opportunities`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "kavya-reddy",
@@ -3033,7 +3033,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# marketing\n\nCampaign strategy, copy, content calendars, SEO, email design\n\nSource: `tern-os/.claude/skills/marketing`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "hana-kobayashi",
@@ -3047,7 +3047,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# meeting-analyzer\n\nSurfaces behavioral patterns and coaching feedback from transcripts\n\nSource: `tern-os/.claude/skills/meeting-analyzer`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "hannah-brooks",
@@ -3061,7 +3061,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# mobile-app-builder\n\nReact Native, Flutter, Swift/SwiftUI apps with navigation and state\n\nSource: `tern-os/.claude/skills/mobile-app-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
@@ -3076,7 +3076,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# nutrition\n\nMeal plans, macros, calorie tracking, Indian regional cuisine\n\nSource: `tern-os/.claude/skills/nutrition`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "carlos-rivera"
@@ -3089,7 +3089,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# org-health-diagnostic\n\n8-dimension traffic-light organizational health check\n\nSource: `tern-os/.claude/skills/org-health-diagnostic`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ananya-iyer",
@@ -3103,7 +3103,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# pdf\n\nProfessional PDF documents from any content, markdown or data\n\nSource: `tern-os/.claude/skills/pdf`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sophie-laurent"
@@ -3116,7 +3116,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# pm-skills\n\n6 project-management agents: senior PM, scrum master, Jira, Confluence\n\nSource: `tern-os/.claude/skills/pm-skills`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "nitin-waghmare",
@@ -3130,7 +3130,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# presentation-maker\n\nPolished PPTX from PPT, Word, PDF, Excel or plain instructions\n\nSource: `tern-os/.claude/skills/presentation-maker`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "deepa-balakrishnan",
@@ -3145,7 +3145,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# productivity\n\nTask management, daily planning, weekly reviews, focus sessions\n\nSource: `tern-os/.claude/skills/productivity`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "hannah-brooks",
@@ -3159,7 +3159,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# remotion\n\nProduction-grade programmatic video with React and Remotion\n\nSource: `tern-os/.claude/skills/remotion`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "noah-bennett"
@@ -3172,7 +3172,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# resume-builder\n\nModern ATS-optimized resumes from any input incl. LinkedIn\n\nSource: `tern-os/.claude/skills/resume-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -3183,7 +3183,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# resume\n\nATS-optimized resumes from PDF, DOCX, text or conversation\n\nSource: `tern-os/.claude/skills/resume`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aisha-bello",
@@ -3197,7 +3197,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# sales\n\nProspect research, call prep, pipeline review, outreach, battlecards\n\nSource: `tern-os/.claude/skills/sales`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "marco-ferreira",
@@ -3212,7 +3212,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# scenario-war-room\n\nCross-functional what-if modeling for compound adversity\n\nSource: `tern-os/.claude/skills/scenario-war-room`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "kavya-reddy"
@@ -3225,7 +3225,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# scrum-master\n\nSprint planning, velocity tracking, retrospectives, agile coaching\n\nSource: `tern-os/.claude/skills/scrum-master`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sneha-pillai"
@@ -3238,7 +3238,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# senior-pm\n\nEnterprise portfolio management, quantitative risk, resourcing\n\nSource: `tern-os/.claude/skills/senior-pm`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "sneha-pillai"
@@ -3251,7 +3251,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# social-media-analytics\n\nEngagement analysis, posting times, growth tracking\n\nSource: `tern-os/.claude/skills/social-media-analytics`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "riya-malhotra"
@@ -3264,7 +3264,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# social-media-manager\n\nCalendars, platform-native posts, viral hooks, Reels scripts\n\nSource: `tern-os/.claude/skills/social-media-manager`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "riya-malhotra"
@@ -3277,7 +3277,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# strategic-alignment\n\nCascades strategy from boardroom to individual contributor\n\nSource: `tern-os/.claude/skills/strategic-alignment`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "diego-santos"
@@ -3290,7 +3290,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# streamlit-builder\n\nStreamlit data apps and internal tools with auth and DB integration\n\nSource: `tern-os/.claude/skills/streamlit-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "liam-o-brien"
@@ -3303,7 +3303,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# teacher\n\nICSE curriculum assistant: board-pattern papers, marking schemes\n\nSource: `tern-os/.claude/skills/teacher`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "deepa-balakrishnan",
@@ -3326,7 +3326,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# team-communications\n\n3P updates, newsletters, incident reports, leadership updates\n\nSource: `tern-os/.claude/skills/team-communications`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "hannah-brooks"
@@ -3339,7 +3339,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# test-builder\n\nTest generation and QA: pytest, Jest, Playwright, manual plans\n\nSource: `tern-os/.claude/skills/test-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta",
@@ -3355,7 +3355,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# today\n\nMorning brief: Notion + Todoist tasks, Gmail/iCloud mail, calendar\n\nSource: `tern-os/.claude/skills/today`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "max"
@@ -3368,7 +3368,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# travel\n\nItineraries, visas, transport — domestic and international\n\nSource: `tern-os/.claude/skills/travel`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": []
   },
@@ -3379,7 +3379,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# twitter-creator\n\nViral threads, tweet storms, engagement hooks, profile optimization\n\nSource: `tern-os/.claude/skills/twitter-creator`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "riya-malhotra"
@@ -3392,7 +3392,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# vpe-advisor\n\nDORA metrics, engineering hiring funnel, delivery throughput\n\nSource: `tern-os/.claude/skills/vpe-advisor`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "aarav-mehta"
@@ -3405,7 +3405,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# website-builder\n\nLanding pages, portfolios, business and multi-page sites\n\nSource: `tern-os/.claude/skills/website-builder`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "ethan-cole",
@@ -3419,7 +3419,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# youtube-content-engine\n\nFull-stack YouTube engine: scripts, SEO, competitor analysis\n\nSource: `tern-os/.claude/skills/youtube-content-engine`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "noah-bennett"
@@ -3432,7 +3432,7 @@
    "tags": [
     "tern-os"
    ],
-   "updated": "2026-09-12",
+   "updated": "2026-09-13",
    "body": "# youtube\n\nScripts, titles, thumbnails, SEO, calendars for faceless channels\n\nSource: `tern-os/.claude/skills/youtube`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).",
    "used_by": [
     "maya-lindqvist"
@@ -4505,7 +4505,7 @@
     "surfaces",
     "cowork"
    ],
-   "body": "# Where Max runs and what each surface loads\n\nThe org structure and the tern-os skills are files. Each surface Max runs on reads a different set of files, so \"it exists\" is not the same as \"Max can see it here\". This is the map.\n\n| Surface | Skills it loads | Sees the Tern OS folder? | How the org structure reaches it |\n|---|---|---|---|\n| **Claude Code on the Mac** (Tern OS folder open) | `tern-os/.claude/skills/*` (all 89), `tern-plugin` agents, `~/.claude/skills` | Yes | ORG-CHART.md, ROSTER.md, the command-centre workspace, the `command-centre` skill |\n| **Cowork on the Mac** (Desktop app, Cowork tab) | **Only skills and plugins enabled for the claude.ai account** (Desktop sidebar → Customize, or claude.ai → Settings → Capabilities → Skills). It does **not** read `~/.claude/skills` or a project's `.claude/skills` | Only the folder picked for the session, as plain files | The `tern-group` skill (uploaded once), the Notion org page via the Notion connector, and the Tern OS folder if it is picked for the session |\n| **claude.ai / iPhone** (project \"Max — Tern Group\") | Account skills; no plugin skills | No | Project instructions + `COMPANY-CONTEXT.md`, `ROSTER.md` in the MAX-PROJECT-PACK; the `tern-group` skill |\n| **Cloud sessions and Routines** (claude.ai/code, Weekly Group Review) | Account skills **plus** `.claude/skills/` committed in the cloned repo | The repo only | `.claude/skills/tern-group` and `.claude/skills/command-centre` in `gopakumarpm/todoist-notion-sync`; Drive and Notion connectors |\n\n## Why the new org structure was missing in Cowork\n\nCowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. The only skills it had were the ones enabled on the claude.ai account (teacher, legal-advisor, bd-consultant, remotion, data-report-generator and the Anthropic examples), none of which carry the 11 Sep structure. The Notion org page is reachable, but only if Max is told to look there.\n\n## The fix (two uploads, once)\n\n1. Get the zips: `tern-command-centre/dist/skills/tern-group.zip` and `command-centre.zip` (regenerate with `node scripts/build-skills.js`; also copied to the MAX-PROJECT-PACK folder in Drive).\n2. Claude desktop app → sidebar **Customize** → **Skills** → add / upload → pick `tern-group.zip`; repeat for `command-centre.zip`. The same page exists at claude.ai → Settings → Capabilities → Skills.\n3. Start a new Cowork session. Both skills are synced at session start; ask Max \"who owns X?\" or \"refresh the command centre\" to confirm.\n4. Optional: pick the Tern OS folder as the Cowork session folder so Max can also read `tern-command-centre/workspace/` and the full skill bodies as files.\n\n## What the `tern-group` skill carries\n\n`SKILL.md` (routing, companies, front doors, rules) and `references/`: `org-structure.md`, `roster.md` (100 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: `seed.js` → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork keeps the previous version.\n\n## Not fixed by this\n\nThe 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS folder open. In Cowork Max works from the one-line summary and the carrier's mandate, or reads the SKILL.md as a file if the folder is picked. Uploading each of the 89 as an account skill is possible but is a separate decision (Ananya Iyer to propose the first five in the weekly review)."
+   "body": "# Where Max runs and what each surface loads\n\nThe org structure and the tern-os skills are files. Each surface Max runs on reads a different set of files, so \"it exists\" is not the same as \"Max can see it here\". This is the map.\n\n| Surface | Skills it loads | Sees the Tern OS folder? | How the org structure reaches it |\n|---|---|---|---|\n| **Claude Code on the Mac** (Tern OS folder open) | `tern-os/.claude/skills/*` (all 89), `tern-plugin` agents, `~/.claude/skills` | Yes | ORG-CHART.md, ROSTER.md, the command-centre workspace, the `command-centre` skill |\n| **Cowork on the Mac** (Desktop app, Cowork tab) | **Only skills and plugins enabled for the claude.ai account** (Desktop sidebar → Customize, or claude.ai → Settings → Capabilities → Skills). It does **not** read `~/.claude/skills` or a project's `.claude/skills` | Only the folder picked for the session, as plain files | The `tern-group` skill (uploaded once), the Notion org page via the Notion connector, and the Tern OS folder if it is picked for the session |\n| **claude.ai / iPhone** (project \"Max — Tern Group\") | Account skills; no plugin skills | No | Project instructions + `COMPANY-CONTEXT.md`, `ROSTER.md` in the MAX-PROJECT-PACK; the `tern-group` skill |\n| **Cloud sessions and Routines** (claude.ai/code, Weekly Group Review) | Account skills **plus** `.claude/skills/` committed in the cloned repo | The repo only | `.claude/skills/tern-group` and `.claude/skills/command-centre` in `gopakumarpm/todoist-notion-sync`; Drive and Notion connectors |\n\n## Why the new org structure was missing in Cowork\n\nCowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. The only skills it had were the ones enabled on the claude.ai account (teacher, legal-advisor, bd-consultant, remotion, data-report-generator and the Anthropic examples), none of which carry the 11 Sep structure. The Notion org page is reachable, but only if Max is told to look there.\n\n## The fix (two uploads, once)\n\n1. Get the zips: `tern-command-centre/dist/skills/tern-group.zip` and `command-centre.zip` (regenerate with `node scripts/build-skills.js`; also copied to the MAX-PROJECT-PACK folder in Drive).\n2. Claude desktop app → sidebar **Customize** → **Skills** → add / upload → pick `tern-group.zip`; repeat for `command-centre.zip`. The same page exists at claude.ai → Settings → Capabilities → Skills.\n3. Start a new Cowork session. Both skills are synced at session start; ask Max \"who owns X?\" or \"refresh the command centre\" to confirm.\n4. Optional: pick the Tern OS folder as the Cowork session folder so Max can also read `tern-command-centre/workspace/` and the full skill bodies as files.\n\n## What the `tern-group` skill carries\n\n`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (112 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.\n\n## iPhone\n\nThe Claude iPhone app loads the same account skills as Cowork (claude.ai → Settings → Capabilities → Skills). Upload `tern-group.zip` and `command-centre.zip` there once and both phones see them; connectors (Notion, Drive, Todoist) work on the phone too, so Max can read the Notion org page and roster database and update Notion from the phone. The Tern OS folder and the repo are not reachable from the phone; file changes wait for the next Mac or cloud session (the `command-centre` skill says how to sync).\n\n## Not fixed by this\n\nThe 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS folder open. In Cowork Max works from the one-line summary and the carrier's mandate, or reads the SKILL.md as a file if the folder is picked. Uploading each of the 89 as an account skill is possible but is a separate decision (Ananya Iyer to propose the first five in the weekly review)."
   }
  ],
  "sprints": [

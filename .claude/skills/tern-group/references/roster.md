@@ -1,4 +1,4 @@
-# Tern Group — roster (112 people, generated 2026-09-12)
+# Tern Group — roster (112 people, generated 2026-09-13)
 
 Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only (agent file pending). Ids are the slugs used in flows, sprints and generations.
 

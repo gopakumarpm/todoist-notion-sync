@@ -1,4 +1,4 @@
-# Tern Group — org structure (generated 2026-09-12)
+# Tern Group — org structure (generated 2026-09-13)
 
 **Gopakumar** — Founder, Owner & Chairman
 → **Max** — Group Managing Director (`tern:max`), single point of contact

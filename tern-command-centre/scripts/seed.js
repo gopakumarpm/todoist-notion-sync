@@ -64,9 +64,12 @@ const hiredOn = (id, company) => HIRED_BY_ID[id] || HIRED[company];
 
 fs.mkdirSync(path.join(WS, 'agents'), { recursive: true });
 fs.mkdirSync(path.join(WS, 'skills'), { recursive: true });
-let n = 0;
+// Hand-written mandates (EdTech team, eSource, ...) live in existing agent files; keep them unless --force is passed.
+const FORCE = process.argv.includes('--force');
+let n = 0, kept = 0;
 for (const [name, role, company, arm, mgr, lead] of data.team) {
   const id = slug(name);
+  if (!FORCE && fs.existsSync(path.join(WS, 'agents', id + '.md'))) { kept++; continue; }
   const mid = mgr === 'Gopakumar' ? 'gopakumar' : slug(mgr);
   const skills = SKILLS[id] || [];
   const fm = ['---', `name: ${name}`, `role: ${role.replace(/:/g, ' -')}`, `company: ${company}`, arm ? `arm: ${arm}` : null, `reports_to: ${mid}`,
@@ -85,4 +88,4 @@ let s = 0;
 for (const [id, desc] of data.skills) {
   fs.writeFileSync(path.join(WS, 'skills', id + '.md'), `---\nname: ${id}\nsummary: ${desc.replace(/:/g, ' -')}\ntags: [tern-os]\n---\n\n# ${id}\n\n${desc}\n\nSource: \`tern-os/.claude/skills/${id}\`. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).\n`); s++;
 }
-console.log(`seeded ${n} agents, ${s} skills → ${WS}`);
+console.log(`seeded ${n} agents (${kept} existing kept${FORCE ? '' : '; --force to overwrite'}), ${s} skills → ${WS}`);

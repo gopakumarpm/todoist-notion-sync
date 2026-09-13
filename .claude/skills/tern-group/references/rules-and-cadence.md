@@ -1,4 +1,4 @@
-# Rules, cadence and open decisions (generated 2026-09-12)
+# Rules, cadence and open decisions (generated 2026-09-13)
 
 ## Rules every agent carries
 ## Safety
