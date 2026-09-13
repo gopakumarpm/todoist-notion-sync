@@ -1,0 +1,128 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"02 Areas/eSource\"",
+      "color": {
+        "a": 1,
+        "rgb": 14255163
+      }
+    },
+    {
+      "query": "path:\"02 Areas/Tern\"",
+      "color": {
+        "a": 1,
+        "rgb": 952970
+      }
+    },
+    {
+      "query": "tag:#tern",
+      "color": {
+        "a": 1,
+        "rgb": 1357990
+      }
+    },
+    {
+      "query": "path:\"02 Areas\"",
+      "color": {
+        "a": 1,
+        "rgb": 3978097
+      }
+    },
+    {
+      "query": "path:\"Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:\"01 Daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 16106818
+      }
+    },
+    {
+      "query": "path:\"00 Inbox\"",
+      "color": {
+        "a": 1,
+        "rgb": 15026253
+      }
+    },
+    {
+      "query": "path:\"03 Knowledge\"",
+      "color": {
+        "a": 1,
+        "rgb": 9133302
+      }
+    },
+    {
+      "query": "path:\"Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 2275535
+      }
+    },
+    {
+      "query": "path:\"Notion\"",
+      "color": {
+        "a": 1,
+        "rgb": 15485081
+      }
+    },
+    {
+      "query": "path:\"Activity\"",
+      "color": {
+        "a": 1,
+        "rgb": 11569512
+      }
+    },
+    {
+      "query": "path:\"AI Identity\"",
+      "color": {
+        "a": 1,
+        "rgb": 14239471
+      }
+    },
+    {
+      "query": "path:\"04 Archive\"",
+      "color": {
+        "a": 1,
+        "rgb": 10265519
+      }
+    },
+    {
+      "query": "path:\"Setup\" OR path:\"Templates\" OR path:\"Sync\"",
+      "color": {
+        "a": 1,
+        "rgb": 6583435
+      }
+    },
+    {
+      "query": "path:\"Home.md\" OR path:\"START HERE\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.144248787669834,
+  "close": true
+}
