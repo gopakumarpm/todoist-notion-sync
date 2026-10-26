@@ -1,4 +1,4 @@
-# Where things live (generated 2026-09-13)
+# Where things live (generated 2026-10-26)
 
 ## Records of truth
 - **ORG-CHART.md, ROSTER.md, HIRING-LOG.md** — Google Drive, `Tern Intelligence/charter`, `employees`, `logs` (links below). Updated the same day as any hire, promotion or transfer.
@@ -29,7 +29,7 @@ Cowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. 
 
 ## What the `tern-group` skill carries
 
-`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (112 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.
+`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (118 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.
 
 ## iPhone
 
@@ -43,16 +43,16 @@ The 89 tern-os skill **bodies** still run only in Claude Code with the Tern OS f
 
 ### Command centre
 - [Tern OS Command Centre (published snapshot)](https://claude.ai/code/artifact/932a6090-6c9f-4d1c-81fe-f4e0bfa8252c) — Static export of this workspace; republish with build-static.js
-- [Tern Group Org Chart (diagram)](https://claude.ai/code/artifact/8edbbcd9-c9d4-47e6-b6d5-f4be21866c08) — Owner, Group MD, four companies, the EdTech team and the eight practices, as of 12 Sep 2026; also linked from the Notion org page
+- [Tern Group Org Chart (diagram)](https://claude.ai/code/artifact/8edbbcd9-c9d4-47e6-b6d5-f4be21866c08) — Owner, Group MD, six companies, the EdTech team and the nine practices, as of 26 Oct 2026; also linked from the Notion org page
 - [Skills for Cowork (tern-group.zip · command-centre.zip)](https://github.com/gopakumarpm/todoist-notion-sync/tree/claude/company-org-structure-gusxlh/tern-command-centre/dist/skills) — Upload once in the desktop app: Customize → Skills. Also in Drive MAX-PROJECT-PACK. Rebuild with scripts/build-skills.js
 - [claude.ai Skills settings (Customize)](https://claude.ai/settings/capabilities) — The only skills Cowork loads are the ones enabled here
 - [claude.ai Routines](https://claude.ai/code/routines) — Recreate the Weekly Group Review Routine here with Drive, Notion and Todoist attached
 
 ### Records
-- [Notion · Tern Group — Org Structure](https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423) — Full structure + Tern Group Roster database (112 rows); readable by Max on every surface via the Notion connector
+- [Notion · Tern Group — Org Structure](https://app.notion.com/p/3d9cac843da681d4a123d42df11dd423) — Full structure + Tern Group Roster database (118 rows); readable by Max on every surface via the Notion connector
 - [Notion · eSource (company page)](https://app.notion.com/p/3cbcac843da6815da8b3e89856562d7f) — Fifth company, talent & workforce; team rows in the Tern Group Roster database (Company = eSource); seed backlog in the TalentNova page and Todoist project
 - [Tern Intelligence / charter (Drive)](https://drive.google.com/drive/folders/12uI1Wv1s0yljYONea_HPxCdZ1JNAfldD) — ORG-CHART.md · REVIEW-CADENCE.md · reviews/
-- [Tern Intelligence / employees (Drive)](https://drive.google.com/drive/folders/1hdaC7MAvSbTwFGPuh2gYHIAYtmW03GL0) — ROSTER.md — 100 rows
+- [Tern Intelligence / employees (Drive)](https://drive.google.com/drive/folders/1hdaC7MAvSbTwFGPuh2gYHIAYtmW03GL0) — ROSTER.md — 118 rows
 - [Tern Intelligence / logs (Drive)](https://drive.google.com/drive/folders/1m2yQMs2RYG2p_OtwtPDvBOH6Fh4UpLux) — HIRING-LOG.md
 - [Gopa Vault (Drive mirror of Obsidian)](https://drive.google.com/drive/folders/1mJinYEVGFjkB5sY_0v6UgpJOpegl5ura) — PARA vault; Obsidian Sync carries it to Surface, Mac, iPhone
 - [Tern OS / MAX-PROJECT-PACK (Drive)](https://drive.google.com/drive/folders/1GKmUfFouH1rCkT2fjJIMFFaqZCmQAinB) — Max system instructions v2, company context, roster

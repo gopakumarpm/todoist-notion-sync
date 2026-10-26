@@ -1,4 +1,4 @@
-# tern-os skills catalogue (89 skills, generated 2026-09-13)
+# tern-os skills catalogue (89 skills, generated 2026-10-26)
 
 Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Claude Code loads it there). On other surfaces Max works from this summary and the carrier's mandate. Reviewed every Monday in the Weekly Group Review (Fit / Stretch / Gap → Keep / Update / Upgrade / Absorb / Hire).
 
@@ -11,13 +11,13 @@ Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Cla
 | astro | Vedic, Western & Chinese astrology, numerology, tarot, vastu, horoscopes | — |
 | atlassian-admin | Administers Jira, Confluence, Bitbucket, Trello — users, permissions, security | Karthik Subramanian |
 | atlassian-templates | Creates and manages Jira/Confluence templates, blueprints and layouts | Karthik Subramanian |
-| automation-designer | No-code workflow design for n8n, Make.com and Zapier | Lena Hoffmann, Liam O'Brien, Marco Ferreira |
-| bd-consultant | BPO/IT business development - sales decks, RFP/RFI responses, solution proposals | Rajeev Bhatia, Rohan Kapoor, Shalini Venkataraman |
+| automation-designer | No-code workflow design for n8n, Make.com and Zapier | Lena Hoffmann, Liam O'Brien, Marco Ferreira, Pooja Deshpande, Samuel Reyes |
+| bd-consultant | BPO/IT business development - sales decks, RFP/RFI responses, solution proposals | Elena Fischer, Meera Kulkarni, Rajeev Bhatia, Rohan Kapoor, Shalini Venkataraman |
 | board-deck-builder | Assembles board and investor decks pulling from all C-suite roles | Diego Santos |
 | board-meeting | 6-phase multi-agent board deliberation protocol for strategic decisions | Max |
 | brainstorming | Creative ideation partner for generating, expanding and refining ideas | Ethan Cole, Julian Moreau, Kavitha Ramanathan |
 | c-level-advisor | 10 C-level advisory agents - CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO | — |
-| ceo-advisor | Executive strategy, organizational development, stakeholder management | Diego Santos, Shalini Venkataraman |
+| ceo-advisor | Executive strategy, organizational development, stakeholder management | Diego Santos, Meera Kulkarni, Shalini Venkataraman |
 | cfo-advisor | Financial modeling, unit economics, fundraising, cash management | Priya Nair |
 | change-management | ADKAR-based change rollout - communication templates, resistance patterns | Sneha Pillai |
 | chief-ai-officer-advisor | Model build-vs-buy, AI risk classification, EU AI Act navigation | Amara Okonkwo |
@@ -26,7 +26,7 @@ Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Cla
 | chief-of-staff | C-suite orchestration - routes questions, triggers board meetings, synthesizes | Hannah Brooks, Max |
 | chro-advisor | Hiring strategy, compensation design, org structure, culture, retention | Ananya Iyer, Shalini Venkataraman |
 | chrome-extension-builder | Browser extensions with Manifest V3 - popup UI, scripts, storage | Rohit Saxena |
-| ciso-advisor | Risk in dollars, SOC 2 / ISO 27001 / HIPAA / GDPR compliance roadmaps | Amara Okonkwo, Arjun Khanna |
+| ciso-advisor | Risk in dollars, SOC 2 / ISO 27001 / HIPAA / GDPR compliance roadmaps | Amara Okonkwo, Arjun Khanna, Thomas Becker |
 | cmo-advisor | Brand positioning, growth model design, marketing budget and org | Sofia Rossi |
 | company-os | The meta-framework for how a company runs - EOS, Scaling Up, OKR-native | Diego Santos, Max |
 | competitive-intel | Competitor tracking feeding positioning, battlecards, roadmap | Kavya Reddy |
@@ -39,16 +39,16 @@ Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Cla
 | cs-onboard | Founder onboarding interview capturing company context across 7 dimensions | — |
 | cto-advisor | Technical debt, engineering scaling, architecture decisions | Aarav Mehta |
 | culture-architect | Culture as operational behavior - values-to-behaviors translation | Ananya Iyer |
-| dashboard-builder | Interactive HTML or Excel dashboards for analysts and business users | Felix Andersson, Jonas Weber, Lena Hoffmann, Liam O'Brien, Neha Joshi, Pranav Bhatt |
-| data-analyst | Structured & unstructured data analysis and summarization | Deepa Balakrishnan, Felix Andersson, Kavitha Ramanathan, Lena Hoffmann, Liam O'Brien, Nitin Waghmare, Pranav Bhatt |
+| dashboard-builder | Interactive HTML or Excel dashboards for analysts and business users | Felix Andersson, Jonas Weber, Lena Hoffmann, Liam O'Brien, Neha Joshi, Pranav Bhatt, Samuel Reyes |
+| data-analyst | Structured & unstructured data analysis and summarization | Arvind Menon, Deepa Balakrishnan, Felix Andersson, Kavitha Ramanathan, Lena Hoffmann, Liam O'Brien, Nitin Waghmare, Pooja Deshpande, Pranav Bhatt |
 | data-report-generator | Full analysis-to-report pipeline for CSV/Excel data | Neha Joshi |
 | data-report | Data reports from CSV/Excel in PDF, Excel, PowerPoint or Markdown | Neha Joshi, Priya Nair |
 | database-designer | Schemas, ERDs, migrations, query optimization — PostgreSQL/Supabase | Aarav Mehta, Tobias Lindgren |
 | decision-logger | Two-layer memory for board decisions - transcripts + approved decisions | Max |
 | devops-builder | GitHub Actions, Dockerfiles, deployment configs, environments | Aarav Mehta, Pranav Bhatt |
-| doc-generator | Turns unstructured information into polished SOPs and documents | Deepa Balakrishnan, Maya Lindqvist, Sanjay Kulshreshtha, Sophie Laurent |
-| email-writer | Composes fresh emails and crafts replies professionally | Aisha Bello, Marco Ferreira, Nitin Waghmare, Rohan Kapoor |
-| finance | Journal entries, reconciliations, statements, DCF, valuations, SOX | Priya Nair, Sanjay Kulshreshtha |
+| doc-generator | Turns unstructured information into polished SOPs and documents | Arvind Menon, Deepa Balakrishnan, Maya Lindqvist, Sanjay Kulshreshtha, Sophie Laurent |
+| email-writer | Composes fresh emails and crafts replies professionally | Aisha Bello, Marco Ferreira, Nitin Waghmare, Pooja Deshpande, Rohan Kapoor |
+| finance | Journal entries, reconciliations, statements, DCF, valuations, SOX | Arvind Menon, Meera Kulkarni, Priya Nair, Sanjay Kulshreshtha |
 | fitness | Dietitian + personal trainer - diet plans (Indian regional), training | Carlos Rivera, Dr. Vikas Thakur |
 | founder-coach | Founder archetypes, delegation frameworks, energy management | — |
 | frontend-design | Pixel-perfect responsive accessible UIs from wireframes or descriptions | Ethan Cole, Hana Kobayashi, Jonas Weber |
@@ -59,11 +59,11 @@ Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Cla
 | internal-narrative | One coherent company story across employees, investors, customers | Sofia Rossi |
 | intl-expansion | Market selection, entry modes, localization, regulatory compliance | Kavya Reddy |
 | jira-expert | Projects, JQL, workflows, custom fields, automation, reporting | Karthik Subramanian |
-| legal-advisor | Contracts, agreements, compliance, policies, disputes, regulations | Sanjay Kulshreshtha, Vikram Desai |
+| legal-advisor | Contracts, agreements, compliance, policies, disputes, regulations | Elena Fischer, Sanjay Kulshreshtha, Thomas Becker, Vikram Desai |
 | linkedin-creator | Professional posts, articles, profile optimization, B2B strategy | Aisha Bello, Riya Malhotra |
 | ma-playbook | M&A - due diligence, valuation, integration, deal structure | Kavya Reddy |
 | market-opportunities | Multi-agent research pipeline - web research, scraping, analysis | Kavya Reddy, Vivek Anand |
-| marketing | Campaign strategy, copy, content calendars, SEO, email design | Hana Kobayashi, Sofia Rossi |
+| marketing | Campaign strategy, copy, content calendars, SEO, email design | Hana Kobayashi, Samuel Reyes, Sofia Rossi |
 | meeting-analyzer | Surfaces behavioral patterns and coaching feedback from transcripts | Hannah Brooks, Julian Moreau |
 | mobile-app-builder | React Native, Flutter, Swift/SwiftUI apps with navigation and state | Ethan Cole, Lucas Meyer, Tobias Lindgren |
 | nutrition | Meal plans, macros, calorie tracking, Indian regional cuisine | Carlos Rivera |
@@ -75,7 +75,7 @@ Each skill's full body is `tern-os/.claude/skills/<id>/SKILL.md` on the Mac (Cla
 | remotion | Production-grade programmatic video with React and Remotion | Noah Bennett |
 | resume-builder | Modern ATS-optimized resumes from any input incl. LinkedIn | — |
 | resume | ATS-optimized resumes from PDF, DOCX, text or conversation | Aisha Bello, Marco Ferreira |
-| sales | Prospect research, call prep, pipeline review, outreach, battlecards | Marco Ferreira, Rajeev Bhatia, Rohan Kapoor |
+| sales | Prospect research, call prep, pipeline review, outreach, battlecards | Elena Fischer, Marco Ferreira, Meera Kulkarni, Rajeev Bhatia, Rohan Kapoor, Samuel Reyes |
 | scenario-war-room | Cross-functional what-if modeling for compound adversity | Kavya Reddy |
 | scrum-master | Sprint planning, velocity tracking, retrospectives, agile coaching | Sneha Pillai |
 | senior-pm | Enterprise portfolio management, quantitative risk, resourcing | Sneha Pillai |
