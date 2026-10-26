@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T13:17:37.549Z",
+ "generated": "2026-10-26T13:36:06.689Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -4847,13 +4847,13 @@
     },
     {
      "id": "finserve-vault",
-     "title": "Update the Obsidian vault with Tern Finserve (Tern Group, Org Chart, Org Structure, Home, indexes; new 02 Areas/Tern Finserve note) from the Mac",
+     "title": "Apply the vault patch 2026-10-26 on the Mac: drop in 02 Areas/Tern Finserve, Tern Group and Org Chart notes; edit Home, indexes, Org Structure, Command Centre notes per README",
      "owner": "max",
      "company": "Group",
      "status": "todo",
      "priority": "P2",
      "due": "2026-10-28",
-     "notes": "The Drive mirror of the vault is empty since the Mac migration; the cloud session could not reach the notes on 26 Oct."
+     "notes": "Patch folder: tern-command-centre/vault-patch/2026-10-26/ (repo branch) and vault-patch-2026-10-26.zip sent in chat. The Drive mirror of the vault is empty since the Mac migration, so the cloud session could not apply it."
     },
     {
      "id": "finserve-zip-reupload",
