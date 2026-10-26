@@ -1,6 +1,6 @@
 ---
 title: Tern Group — org structure
-updated: 2026-09-12
+updated: 2026-10-26
 tags: [org]
 ---
 
@@ -9,7 +9,7 @@ tags: [org]
 **Gopakumar** — Founder, Owner & Chairman
 → **Max** — Group Managing Director (`tern:max`), single point of contact
 
-Group headcount 112 (Max + 111) as of 12 Sep 2026; balance 56 / 56. Five operating companies.
+Group headcount 118 (Max + 117) as of 26 Oct 2026; balance 59 / 59. Six operating companies.
 
 ## Group Corporate Centre (11)
 Hannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group GC; Amara Okonkwo) · Ananya Iyer (Group CHRO) · Kavya Reddy (Research & Strategy) · Sofia Rossi (Group CMO; Riya Malhotra) · Maya Lindqvist (Content; Noah Bennett)
@@ -24,6 +24,7 @@ Hannah Brooks (Chief of Staff) · Priya Nair (Group CFO) · Vikram Desai (Group 
   - MedTech (12) — Dr. Meghna Raman, CMTO: Device R&D, SaMD, Regulatory & Quality, Clinical Validation, Product, Manufacturing.
   - Shared — Dr. Radhika Subramaniam (Regulatory, Ethics & Governance), Nisha Patel (Operations).
 - **eSource (8)** — Shalini Venkataraman, CEO. Talent and workforce: Marco Ferreira (Recruiting & Staffing → Aisha Bello), Deepa Balakrishnan (Skilling & Certification → Julian Moreau), Nitin Waghmare (Client Delivery), Sanjay Kulshreshtha (Compliance & Payroll), Lena Hoffmann (Talent Ops & Analytics). Graduated from Tern Ventures (TalentNova / e-Source) on 12 Sep 2026.
+- **Tern Finserve (6)** — Meera Kulkarni, CEO. Loan distributor (DSA) for HL, PL, BL and LAP; not a lender; under eSource Consultancy Pvt. Ltd., separate from CredSuvidha. Arvind Menon (Credit & Eligibility Advisory), Elena Fischer (Lender Partnerships), Samuel Reyes (Sales & Lead Operations), Pooja Deshpande (Loan Processing & Disbursement), Thomas Becker (Compliance & Customer Grievance; dotted Vikram Desai). Pune first, then PAN India. Sixth company on Gopakumar's decision of 12 Oct 2026.
 - **Tern Ventures (0)** — held at Group: Aarshi.in, Strings & Wings.
 
 ## Practices (9)

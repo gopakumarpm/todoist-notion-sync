@@ -1,0 +1,89 @@
+{
+ "name": "Sprint 44 — Tern Finserve lands",
+ "goal": "Tern Finserve is in every record, its entity checks are closed, and the six Finserve agent files exist; the 68 earlier paper hires get their files too.",
+ "start": "2026-10-26",
+ "end": "2026-11-01",
+ "columns": 4,
+ "tasks": [
+  {
+   "id": "finserve-sync",
+   "title": "Sync Tern Finserve (6 people) to the Drive roster, hiring log, org chart, Notion org page and roster DB, tern-group skill, artifacts and vault",
+   "owner": "max",
+   "company": "Tern Finserve",
+   "status": "done",
+   "priority": "P1",
+   "due": "2026-10-26",
+   "notes": "Done 26 Oct from a cloud session. Drive and Notion showed 112 until then."
+  },
+  {
+   "id": "finserve-zip-reupload",
+   "title": "Re-upload tern-group.zip and command-centre.zip as account skills (claude.ai → Settings → Capabilities → Skills) so Cowork and the iPhone see six companies",
+   "owner": "gopakumar",
+   "company": "Group",
+   "status": "todo",
+   "priority": "P1",
+   "due": "2026-10-28",
+   "notes": "Zips in tern-command-centre/dist/skills on the branch."
+  },
+  {
+   "id": "finserve-entity-checks",
+   "title": "Confirm the eSource Consultancy MOA object clause covers DSA activity; amend before any lender agreement",
+   "owner": "vikram-desai",
+   "company": "Tern Finserve",
+   "status": "todo",
+   "priority": "P1",
+   "due": "2026-10-30",
+   "notes": "Open decision 7. Thomas Becker assists."
+  },
+  {
+   "id": "finserve-ledgers",
+   "title": "GST, PAN and bank setup for DSA payouts; separate DSA and recruitment ledgers under eSource Consultancy Pvt. Ltd.",
+   "owner": "priya-nair",
+   "company": "Tern Finserve",
+   "status": "todo",
+   "priority": "P1",
+   "due": "2026-10-30",
+   "notes": "Open decision 8. Pooja Deshpande supplies the reconciliation format."
+  },
+  {
+   "id": "finserve-structure-decision",
+   "title": "Decide: Meera Kulkarni reports to Max alongside Shalini, or Finserve folds under eSource",
+   "owner": "gopakumar",
+   "company": "Tern Finserve",
+   "status": "todo",
+   "priority": "P2",
+   "due": "2026-11-01",
+   "notes": "Open decision 6. Max recommends a company reporting to Max."
+  },
+  {
+   "id": "finserve-pune-launch-plan",
+   "title": "Pune launch plan: lender panel shortlist (Elena), lead channels (Samuel), eligibility screens and checklists (Arvind), 90-day targets",
+   "owner": "meera-kulkarni",
+   "company": "Tern Finserve",
+   "status": "todo",
+   "priority": "P2",
+   "due": "2026-11-01",
+   "notes": "To Monday's Group Review. Business details to come from Gopakumar."
+  },
+  {
+   "id": "agent-files-finserve",
+   "title": "Create 6 tern-plugin agent files for Tern Finserve from the workspace profiles; plugin refresh + restart",
+   "owner": "aarav-mehta",
+   "company": "Tern Finserve",
+   "status": "todo",
+   "priority": "P2",
+   "due": "2026-11-01",
+   "notes": "With the 68 still pending (56 THR + 4 EdTech + 8 eSource): 74 in total."
+  },
+  {
+   "id": "agent-files-backlog",
+   "title": "Create the 68 pending agent files (THR 56, EdTech 4, eSource 8) carried from Sprint 37",
+   "owner": "aarav-mehta",
+   "company": "Group",
+   "status": "todo",
+   "priority": "P2",
+   "due": "",
+   "notes": "Carried over; sprint 37 tasks agent-files-thr, agent-files-edtech, agent-files-esource."
+  }
+ ]
+}

@@ -35,6 +35,108 @@
  ],
  "runs": [
   {
+   "id": "2026-10-26-v3.3",
+   "name": "v3.3 — Tern Finserve synced to every record",
+   "started": "2026-10-26T11:30:00+05:30",
+   "ended": "2026-10-26T13:30:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar",
+   "steps": [
+    {
+     "id": "roster",
+     "status": "done",
+     "ms": 600,
+     "note": "6 Tern Finserve agent files, company.json, charter doc, roster-data, seed.js; 118 agents"
+    },
+    {
+     "id": "vault",
+     "status": "done",
+     "ms": 500,
+     "note": "Tern Group, Org Chart, Org Structure, Home notes; new Tern Finserve area note"
+    },
+    {
+     "id": "build",
+     "status": "done",
+     "ms": 400,
+     "note": "build-static.js + build-skills.js; org chart re-rendered as of 26 Oct"
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "Org chart and command centre republished to the same links; Notion org page image replaced"
+    }
+   ]
+  },
+  {
+   "id": "2026-10-12-v3.2",
+   "name": "v3.2 — Tern Finserve added",
+   "started": "2026-10-12T23:00:00+05:30",
+   "ended": "2026-10-12T23:30:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar",
+   "steps": [
+    {
+     "id": "roster",
+     "status": "done",
+     "ms": 400,
+     "note": "118 agents (6 added); company and charter doc added"
+    },
+    {
+     "id": "vault",
+     "status": "skipped",
+     "ms": 0,
+     "note": "vault not touched this run"
+    },
+    {
+     "id": "build",
+     "status": "done",
+     "ms": 300,
+     "note": "state patched in the published page; build-static.js not run, workspace folder not available in this session"
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "Same link; live map phone layout now handles any number of companies"
+    }
+   ]
+  },
+  {
+   "id": "2026-09-12-cowork-skills",
+   "name": "Cowork skills — org structure as an account skill",
+   "started": "2026-09-12T14:00:00+05:30",
+   "ended": "2026-09-12T14:45:00+05:30",
+   "status": "done",
+   "trigger": "Gopakumar: org structure and skills missing in Cowork on the Mac",
+   "steps": [
+    {
+     "id": "roster",
+     "status": "done",
+     "ms": 300,
+     "note": "roster unchanged; references generated from workspace"
+    },
+    {
+     "id": "vault",
+     "status": "done",
+     "ms": 500,
+     "note": "docs/surfaces, generation cowork-skills, sprint task cowork-skills, 2 links"
+    },
+    {
+     "id": "build",
+     "status": "done",
+     "ms": 400,
+     "note": "build-static + build-skills → dist/skills/tern-group.zip, command-centre.zip; .claude/skills mirrored"
+    },
+    {
+     "id": "publish",
+     "status": "done",
+     "ms": 200,
+     "note": "artifact republished; zips copied to Drive MAX-PROJECT-PACK; upload to Customize is Gopakumar's step"
+    }
+   ]
+  },
+  {
    "id": "2026-09-12-v3.1",
    "name": "v3.1 — Live map + film + vault/pack refresh",
    "started": "2026-09-12T11:30:00+05:30",
@@ -133,40 +235,6 @@
      "status": "done",
      "ms": 200,
      "note": "Version 6"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-12-cowork-skills",
-   "name": "Cowork skills — org structure as an account skill",
-   "started": "2026-09-12T14:00:00+05:30",
-   "ended": "2026-09-12T14:45:00+05:30",
-   "status": "done",
-   "trigger": "Gopakumar: org structure and skills missing in Cowork on the Mac",
-   "steps": [
-    {
-     "id": "roster",
-     "status": "done",
-     "ms": 300,
-     "note": "roster unchanged; references generated from workspace"
-    },
-    {
-     "id": "vault",
-     "status": "done",
-     "ms": 500,
-     "note": "docs/surfaces, generation cowork-skills, sprint task cowork-skills, 2 links"
-    },
-    {
-     "id": "build",
-     "status": "done",
-     "ms": 400,
-     "note": "build-static + build-skills → dist/skills/tern-group.zip, command-centre.zip; .claude/skills mirrored"
-    },
-    {
-     "id": "publish",
-     "status": "done",
-     "ms": 200,
-     "note": "artifact republished; zips copied to Drive MAX-PROJECT-PACK; upload to Customize is Gopakumar's step"
     }
    ]
   }

@@ -1,4 +1,4 @@
-# Tern Group — roster (112 people, generated 2026-09-13)
+# Tern Group — roster (118 people, generated 2026-10-26)
 
 Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only (agent file pending). Ids are the slugs used in flows, sprints and generations.
 
@@ -158,5 +158,16 @@ Status: `active` = agent file exists in tern-plugin; `paper` = hired, spec only 
 | lena-hoffmann | Lena Hoffmann | Talent Operations & Analytics Lead | Shalini Venkataraman | paper | dashboard-builder, data-analyst, automation-designer |
 | nitin-waghmare | Nitin Waghmare | Client Delivery & Account Lead | Shalini Venkataraman | paper | chief-customer-officer-advisor, data-analyst, email-writer, pm-skills |
 | sanjay-kulshreshtha | Sanjay Kulshreshtha | Staffing Compliance, Payroll & Labour Law | Shalini Venkataraman | paper | legal-advisor, finance, doc-generator |
+
+## Tern Finserve (6)
+
+| Id | Name | Role | Reports to | Status | Skills |
+|---|---|---|---|---|---|
+| arvind-menon | Arvind Menon ★ | Head, Credit & Eligibility Advisory | Meera Kulkarni | paper | finance, data-analyst, doc-generator |
+| elena-fischer | Elena Fischer ★ | Head, Lender Partnerships | Meera Kulkarni | paper | bd-consultant, sales, legal-advisor |
+| meera-kulkarni | Meera Kulkarni ★ | CEO, Tern Finserve — loan distribution (DSA) | Max | paper | ceo-advisor, finance, bd-consultant, sales |
+| samuel-reyes | Samuel Reyes ★ | Head, Sales & Lead Operations | Meera Kulkarni | paper | sales, marketing, automation-designer, dashboard-builder |
+| pooja-deshpande | Pooja Deshpande | Loan Processing & Disbursement Lead | Meera Kulkarni | paper | email-writer, data-analyst, automation-designer |
+| thomas-becker | Thomas Becker | Compliance & Customer Grievance Officer (dotted line to Vikram Desai) | Meera Kulkarni | paper | legal-advisor, ciso-advisor |
 
 ★ = leads a team. Generated from `workspace/agents/*.md`; ROSTER.md in Drive is the record of truth.

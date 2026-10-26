@@ -50,12 +50,18 @@ const SKILLS = {
   'sanjay-kulshreshtha': ['legal-advisor', 'finance', 'doc-generator'],
   'lena-hoffmann': ['dashboard-builder', 'data-analyst', 'automation-designer'],
   'julian-moreau': ['teacher', 'meeting-analyzer', 'brainstorming'],
+  'meera-kulkarni': ['ceo-advisor', 'finance', 'bd-consultant', 'sales'],
+  'arvind-menon': ['finance', 'data-analyst', 'doc-generator'],
+  'elena-fischer': ['bd-consultant', 'sales', 'legal-advisor'],
+  'samuel-reyes': ['sales', 'marketing', 'automation-designer', 'dashboard-builder'],
+  'pooja-deshpande': ['email-writer', 'data-analyst', 'automation-designer'],
+  'thomas-becker': ['legal-advisor', 'ciso-advisor'],
   'carlos-rivera': ['nutrition', 'fitness'], 'vikas-thakur': ['fitness'],
   'sophie-laurent': ['doc-generator', 'pdf'], 'felix-andersson': ['data-analyst', 'dashboard-builder'],
   'sameer-rathi': ['app-builder', 'api-builder'], 'ines-fischer': ['test-builder'], 'vivek-anand': ['cpo-advisor', 'market-opportunities']
 };
-const PAPER = new Set(['Tern Health & Research', 'eSource']); // hired 11–12 Sep, agent files not yet in tern-plugin
-const HIRED = { 'Tern Academy': '2026-09-11', 'Tern Animal Health': '2026-09-11', 'Tern Health & Research': '2026-09-11', 'eSource': '2026-09-12' };
+const PAPER = new Set(['Tern Health & Research', 'eSource', 'Tern Finserve']); // hired 11–12 Sep and 12 Oct, agent files not yet in tern-plugin
+const HIRED = { 'Tern Academy': '2026-09-11', 'Tern Animal Health': '2026-09-11', 'Tern Health & Research': '2026-09-11', 'eSource': '2026-09-12', 'Tern Finserve': '2026-10-12' };
 // Per-person overrides for hires after the 11 Sep cohorts (EdTech team under Jonas Weber, 12 Sep; agent files pending).
 const PAPER_IDS = new Set(['kavitha-ramanathan', 'tobias-lindgren', 'hana-kobayashi', 'pranav-bhatt']);
 const HIRED_BY_ID = { 'kavitha-ramanathan': '2026-09-12', 'tobias-lindgren': '2026-09-12', 'hana-kobayashi': '2026-09-12', 'pranav-bhatt': '2026-09-12' };

@@ -1,6 +1,6 @@
 ---
 title: Open decisions for Gopakumar
-updated: 2026-09-12
+updated: 2026-10-26
 tags: [decisions]
 ---
 
@@ -13,6 +13,9 @@ tags: [decisions]
 | 3 | Reading of "Advanced Medicine" | Advanced & precision medicine (genomics, targeted therapy) under Medical Specialties | 11 Sep |
 | 4 | Marathi as Aarshi's third language | Yes; Manoj Deshpande already covers Hindi & Marathi | 11 Sep |
 | 5 | A private Family Health log in Notion for the desk | Yes, restricted page; no clinical detail beyond what you approve | 11 Sep |
+| 6 | Tern Finserve's place in the group: Meera Kulkarni reports to Max alongside Shalini Venkataraman (two companies on one legal entity, eSource Consultancy Pvt. Ltd.), or Finserve folds under eSource | Keep it a company reporting to Max; lending distribution and staffing are different businesses with different regulators. Revisit if the entity check forces one board | 12 Oct |
+| 7 | eSource Consultancy MOA object clause: does it cover DSA / loan distribution? | Vikram Desai to confirm; amend the MOA before any lender agreement is signed | 12 Oct |
+| 8 | GST, PAN and bank setup for DSA payouts, with separate DSA and recruitment ledgers | Priya Nair to set up; no lender onboarding before it exists | 12 Oct |
 
 Say the number and "yes", "no" or your change; Max updates the records the same day.
 
@@ -22,3 +25,4 @@ Say the number and "yes", "no" or your change; Max updates the records the same 
 |---|---|---|
 | 12 Sep | A team under Jonas Weber so FeatherQuest, Orbit and PrepShrep get shape and support | Gopakumar: yes (Max had recommended waiting). Four hires the same day: Kavitha Ramanathan, Tobias Lindgren, Hana Kobayashi, Pranav Bhatt; Jonas elevated to Head of EdTech. Group 104, balance 52 / 52. |
 | 12 Sep | Fifth field for the group: Max recommended talent & workforce (TalentNova seed), over financial services and senior care | Gopakumar: yes. TalentNova becomes **eSource**, an operating company (not a Ventures incubation as Max proposed). Eight founding hires under CEO Shalini Venkataraman; Talent & Skilling Practice added. Group 112, balance 56 / 56. |
+| 12 Oct | A company for financing: HL, PL, BL, LAP | Gopakumar: yes. **Tern Finserve**, the sixth company, built as a loan distributor (DSA), not a lender, under eSource Consultancy Pvt. Ltd. and separate from CredSuvidha. Six hires under CEO Meera Kulkarni: Arvind Menon, Elena Fischer, Samuel Reyes, Pooja Deshpande, Thomas Becker. Group 118, balance 59 / 59. Records synced on 26 Oct. |

@@ -5,7 +5,7 @@
   --ground:#F6F4EE;--panel:#FFFFFF;--raise:#EEF2F7;--line:#C9D2DE;--line-soft:#E1E7EF;
   --ink:#0C1B2E;--dim:#4E607A;--faint:#7E8DA3;
   --navy:#0C1B2E;--blue:#2878CC;--gold:#B8912E;--gold-soft:#C9A43E;--new:#B8912E;--new-ink:#0C1B2E;
-  --c-group:#B8912E;--c-ti:#2878CC;--c-ta:#B4557A;--c-tah:#5E8F45;--c-thr:#3F86C4;--c-es:#C2681F;
+  --c-group:#B8912E;--c-ti:#2878CC;--c-ta:#B4557A;--c-tah:#5E8F45;--c-thr:#3F86C4;--c-es:#C2681F;--c-fs:#7A52B0;
   --a-hc:#3F86C4;--a-r:#7A68C4;--a-mt:#2E8C7E;--a-sh:#7E8DA3;
   --disp:'Montserrat',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace;
 }
@@ -14,7 +14,7 @@
     --ground:#0A1523;--panel:#0F1F33;--raise:#16304C;--line:#2A4664;--line-soft:#1B3149;
     --ink:#E8EDF4;--dim:#9FB0C6;--faint:#6F8299;
     --gold:#C9A43E;--gold-soft:#E3C878;--new:#C9A43E;--new-ink:#0A1523;
-    --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;
+    --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;--c-fs:#B58AE0;
     --a-hc:#7FB6E8;--a-r:#A899E8;--a-mt:#5CBFAF;--a-sh:#8FA3BC;
   }
 }
@@ -22,7 +22,7 @@
   --ground:#0A1523;--panel:#0F1F33;--raise:#16304C;--line:#2A4664;--line-soft:#1B3149;
   --ink:#E8EDF4;--dim:#9FB0C6;--faint:#6F8299;
   --gold:#C9A43E;--gold-soft:#E3C878;--new:#C9A43E;--new-ink:#0A1523;
-  --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;
+  --c-group:#E3C878;--c-ti:#5FA0E0;--c-ta:#D98AAA;--c-tah:#8CBF6E;--c-thr:#7FB6E8;--c-es:#E8A462;--c-fs:#B58AE0;
   --a-hc:#7FB6E8;--a-r:#A899E8;--a-mt:#5CBFAF;--a-sh:#8FA3BC;
 }
 *{box-sizing:border-box;margin:0}
@@ -39,7 +39,7 @@ h1{font-family:var(--disp);font-weight:700;font-size:26px;letter-spacing:-.01em;
 
 /* ---------- tree ---------- */
 .chart{overflow-x:auto;padding-bottom:6px}
-.tree{min-width:1380px}
+.tree{min-width:1570px}
 .tier{display:flex;justify-content:center}
 .node{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 16px;text-align:center;min-width:220px}
 .node .nm{font-family:var(--disp);font-weight:700;font-size:14px}
@@ -48,8 +48,8 @@ h1{font-family:var(--disp);font-weight:700;font-size:26px;letter-spacing:-.01em;
 .node.md{border-color:var(--gold)}
 .node.md .nm{color:var(--gold)}
 .vline{width:1px;height:22px;background:var(--line);margin:0 auto}
-.cos{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;position:relative;padding-top:22px}
-.cos::before{content:"";position:absolute;top:0;left:8.33%;right:8.33%;height:1px;background:var(--line)}
+.cos{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px;position:relative;padding-top:22px}
+.cos::before{content:"";position:absolute;top:0;left:7.14%;right:7.14%;height:1px;background:var(--line)}
 .co{position:relative;background:var(--panel);border:1px solid var(--line-soft);border-top:3px solid var(--c);border-radius:8px;padding:12px 12px 14px;min-width:0}
 .co::before{content:"";position:absolute;top:-23px;left:50%;width:1px;height:22px;background:var(--line)}
 .co .hd{font-family:var(--disp);font-weight:700;font-size:13.5px;line-height:1.2;color:var(--c)}
@@ -96,7 +96,7 @@ h2{font-family:var(--disp);font-size:10.5px;font-weight:700;letter-spacing:.24em
 .legend i{display:inline-block;width:14px;height:1px;background:var(--line);vertical-align:middle;margin-right:6px}
 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:6px}
 footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
-@media (max-width:1440px){.cos{grid-template-columns:repeat(6,224px)}}
+@media (max-width:1440px){.cos{grid-template-columns:repeat(7,224px)}}
 @media (max-width:760px){.prac{grid-template-columns:1fr 1fr}}
 @media (max-width:460px){.prac{grid-template-columns:1fr}h1{font-size:22px}}
 </style>
@@ -105,14 +105,14 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
 <header>
   <div>
     <div class="mark"><b>TERN</b> GROUP · ORG CHART</div>
-    <h1>One owner, one Group MD, five companies</h1>
-    <p class="sub">As of 12 September 2026. Solid lines are line management; every person has exactly one. Added today, in gold: the EdTech team under Jonas Weber and eSource, the fifth company.</p>
+    <h1>One owner, one Group MD, six companies</h1>
+    <p class="sub">As of 26 October 2026. Solid lines are line management; every person has exactly one. In gold, the two newest cohorts: the EdTech team and eSource (12 September) and Tern Finserve, the sixth company (12 October).</p>
   </div>
   <div class="stats">
-    <div><b>112</b><span>people</span></div>
-    <div><b>56 / 56</b><span>women / men</span></div>
+    <div><b>118</b><span>people</span></div>
+    <div><b>59 / 59</b><span>women / men</span></div>
     <div><b>9</b><span>practices</span></div>
-    <div><b>+12</b><span>hired 12 Sep</span></div>
+    <div><b>74</b><span>on paper · agent files pending</span></div>
   </div>
 </header>
 
@@ -140,7 +140,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
         <li class="q"><b>Maya Lindqvist</b> <span>· Content &amp; Editorial</span>
           <ul class="p"><li class="q">Noah Bennett <span>· Video Producer</span></li></ul></li>
       </ul>
-      <p class="blurb">Also holds <b>Tern Ventures</b> (0): Aarshi.in · Strings &amp; Wings. e-Source graduated as eSource today.</p>
+      <p class="blurb">Also holds <b>Tern Ventures</b> (0): Aarshi.in · Strings &amp; Wings. e-Source graduated as eSource on 12 Sep.</p>
     </section>
 
     <!-- Tern Intelligence -->
@@ -176,7 +176,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
 
     <!-- Tern Academy -->
     <section class="co" style="--c:var(--c-ta)">
-      <div class="hd">Tern Academy<small>13 · was 9 yesterday</small></div>
+      <div class="hd">Tern Academy<small>13 · ICSE school + EdTech team</small></div>
       <div class="ceo"><b>Dr. Sunita Raghavan</b><span>CEO &amp; Principal</span></div>
       <ul class="p">
         <li class="q"><span class="grp">Seven ICSE subject teachers</span>
@@ -191,7 +191,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
           </ul></li>
       </ul>
       <div class="team">
-        <div class="th">EdTech team · 12 Sep</div>
+        <div class="th">EdTech team · since 12 Sep</div>
         <div class="lead"><b>Jonas Weber</b><span class="tag up">elevated</span><span>Head of EdTech &amp; Learning Experience Design · EdTech Practice lead</span></div>
         <ul class="p">
           <li class="q"><b>Kavitha Ramanathan</b><span class="tag">new</span><br><span>Curriculum &amp; AI Content Lead</span></li>
@@ -281,7 +281,21 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
         <li class="q"><b>Sanjay Kulshreshtha</b> <span>· Compliance, Payroll &amp; Labour Law</span></li>
         <li class="q"><b>Lena Hoffmann</b> <span>· Talent Ops &amp; Analytics</span></li>
       </ul>
-      <p class="blurb">From the TalentNova seed and e-Source in Ventures. Staffing for contact-centre and insurance floors, plus a skilling academy. Sales via Rohan, hiring bot via Lucas and Grace, insurance content via Meera.</p>
+      <p class="blurb">From the TalentNova seed and e-Source in Ventures. Staffing for contact-centre and insurance floors, plus a skilling academy. Sales via Rohan, hiring bot via Lucas and Grace, insurance content via Meera. eSource Consultancy Pvt. Ltd. is also the legal entity behind Tern Finserve.</p>
+    </section>
+
+    <!-- Tern Finserve -->
+    <section class="co" style="--c:var(--c-fs);border-color:var(--gold)">
+      <div class="hd">Tern Finserve<span class="tag">new</span><small>6 · loan distribution (DSA) · 12 Oct</small></div>
+      <div class="ceo"><b>Meera Kulkarni</b><span>CEO</span></div>
+      <ul class="p">
+        <li class="q"><b>Arvind Menon</b> <span>· Credit &amp; Eligibility Advisory</span></li>
+        <li class="q"><b>Elena Fischer</b> <span>· Lender Partnerships</span></li>
+        <li class="q"><b>Samuel Reyes</b> <span>· Sales &amp; Lead Operations</span></li>
+        <li class="q"><b>Pooja Deshpande</b> <span>· Loan Processing &amp; Disbursement</span></li>
+        <li class="q"><b>Thomas Becker</b> <span>· Compliance &amp; Grievance</span> <span class="n">dotted Vikram Desai</span></li>
+      </ul>
+      <p class="blurb">Distributes HL, PL, BL and LAP for banks and NBFCs; not a lender. Runs under eSource Consultancy Pvt. Ltd., separate from CredSuvidha. Pune first, then PAN India.</p>
     </section>
 
   </div>
@@ -303,7 +317,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
 
 <div class="legend">
   <span><i></i>line management</span>
-  <span><span class="sw" style="background:var(--gold)"></span>added or elevated 12 Sep</span>
+  <span><span class="sw" style="background:var(--gold)"></span>joined or elevated 12 Sep and 12 Oct 2026, the two newest cohorts</span>
   <span><b style="font-family:var(--mono);font-weight:500">+n</b> &nbsp;people under that head, not drawn</span>
 </div>
 

@@ -28,7 +28,7 @@ Cowork does not run the tern-plugin and does not load `tern-os/.claude/skills`. 
 
 ## What the `tern-group` skill carries
 
-`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (112 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.
+`SKILL.md` (routing, companies, front doors, what changed on 12 Sep, where to look, rules) and `references/`: `org-structure.md`, `roster.md` (118 rows), `skills-catalogue.md` (89 skills and carriers), `rules-and-cadence.md`, `where-things-live.md`. All generated from this workspace, so a roster change is: agent files → `build-skills.js` → re-upload the zip. Until the zip is re-uploaded, Cowork and the iPhone keep the previous version.
 
 ## iPhone
 
