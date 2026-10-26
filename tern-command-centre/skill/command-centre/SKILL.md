@@ -24,7 +24,7 @@ On surfaces that cannot see the folder (Cowork without the folder picked, claude
 
 ## A hire, promotion or transfer — the full same-day checklist
 
-Done on 12 Sep 2026 for the EdTech team (4) and eSource (8); repeat in this order.
+Done on 12 Sep 2026 for the EdTech team (4) and eSource (8), and on 26 Oct 2026 for Tern Finserve (6, decided 12 Oct); repeat in this order. On a surface without the folder, do step 4 (Notion) and patch the two artifacts, then leave the sprint task `…-sync` so the next session with the folder does steps 1–3 and 5–6.
 
 1. **Workspace**: `agents/<id>.md` for each person (hand-written mandate, `status: paper`, `hired: <date>`); `scripts/roster-data.json` rows and `scripts/seed.js` skills so a re-seed does not lose them; `docs/org-structure.md` counts and lines; `docs/open-decisions.md`; `flows/hire-or-reuse.json` run; sprint task for Aarav to create the tern-plugin agent files; a generation record.
 2. **tern-group skill**: `skill/tern-group/SKILL.md` company table, counts and front doors; then `node scripts/build-skills.js` (regenerates `references/`, mirrors to `.claude/skills/`, rebuilds `dist/skills/*.zip`).
@@ -36,6 +36,7 @@ Done on 12 Sep 2026 for the EdTech team (4) and eSource (8); repeat in this orde
 
 ## Refresh the command centre
 
+0. **Read the live artifacts first.** A session without the folder (Cowork, claude.ai, iPhone) may have patched the published command centre or org chart directly, as happened on 12 Oct 2026 with Tern Finserve. Read both artifacts (`action: "read"`), diff the embedded `window.__STATE__` against `dist/state.json`, and carry any agents, companies, docs, runs or sprint tasks found only in the live page into the workspace before rebuilding, or the next publish erases them. Then bring Drive, Notion and the skill in step (the checklist above).
 1. `node scripts/seed.js` only when the roster export changed. It now **skips agent files that already exist** (hand-written mandates survive); pass `--force` to overwrite.
 2. Bring `docs/`, `sprints/`, `generations/`, `crons.json`, `links.json` up to date from the records.
 3. `node build-static.js` → `dist/index.html` and `dist/artifact.html` (+ `dist/state.json`).
