@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T11:55:10.192Z",
+ "generated": "2026-10-26T13:17:37.549Z",
  "chairman": "Gopakumar",
  "brand": {
   "name": "Tern Group",
@@ -3718,9 +3718,9 @@
       },
       {
        "id": "vault",
-       "status": "done",
-       "ms": 500,
-       "note": "Tern Group, Org Chart, Org Structure, Home notes; new Tern Finserve area note"
+       "status": "skipped",
+       "ms": 0,
+       "note": "Drive mirror of the Gopa Vault is empty since the Mac migration (folders 02 Areas / Projects no longer exist); vault notes to be updated from the Mac"
       },
       {
        "id": "build",
@@ -4590,7 +4590,7 @@
    "path": "app/org-chart.html · dist/org-chart.png · employees/ROSTER.md · logs/HIRING-LOG.md · charter/ORG-CHART.md · charter/companies/TERN-FINSERVE.md",
    "url": "https://claude.ai/code/artifact/8edbbcd9-c9d4-47e6-b6d5-f4be21866c08",
    "summary": "Gopakumar asked for the org chart to be updated. The live chart already showed Tern Finserve (added 12 Oct from a session without the folder) but Drive, Notion, the repo workspace and the tern-group skill still said 112 people and five companies. Everything brought to 118 people, six companies, 59 / 59, as of 26 Oct 2026.",
-   "body": "# Org chart refresh — 26 Oct 2026\n\nFound: the org chart and command centre artifacts had been republished on 12 Oct with **Tern Finserve** (CEO Meera Kulkarni + 5), but the records of truth had not followed — ROSTER.md, HIRING-LOG.md and ORG-CHART.md in Drive, the Notion org page and roster database, the repo branch and the tern-group skill all stopped at 112 people and five companies.\n\nDone: six agent files, company.json, the Finserve charter doc, roster-data and seed.js; org-structure and open-decisions docs; hire-or-reuse and refresh flow runs; Sprint 44; the tern-group skill rebuilt (118 rows, six companies, DSA rule); ROSTER (both copies), HIRING-LOG (six rows + the decision row) and ORG-CHART in Drive, plus `charter/companies/TERN-FINSERVE.md`; Notion org page (counts, table, Finserve section, practices, decided note) and six roster rows with the new Company option; org chart re-dated to 26 Oct and re-rendered; command centre rebuilt and republished; vault notes.\n\nStill with people: entity checks (Vikram, Priya), the reporting-structure decision (Gopakumar), 74 agent files (Aarav), and the two skill zips to re-upload (Gopakumar)."
+   "body": "# Org chart refresh — 26 Oct 2026\n\nFound: the org chart and command centre artifacts had been republished on 12 Oct with **Tern Finserve** (CEO Meera Kulkarni + 5), but the records of truth had not followed — ROSTER.md, HIRING-LOG.md and ORG-CHART.md in Drive, the Notion org page and roster database, the repo branch and the tern-group skill all stopped at 112 people and five companies.\n\nDone: six agent files, company.json, the Finserve charter doc, roster-data and seed.js; org-structure and open-decisions docs; hire-or-reuse and refresh flow runs; Sprint 44; the tern-group skill rebuilt (118 rows, six companies, DSA rule); ROSTER (both copies), HIRING-LOG (six rows + the decision row) and ORG-CHART in Drive, plus `charter/companies/TERN-FINSERVE.md`; Notion org page (counts, table, Finserve section, practices, decided note) and six roster rows with the new Company option; org chart re-dated to 26 Oct and re-rendered; command centre rebuilt and republished.\n\nNot done: the Obsidian vault. Its Drive mirror (`Gopa Vault/`) is empty since the Mac migration of 7 Oct, so the notes `02 Areas/Tern Group`, `Projects/Tern Group — Org Chart`, `Projects/Tern Group — Org Structure`, `Home` and the indexes still say 112 people and five companies, and `02 Areas/Tern Finserve` does not exist yet. Update them from the Mac (say \"update the vault with Tern Finserve\" in a session that can see the vault).\n\nStill with people: entity checks (Vikram, Priya), the reporting-structure decision (Gopakumar), 74 agent files (Aarav), and the two skill zips to re-upload (Gopakumar)."
   },
   {
    "id": "2026-10-12-tern-finserve",
@@ -4844,6 +4844,16 @@
      "priority": "P1",
      "due": "2026-10-26",
      "notes": "Done 26 Oct from a cloud session. Drive and Notion showed 112 until then."
+    },
+    {
+     "id": "finserve-vault",
+     "title": "Update the Obsidian vault with Tern Finserve (Tern Group, Org Chart, Org Structure, Home, indexes; new 02 Areas/Tern Finserve note) from the Mac",
+     "owner": "max",
+     "company": "Group",
+     "status": "todo",
+     "priority": "P2",
+     "due": "2026-10-28",
+     "notes": "The Drive mirror of the vault is empty since the Mac migration; the cloud session could not reach the notes on 26 Oct."
     },
     {
      "id": "finserve-zip-reupload",

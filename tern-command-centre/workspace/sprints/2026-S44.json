@@ -16,6 +16,16 @@
    "notes": "Done 26 Oct from a cloud session. Drive and Notion showed 112 until then."
   },
   {
+   "id": "finserve-vault",
+   "title": "Update the Obsidian vault with Tern Finserve (Tern Group, Org Chart, Org Structure, Home, indexes; new 02 Areas/Tern Finserve note) from the Mac",
+   "owner": "max",
+   "company": "Group",
+   "status": "todo",
+   "priority": "P2",
+   "due": "2026-10-28",
+   "notes": "The Drive mirror of the vault is empty since the Mac migration; the cloud session could not reach the notes on 26 Oct."
+  },
+  {
    "id": "finserve-zip-reupload",
    "title": "Re-upload tern-group.zip and command-centre.zip as account skills (claude.ai → Settings → Capabilities → Skills) so Cowork and the iPhone see six companies",
    "owner": "gopakumar",

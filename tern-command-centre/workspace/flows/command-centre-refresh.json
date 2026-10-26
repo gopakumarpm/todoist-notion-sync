@@ -50,9 +50,9 @@
     },
     {
      "id": "vault",
-     "status": "done",
-     "ms": 500,
-     "note": "Tern Group, Org Chart, Org Structure, Home notes; new Tern Finserve area note"
+     "status": "skipped",
+     "ms": 0,
+     "note": "Drive mirror of the Gopa Vault is empty since the Mac migration (folders 02 Areas / Projects no longer exist); vault notes to be updated from the Mac"
     },
     {
      "id": "build",
